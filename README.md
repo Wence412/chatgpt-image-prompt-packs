@@ -76,7 +76,3 @@ The JSON import file uses this schema:
   ]
 }
 ```
-
-## Note
-
-This repository is designed as a starting point. Before publishing publicly, update the license, ownership name, and any commercial terms that fit your business model.
