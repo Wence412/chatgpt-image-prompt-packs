@@ -1,0 +1,11 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# Local files
+.env
+*.log
+
+# Generated exports
+exports/
+.tmp/
