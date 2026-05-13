@@ -1,0 +1,2564 @@
+{
+  "metadata": {
+    "name": "ChatGPT-Image Prompt Packs: Phase 1 and Phase 2",
+    "version": "1.0.0",
+    "created": "2026-05-10",
+    "total_prompts": 170,
+    "phase_1_prompts": 75,
+    "phase_2_prompts": 95,
+    "description": "A GitHub-ready prompt library for ChatGPT-Image 2.0 covering visual prompt creation, product mockups, production services, AI influencers, e-commerce, ad testing, and brand systems.",
+    "license_note": "Update LICENSE before public commercial distribution if needed."
+  },
+  "prompts": [
+    {
+      "id": "P1-001",
+      "phase": "Phase 1",
+      "category": "Product Mockups",
+      "title": "Premium Studio Product Mockup",
+      "prompt": "Create a premium studio mockup of [product] for [brand] on a clean matte surface with soft shadows, elegant reflections, and a minimalist background in [color palette]. Use commercial product photography, sharp focus, realistic materials, and a high-end advertising look with generous negative space.",
+      "best_for": "Visual ideation, product concepts, mockups, brand content, campaign assets",
+      "framework": "Subject + context + style + environment + materials + camera/framing + lighting + brand constraints + output format",
+      "tags": [
+        "product-mockups",
+        "premium-studio-product-mockup",
+        "chatgpt-image-2",
+        "visual-prompt"
+      ]
+    },
+    {
+      "id": "P1-002",
+      "phase": "Phase 1",
+      "category": "Product Mockups",
+      "title": "Lifestyle Product Mockup",
+      "prompt": "Create a realistic lifestyle mockup of [product] being used by [target audience] in [environment]. Show the product clearly as the hero with warm natural lighting, authentic details, polished editorial photography, and an aspirational but believable mood.",
+      "best_for": "Visual ideation, product concepts, mockups, brand content, campaign assets",
+      "framework": "Subject + context + style + environment + materials + camera/framing + lighting + brand constraints + output format",
+      "tags": [
+        "product-mockups",
+        "lifestyle-product-mockup",
+        "chatgpt-image-2",
+        "visual-prompt"
+      ]
+    },
+    {
+      "id": "P1-003",
+      "phase": "Phase 1",
+      "category": "Product Mockups",
+      "title": "Floating Product Mockup",
+      "prompt": "Create a floating product mockup of [product] suspended in midair with subtle motion, soft studio lighting, and supporting elements like [ingredient/material/feature elements]. Use a premium advertising composition with depth and elegant spacing.",
+      "best_for": "Visual ideation, product concepts, mockups, brand content, campaign assets",
+      "framework": "Subject + context + style + environment + materials + camera/framing + lighting + brand constraints + output format",
+      "tags": [
+        "product-mockups",
+        "floating-product-mockup",
+        "chatgpt-image-2",
+        "visual-prompt"
+      ]
+    },
+    {
+      "id": "P1-004",
+      "phase": "Phase 1",
+      "category": "Product Mockups",
+      "title": "E-Commerce White Background Mockup",
+      "prompt": "Create a clean e-commerce product mockup of [product] on a pure white background. Show the front, side, and detail angle in one polished composition with realistic shadows, accurate proportions, high clarity, and marketplace-ready styling.",
+      "best_for": "Visual ideation, product concepts, mockups, brand content, campaign assets",
+      "framework": "Subject + context + style + environment + materials + camera/framing + lighting + brand constraints + output format",
+      "tags": [
+        "product-mockups",
+        "e-commerce-white-background-mockup",
+        "chatgpt-image-2",
+        "visual-prompt"
+      ]
+    },
+    {
+      "id": "P1-005",
+      "phase": "Phase 1",
+      "category": "Product Mockups",
+      "title": "Hero Website Product Mockup",
+      "prompt": "Create a hero section visual for a website featuring [product]. Place the product prominently on the right side with space on the left for headline and call-to-action. Use modern gradients, soft shadows, layered shapes, and a clean brand aesthetic.",
+      "best_for": "Visual ideation, product concepts, mockups, brand content, campaign assets",
+      "framework": "Subject + context + style + environment + materials + camera/framing + lighting + brand constraints + output format",
+      "tags": [
+        "product-mockups",
+        "hero-website-product-mockup",
+        "chatgpt-image-2",
+        "visual-prompt"
+      ]
+    },
+    {
+      "id": "P1-006",
+      "phase": "Phase 1",
+      "category": "Product Mockups",
+      "title": "Social Media Product Mockup",
+      "prompt": "Create a polished product mockup of [product] for [brand]. Make the product the clear hero, use [color palette], realistic materials, accurate perspective, premium lighting, soft shadows, and clean negative space for marketing copy. Avoid clutter, random text, distorted packaging, and collage layouts.",
+      "best_for": "Visual ideation, product concepts, mockups, brand content, campaign assets",
+      "framework": "Subject + context + style + environment + materials + camera/framing + lighting + brand constraints + output format",
+      "tags": [
+        "product-mockups",
+        "social-media-product-mockup",
+        "chatgpt-image-2",
+        "visual-prompt"
+      ]
+    },
+    {
+      "id": "P1-007",
+      "phase": "Phase 1",
+      "category": "Product Mockups",
+      "title": "Product Bundle Mockup",
+      "prompt": "Create a polished product mockup of [product] for [brand]. Make the product the clear hero, use [color palette], realistic materials, accurate perspective, premium lighting, soft shadows, and clean negative space for marketing copy. Avoid clutter, random text, distorted packaging, and collage layouts.",
+      "best_for": "Visual ideation, product concepts, mockups, brand content, campaign assets",
+      "framework": "Subject + context + style + environment + materials + camera/framing + lighting + brand constraints + output format",
+      "tags": [
+        "product-mockups",
+        "product-bundle-mockup",
+        "chatgpt-image-2",
+        "visual-prompt"
+      ]
+    },
+    {
+      "id": "P1-008",
+      "phase": "Phase 1",
+      "category": "Product Mockups",
+      "title": "Seasonal Product Mockup",
+      "prompt": "Create a polished product mockup of [product] for [brand]. Make the product the clear hero, use [color palette], realistic materials, accurate perspective, premium lighting, soft shadows, and clean negative space for marketing copy. Avoid clutter, random text, distorted packaging, and collage layouts.",
+      "best_for": "Visual ideation, product concepts, mockups, brand content, campaign assets",
+      "framework": "Subject + context + style + environment + materials + camera/framing + lighting + brand constraints + output format",
+      "tags": [
+        "product-mockups",
+        "seasonal-product-mockup",
+        "chatgpt-image-2",
+        "visual-prompt"
+      ]
+    },
+    {
+      "id": "P1-009",
+      "phase": "Phase 1",
+      "category": "Product Mockups",
+      "title": "Minimal Flat Lay Product Mockup",
+      "prompt": "Create a polished product mockup of [product] for [brand]. Make the product the clear hero, use [color palette], realistic materials, accurate perspective, premium lighting, soft shadows, and clean negative space for marketing copy. Avoid clutter, random text, distorted packaging, and collage layouts.",
+      "best_for": "Visual ideation, product concepts, mockups, brand content, campaign assets",
+      "framework": "Subject + context + style + environment + materials + camera/framing + lighting + brand constraints + output format",
+      "tags": [
+        "product-mockups",
+        "minimal-flat-lay-product-mockup",
+        "chatgpt-image-2",
+        "visual-prompt"
+      ]
+    },
+    {
+      "id": "P1-010",
+      "phase": "Phase 1",
+      "category": "Product Mockups",
+      "title": "Product-in-Hand Mockup",
+      "prompt": "Create a polished product mockup of [product] for [brand]. Make the product the clear hero, use [color palette], realistic materials, accurate perspective, premium lighting, soft shadows, and clean negative space for marketing copy. Avoid clutter, random text, distorted packaging, and collage layouts.",
+      "best_for": "Visual ideation, product concepts, mockups, brand content, campaign assets",
+      "framework": "Subject + context + style + environment + materials + camera/framing + lighting + brand constraints + output format",
+      "tags": [
+        "product-mockups",
+        "product-in-hand-mockup",
+        "chatgpt-image-2",
+        "visual-prompt"
+      ]
+    },
+    {
+      "id": "P1-011",
+      "phase": "Phase 1",
+      "category": "Product Design Concepts",
+      "title": "Futuristic Product Design Concept",
+      "prompt": "Design a production-ready concept for [product] aimed at [target audience]. Show refined form, practical function, realistic materials, ergonomic details, and a clear three-quarter view. Use [color palette], studio lighting, and a clean industrial design presentation.",
+      "best_for": "Visual ideation, product concepts, mockups, brand content, campaign assets",
+      "framework": "Subject + context + style + environment + materials + camera/framing + lighting + brand constraints + output format",
+      "tags": [
+        "product-design-concepts",
+        "futuristic-product-design-concept",
+        "chatgpt-image-2",
+        "visual-prompt"
+      ]
+    },
+    {
+      "id": "P1-012",
+      "phase": "Phase 1",
+      "category": "Product Design Concepts",
+      "title": "Minimalist Product Redesign",
+      "prompt": "Design a production-ready concept for [product] aimed at [target audience]. Show refined form, practical function, realistic materials, ergonomic details, and a clear three-quarter view. Use [color palette], studio lighting, and a clean industrial design presentation.",
+      "best_for": "Visual ideation, product concepts, mockups, brand content, campaign assets",
+      "framework": "Subject + context + style + environment + materials + camera/framing + lighting + brand constraints + output format",
+      "tags": [
+        "product-design-concepts",
+        "minimalist-product-redesign",
+        "chatgpt-image-2",
+        "visual-prompt"
+      ]
+    },
+    {
+      "id": "P1-013",
+      "phase": "Phase 1",
+      "category": "Product Design Concepts",
+      "title": "Sustainable Product Design",
+      "prompt": "Design a production-ready concept for [product] aimed at [target audience]. Show refined form, practical function, realistic materials, ergonomic details, and a clear three-quarter view. Use [color palette], studio lighting, and a clean industrial design presentation.",
+      "best_for": "Visual ideation, product concepts, mockups, brand content, campaign assets",
+      "framework": "Subject + context + style + environment + materials + camera/framing + lighting + brand constraints + output format",
+      "tags": [
+        "product-design-concepts",
+        "sustainable-product-design",
+        "chatgpt-image-2",
+        "visual-prompt"
+      ]
+    },
+    {
+      "id": "P1-014",
+      "phase": "Phase 1",
+      "category": "Product Design Concepts",
+      "title": "Luxury Product Design",
+      "prompt": "Design a production-ready concept for [product] aimed at [target audience]. Show refined form, practical function, realistic materials, ergonomic details, and a clear three-quarter view. Use [color palette], studio lighting, and a clean industrial design presentation.",
+      "best_for": "Visual ideation, product concepts, mockups, brand content, campaign assets",
+      "framework": "Subject + context + style + environment + materials + camera/framing + lighting + brand constraints + output format",
+      "tags": [
+        "product-design-concepts",
+        "luxury-product-design",
+        "chatgpt-image-2",
+        "visual-prompt"
+      ]
+    },
+    {
+      "id": "P1-015",
+      "phase": "Phase 1",
+      "category": "Product Design Concepts",
+      "title": "Kid-Friendly Product Design",
+      "prompt": "Design a production-ready concept for [product] aimed at [target audience]. Show refined form, practical function, realistic materials, ergonomic details, and a clear three-quarter view. Use [color palette], studio lighting, and a clean industrial design presentation.",
+      "best_for": "Visual ideation, product concepts, mockups, brand content, campaign assets",
+      "framework": "Subject + context + style + environment + materials + camera/framing + lighting + brand constraints + output format",
+      "tags": [
+        "product-design-concepts",
+        "kid-friendly-product-design",
+        "chatgpt-image-2",
+        "visual-prompt"
+      ]
+    },
+    {
+      "id": "P1-016",
+      "phase": "Phase 1",
+      "category": "Product Design Concepts",
+      "title": "Smart Product Design",
+      "prompt": "Design a production-ready concept for [product] aimed at [target audience]. Show refined form, practical function, realistic materials, ergonomic details, and a clear three-quarter view. Use [color palette], studio lighting, and a clean industrial design presentation.",
+      "best_for": "Visual ideation, product concepts, mockups, brand content, campaign assets",
+      "framework": "Subject + context + style + environment + materials + camera/framing + lighting + brand constraints + output format",
+      "tags": [
+        "product-design-concepts",
+        "smart-product-design",
+        "chatgpt-image-2",
+        "visual-prompt"
+      ]
+    },
+    {
+      "id": "P1-017",
+      "phase": "Phase 1",
+      "category": "Product Design Concepts",
+      "title": "Travel-Friendly Product Design",
+      "prompt": "Design a production-ready concept for [product] aimed at [target audience]. Show refined form, practical function, realistic materials, ergonomic details, and a clear three-quarter view. Use [color palette], studio lighting, and a clean industrial design presentation.",
+      "best_for": "Visual ideation, product concepts, mockups, brand content, campaign assets",
+      "framework": "Subject + context + style + environment + materials + camera/framing + lighting + brand constraints + output format",
+      "tags": [
+        "product-design-concepts",
+        "travel-friendly-product-design",
+        "chatgpt-image-2",
+        "visual-prompt"
+      ]
+    },
+    {
+      "id": "P1-018",
+      "phase": "Phase 1",
+      "category": "Product Design Concepts",
+      "title": "Modular Product System",
+      "prompt": "Design a production-ready concept for [product] aimed at [target audience]. Show refined form, practical function, realistic materials, ergonomic details, and a clear three-quarter view. Use [color palette], studio lighting, and a clean industrial design presentation.",
+      "best_for": "Visual ideation, product concepts, mockups, brand content, campaign assets",
+      "framework": "Subject + context + style + environment + materials + camera/framing + lighting + brand constraints + output format",
+      "tags": [
+        "product-design-concepts",
+        "modular-product-system",
+        "chatgpt-image-2",
+        "visual-prompt"
+      ]
+    },
+    {
+      "id": "P1-019",
+      "phase": "Phase 1",
+      "category": "Product Design Concepts",
+      "title": "Ergonomic Product Design",
+      "prompt": "Design a production-ready concept for [product] aimed at [target audience]. Show refined form, practical function, realistic materials, ergonomic details, and a clear three-quarter view. Use [color palette], studio lighting, and a clean industrial design presentation.",
+      "best_for": "Visual ideation, product concepts, mockups, brand content, campaign assets",
+      "framework": "Subject + context + style + environment + materials + camera/framing + lighting + brand constraints + output format",
+      "tags": [
+        "product-design-concepts",
+        "ergonomic-product-design",
+        "chatgpt-image-2",
+        "visual-prompt"
+      ]
+    },
+    {
+      "id": "P1-020",
+      "phase": "Phase 1",
+      "category": "Product Design Concepts",
+      "title": "Retro-Modern Product Concept",
+      "prompt": "Design a production-ready concept for [product] aimed at [target audience]. Show refined form, practical function, realistic materials, ergonomic details, and a clear three-quarter view. Use [color palette], studio lighting, and a clean industrial design presentation.",
+      "best_for": "Visual ideation, product concepts, mockups, brand content, campaign assets",
+      "framework": "Subject + context + style + environment + materials + camera/framing + lighting + brand constraints + output format",
+      "tags": [
+        "product-design-concepts",
+        "retro-modern-product-concept",
+        "chatgpt-image-2",
+        "visual-prompt"
+      ]
+    },
+    {
+      "id": "P1-021",
+      "phase": "Phase 1",
+      "category": "Packaging Design",
+      "title": "Premium Packaging Design",
+      "prompt": "Design retail-ready packaging for [product] by [brand]. Use [color palette], clear hierarchy, refined typography space, realistic materials, and a polished studio presentation. Show the package upright in a three-quarter view with soft shadows and no random text.",
+      "best_for": "Visual ideation, product concepts, mockups, brand content, campaign assets",
+      "framework": "Subject + context + style + environment + materials + camera/framing + lighting + brand constraints + output format",
+      "tags": [
+        "packaging-design",
+        "premium-packaging-design",
+        "chatgpt-image-2",
+        "visual-prompt"
+      ]
+    },
+    {
+      "id": "P1-022",
+      "phase": "Phase 1",
+      "category": "Packaging Design",
+      "title": "Eco-Friendly Packaging Design",
+      "prompt": "Design retail-ready packaging for [product] by [brand]. Use [color palette], clear hierarchy, refined typography space, realistic materials, and a polished studio presentation. Show the package upright in a three-quarter view with soft shadows and no random text.",
+      "best_for": "Visual ideation, product concepts, mockups, brand content, campaign assets",
+      "framework": "Subject + context + style + environment + materials + camera/framing + lighting + brand constraints + output format",
+      "tags": [
+        "packaging-design",
+        "eco-friendly-packaging-design",
+        "chatgpt-image-2",
+        "visual-prompt"
+      ]
+    },
+    {
+      "id": "P1-023",
+      "phase": "Phase 1",
+      "category": "Packaging Design",
+      "title": "Bold Shelf-Ready Packaging",
+      "prompt": "Design retail-ready packaging for [product] by [brand]. Use [color palette], clear hierarchy, refined typography space, realistic materials, and a polished studio presentation. Show the package upright in a three-quarter view with soft shadows and no random text.",
+      "best_for": "Visual ideation, product concepts, mockups, brand content, campaign assets",
+      "framework": "Subject + context + style + environment + materials + camera/framing + lighting + brand constraints + output format",
+      "tags": [
+        "packaging-design",
+        "bold-shelf-ready-packaging",
+        "chatgpt-image-2",
+        "visual-prompt"
+      ]
+    },
+    {
+      "id": "P1-024",
+      "phase": "Phase 1",
+      "category": "Packaging Design",
+      "title": "Beauty Product Packaging",
+      "prompt": "Design retail-ready packaging for [product] by [brand]. Use [color palette], clear hierarchy, refined typography space, realistic materials, and a polished studio presentation. Show the package upright in a three-quarter view with soft shadows and no random text.",
+      "best_for": "Visual ideation, product concepts, mockups, brand content, campaign assets",
+      "framework": "Subject + context + style + environment + materials + camera/framing + lighting + brand constraints + output format",
+      "tags": [
+        "packaging-design",
+        "beauty-product-packaging",
+        "chatgpt-image-2",
+        "visual-prompt"
+      ]
+    },
+    {
+      "id": "P1-025",
+      "phase": "Phase 1",
+      "category": "Packaging Design",
+      "title": "Food and Beverage Packaging",
+      "prompt": "Design retail-ready packaging for [product] by [brand]. Use [color palette], clear hierarchy, refined typography space, realistic materials, and a polished studio presentation. Show the package upright in a three-quarter view with soft shadows and no random text.",
+      "best_for": "Visual ideation, product concepts, mockups, brand content, campaign assets",
+      "framework": "Subject + context + style + environment + materials + camera/framing + lighting + brand constraints + output format",
+      "tags": [
+        "packaging-design",
+        "food-and-beverage-packaging",
+        "chatgpt-image-2",
+        "visual-prompt"
+      ]
+    },
+    {
+      "id": "P1-026",
+      "phase": "Phase 1",
+      "category": "Packaging Design",
+      "title": "Tech Accessory Packaging",
+      "prompt": "Design retail-ready packaging for [product] by [brand]. Use [color palette], clear hierarchy, refined typography space, realistic materials, and a polished studio presentation. Show the package upright in a three-quarter view with soft shadows and no random text.",
+      "best_for": "Visual ideation, product concepts, mockups, brand content, campaign assets",
+      "framework": "Subject + context + style + environment + materials + camera/framing + lighting + brand constraints + output format",
+      "tags": [
+        "packaging-design",
+        "tech-accessory-packaging",
+        "chatgpt-image-2",
+        "visual-prompt"
+      ]
+    },
+    {
+      "id": "P1-027",
+      "phase": "Phase 1",
+      "category": "Packaging Design",
+      "title": "Subscription Box Packaging",
+      "prompt": "Design retail-ready packaging for [product] by [brand]. Use [color palette], clear hierarchy, refined typography space, realistic materials, and a polished studio presentation. Show the package upright in a three-quarter view with soft shadows and no random text.",
+      "best_for": "Visual ideation, product concepts, mockups, brand content, campaign assets",
+      "framework": "Subject + context + style + environment + materials + camera/framing + lighting + brand constraints + output format",
+      "tags": [
+        "packaging-design",
+        "subscription-box-packaging",
+        "chatgpt-image-2",
+        "visual-prompt"
+      ]
+    },
+    {
+      "id": "P1-028",
+      "phase": "Phase 1",
+      "category": "Packaging Design",
+      "title": "Limited Edition Packaging",
+      "prompt": "Design retail-ready packaging for [product] by [brand]. Use [color palette], clear hierarchy, refined typography space, realistic materials, and a polished studio presentation. Show the package upright in a three-quarter view with soft shadows and no random text.",
+      "best_for": "Visual ideation, product concepts, mockups, brand content, campaign assets",
+      "framework": "Subject + context + style + environment + materials + camera/framing + lighting + brand constraints + output format",
+      "tags": [
+        "packaging-design",
+        "limited-edition-packaging",
+        "chatgpt-image-2",
+        "visual-prompt"
+      ]
+    },
+    {
+      "id": "P1-029",
+      "phase": "Phase 1",
+      "category": "Packaging Design",
+      "title": "Medicine or Wellness Packaging",
+      "prompt": "Design retail-ready packaging for [product] by [brand]. Use [color palette], clear hierarchy, refined typography space, realistic materials, and a polished studio presentation. Show the package upright in a three-quarter view with soft shadows and no random text.",
+      "best_for": "Visual ideation, product concepts, mockups, brand content, campaign assets",
+      "framework": "Subject + context + style + environment + materials + camera/framing + lighting + brand constraints + output format",
+      "tags": [
+        "packaging-design",
+        "medicine-or-wellness-packaging",
+        "chatgpt-image-2",
+        "visual-prompt"
+      ]
+    },
+    {
+      "id": "P1-030",
+      "phase": "Phase 1",
+      "category": "Packaging Design",
+      "title": "Refill System Packaging",
+      "prompt": "Design retail-ready packaging for [product] by [brand]. Use [color palette], clear hierarchy, refined typography space, realistic materials, and a polished studio presentation. Show the package upright in a three-quarter view with soft shadows and no random text.",
+      "best_for": "Visual ideation, product concepts, mockups, brand content, campaign assets",
+      "framework": "Subject + context + style + environment + materials + camera/framing + lighting + brand constraints + output format",
+      "tags": [
+        "packaging-design",
+        "refill-system-packaging",
+        "chatgpt-image-2",
+        "visual-prompt"
+      ]
+    },
+    {
+      "id": "P1-031",
+      "phase": "Phase 1",
+      "category": "Brand Identity and Campaign Visuals",
+      "title": "Brand Launch Visual",
+      "prompt": "Create a brand campaign visual for [brand/product] centered on [campaign theme]. Use consistent brand colors, premium composition, clear focal point, and space for headline copy. Communicate [brand values] with a commercially usable look.",
+      "best_for": "Visual ideation, product concepts, mockups, brand content, campaign assets",
+      "framework": "Subject + context + style + environment + materials + camera/framing + lighting + brand constraints + output format",
+      "tags": [
+        "brand-identity-and-campaign-visuals",
+        "brand-launch-visual",
+        "chatgpt-image-2",
+        "visual-prompt"
+      ]
+    },
+    {
+      "id": "P1-032",
+      "phase": "Phase 1",
+      "category": "Brand Identity and Campaign Visuals",
+      "title": "Brand Mood Board",
+      "prompt": "Create a brand campaign visual for [brand/product] centered on [campaign theme]. Use consistent brand colors, premium composition, clear focal point, and space for headline copy. Communicate [brand values] with a commercially usable look.",
+      "best_for": "Visual ideation, product concepts, mockups, brand content, campaign assets",
+      "framework": "Subject + context + style + environment + materials + camera/framing + lighting + brand constraints + output format",
+      "tags": [
+        "brand-identity-and-campaign-visuals",
+        "brand-mood-board",
+        "chatgpt-image-2",
+        "visual-prompt"
+      ]
+    },
+    {
+      "id": "P1-033",
+      "phase": "Phase 1",
+      "category": "Brand Identity and Campaign Visuals",
+      "title": "Campaign Key Visual",
+      "prompt": "Create a brand campaign visual for [brand/product] centered on [campaign theme]. Use consistent brand colors, premium composition, clear focal point, and space for headline copy. Communicate [brand values] with a commercially usable look.",
+      "best_for": "Visual ideation, product concepts, mockups, brand content, campaign assets",
+      "framework": "Subject + context + style + environment + materials + camera/framing + lighting + brand constraints + output format",
+      "tags": [
+        "brand-identity-and-campaign-visuals",
+        "campaign-key-visual",
+        "chatgpt-image-2",
+        "visual-prompt"
+      ]
+    },
+    {
+      "id": "P1-034",
+      "phase": "Phase 1",
+      "category": "Brand Identity and Campaign Visuals",
+      "title": "Before-and-After Visual",
+      "prompt": "Create a brand campaign visual for [brand/product] centered on [campaign theme]. Use consistent brand colors, premium composition, clear focal point, and space for headline copy. Communicate [brand values] with a commercially usable look.",
+      "best_for": "Visual ideation, product concepts, mockups, brand content, campaign assets",
+      "framework": "Subject + context + style + environment + materials + camera/framing + lighting + brand constraints + output format",
+      "tags": [
+        "brand-identity-and-campaign-visuals",
+        "before-and-after-visual",
+        "chatgpt-image-2",
+        "visual-prompt"
+      ]
+    },
+    {
+      "id": "P1-035",
+      "phase": "Phase 1",
+      "category": "Brand Identity and Campaign Visuals",
+      "title": "Founder Story Visual",
+      "prompt": "Create a brand campaign visual for [brand/product] centered on [campaign theme]. Use consistent brand colors, premium composition, clear focal point, and space for headline copy. Communicate [brand values] with a commercially usable look.",
+      "best_for": "Visual ideation, product concepts, mockups, brand content, campaign assets",
+      "framework": "Subject + context + style + environment + materials + camera/framing + lighting + brand constraints + output format",
+      "tags": [
+        "brand-identity-and-campaign-visuals",
+        "founder-story-visual",
+        "chatgpt-image-2",
+        "visual-prompt"
+      ]
+    },
+    {
+      "id": "P1-036",
+      "phase": "Phase 1",
+      "category": "Brand Identity and Campaign Visuals",
+      "title": "Brand Pattern System",
+      "prompt": "Create a brand campaign visual for [brand/product] centered on [campaign theme]. Use consistent brand colors, premium composition, clear focal point, and space for headline copy. Communicate [brand values] with a commercially usable look.",
+      "best_for": "Visual ideation, product concepts, mockups, brand content, campaign assets",
+      "framework": "Subject + context + style + environment + materials + camera/framing + lighting + brand constraints + output format",
+      "tags": [
+        "brand-identity-and-campaign-visuals",
+        "brand-pattern-system",
+        "chatgpt-image-2",
+        "visual-prompt"
+      ]
+    },
+    {
+      "id": "P1-037",
+      "phase": "Phase 1",
+      "category": "Brand Identity and Campaign Visuals",
+      "title": "Rebrand Concept Board",
+      "prompt": "Create a brand campaign visual for [brand/product] centered on [campaign theme]. Use consistent brand colors, premium composition, clear focal point, and space for headline copy. Communicate [brand values] with a commercially usable look.",
+      "best_for": "Visual ideation, product concepts, mockups, brand content, campaign assets",
+      "framework": "Subject + context + style + environment + materials + camera/framing + lighting + brand constraints + output format",
+      "tags": [
+        "brand-identity-and-campaign-visuals",
+        "rebrand-concept-board",
+        "chatgpt-image-2",
+        "visual-prompt"
+      ]
+    },
+    {
+      "id": "P1-038",
+      "phase": "Phase 1",
+      "category": "Brand Identity and Campaign Visuals",
+      "title": "Brand Mascot Visual",
+      "prompt": "Create a brand campaign visual for [brand/product] centered on [campaign theme]. Use consistent brand colors, premium composition, clear focal point, and space for headline copy. Communicate [brand values] with a commercially usable look.",
+      "best_for": "Visual ideation, product concepts, mockups, brand content, campaign assets",
+      "framework": "Subject + context + style + environment + materials + camera/framing + lighting + brand constraints + output format",
+      "tags": [
+        "brand-identity-and-campaign-visuals",
+        "brand-mascot-visual",
+        "chatgpt-image-2",
+        "visual-prompt"
+      ]
+    },
+    {
+      "id": "P1-039",
+      "phase": "Phase 1",
+      "category": "UI, App, and Digital Product Prompts",
+      "title": "Mobile App Product Mockup",
+      "prompt": "Create a polished mobile app mockup for [app name], an app that helps users [main function]. Show three phone screens with clean UI, modern cards, intuitive navigation, realistic content blocks, and brand colors in [color palette].",
+      "best_for": "Visual ideation, product concepts, mockups, brand content, campaign assets",
+      "framework": "Subject + context + style + environment + materials + camera/framing + lighting + brand constraints + output format",
+      "tags": [
+        "ui-app-and-digital-product-prompts",
+        "mobile-app-product-mockup",
+        "chatgpt-image-2",
+        "visual-prompt"
+      ]
+    },
+    {
+      "id": "P1-040",
+      "phase": "Phase 1",
+      "category": "UI, App, and Digital Product Prompts",
+      "title": "SaaS Dashboard Concept",
+      "prompt": "Design a modern SaaS dashboard for [platform] showing metrics, charts, user activity, and navigation. Use a clean enterprise interface, strong spacing, subtle shadows, and realistic data visualization blocks.",
+      "best_for": "Visual ideation, product concepts, mockups, brand content, campaign assets",
+      "framework": "Subject + context + style + environment + materials + camera/framing + lighting + brand constraints + output format",
+      "tags": [
+        "ui-app-and-digital-product-prompts",
+        "saas-dashboard-concept",
+        "chatgpt-image-2",
+        "visual-prompt"
+      ]
+    },
+    {
+      "id": "P1-041",
+      "phase": "Phase 1",
+      "category": "UI, App, and Digital Product Prompts",
+      "title": "Landing Page Visual",
+      "prompt": "Create a polished digital product visual for [app/platform] that helps users [main function]. Show clean interface screens, modern cards, intuitive navigation, realistic content blocks, and a consistent brand system in [color palette].",
+      "best_for": "Visual ideation, product concepts, mockups, brand content, campaign assets",
+      "framework": "Subject + context + style + environment + materials + camera/framing + lighting + brand constraints + output format",
+      "tags": [
+        "ui-app-and-digital-product-prompts",
+        "landing-page-visual",
+        "chatgpt-image-2",
+        "visual-prompt"
+      ]
+    },
+    {
+      "id": "P1-042",
+      "phase": "Phase 1",
+      "category": "UI, App, and Digital Product Prompts",
+      "title": "App Store Preview Screens",
+      "prompt": "Create a polished digital product visual for [app/platform] that helps users [main function]. Show clean interface screens, modern cards, intuitive navigation, realistic content blocks, and a consistent brand system in [color palette].",
+      "best_for": "Visual ideation, product concepts, mockups, brand content, campaign assets",
+      "framework": "Subject + context + style + environment + materials + camera/framing + lighting + brand constraints + output format",
+      "tags": [
+        "ui-app-and-digital-product-prompts",
+        "app-store-preview-screens",
+        "chatgpt-image-2",
+        "visual-prompt"
+      ]
+    },
+    {
+      "id": "P1-043",
+      "phase": "Phase 1",
+      "category": "UI, App, and Digital Product Prompts",
+      "title": "AI Tool Interface Concept",
+      "prompt": "Create a polished digital product visual for [app/platform] that helps users [main function]. Show clean interface screens, modern cards, intuitive navigation, realistic content blocks, and a consistent brand system in [color palette].",
+      "best_for": "Visual ideation, product concepts, mockups, brand content, campaign assets",
+      "framework": "Subject + context + style + environment + materials + camera/framing + lighting + brand constraints + output format",
+      "tags": [
+        "ui-app-and-digital-product-prompts",
+        "ai-tool-interface-concept",
+        "chatgpt-image-2",
+        "visual-prompt"
+      ]
+    },
+    {
+      "id": "P1-044",
+      "phase": "Phase 1",
+      "category": "UI, App, and Digital Product Prompts",
+      "title": "Fintech App Interface",
+      "prompt": "Create a polished digital product visual for [app/platform] that helps users [main function]. Show clean interface screens, modern cards, intuitive navigation, realistic content blocks, and a consistent brand system in [color palette].",
+      "best_for": "Visual ideation, product concepts, mockups, brand content, campaign assets",
+      "framework": "Subject + context + style + environment + materials + camera/framing + lighting + brand constraints + output format",
+      "tags": [
+        "ui-app-and-digital-product-prompts",
+        "fintech-app-interface",
+        "chatgpt-image-2",
+        "visual-prompt"
+      ]
+    },
+    {
+      "id": "P1-045",
+      "phase": "Phase 1",
+      "category": "UI, App, and Digital Product Prompts",
+      "title": "Education App Interface",
+      "prompt": "Create a polished digital product visual for [app/platform] that helps users [main function]. Show clean interface screens, modern cards, intuitive navigation, realistic content blocks, and a consistent brand system in [color palette].",
+      "best_for": "Visual ideation, product concepts, mockups, brand content, campaign assets",
+      "framework": "Subject + context + style + environment + materials + camera/framing + lighting + brand constraints + output format",
+      "tags": [
+        "ui-app-and-digital-product-prompts",
+        "education-app-interface",
+        "chatgpt-image-2",
+        "visual-prompt"
+      ]
+    },
+    {
+      "id": "P1-046",
+      "phase": "Phase 1",
+      "category": "UI, App, and Digital Product Prompts",
+      "title": "Marketplace App Interface",
+      "prompt": "Create a polished digital product visual for [app/platform] that helps users [main function]. Show clean interface screens, modern cards, intuitive navigation, realistic content blocks, and a consistent brand system in [color palette].",
+      "best_for": "Visual ideation, product concepts, mockups, brand content, campaign assets",
+      "framework": "Subject + context + style + environment + materials + camera/framing + lighting + brand constraints + output format",
+      "tags": [
+        "ui-app-and-digital-product-prompts",
+        "marketplace-app-interface",
+        "chatgpt-image-2",
+        "visual-prompt"
+      ]
+    },
+    {
+      "id": "P1-047",
+      "phase": "Phase 1",
+      "category": "Advertising and Social Content",
+      "title": "Instagram Carousel Campaign",
+      "prompt": "Create a marketing asset for [product/service] designed for [platform]. Use a strong focal point, bold composition, clean space for headline and CTA, brand colors, and a polished commercial style suitable for paid or organic social.",
+      "best_for": "Visual ideation, product concepts, mockups, brand content, campaign assets",
+      "framework": "Subject + context + style + environment + materials + camera/framing + lighting + brand constraints + output format",
+      "tags": [
+        "advertising-and-social-content",
+        "instagram-carousel-campaign",
+        "chatgpt-image-2",
+        "visual-prompt"
+      ]
+    },
+    {
+      "id": "P1-048",
+      "phase": "Phase 1",
+      "category": "Advertising and Social Content",
+      "title": "TikTok Ad Concept Frame",
+      "prompt": "Create a marketing asset for [product/service] designed for [platform]. Use a strong focal point, bold composition, clean space for headline and CTA, brand colors, and a polished commercial style suitable for paid or organic social.",
+      "best_for": "Visual ideation, product concepts, mockups, brand content, campaign assets",
+      "framework": "Subject + context + style + environment + materials + camera/framing + lighting + brand constraints + output format",
+      "tags": [
+        "advertising-and-social-content",
+        "tiktok-ad-concept-frame",
+        "chatgpt-image-2",
+        "visual-prompt"
+      ]
+    },
+    {
+      "id": "P1-049",
+      "phase": "Phase 1",
+      "category": "Advertising and Social Content",
+      "title": "Billboard Advertisement",
+      "prompt": "Create a marketing asset for [product/service] designed for [platform]. Use a strong focal point, bold composition, clean space for headline and CTA, brand colors, and a polished commercial style suitable for paid or organic social.",
+      "best_for": "Visual ideation, product concepts, mockups, brand content, campaign assets",
+      "framework": "Subject + context + style + environment + materials + camera/framing + lighting + brand constraints + output format",
+      "tags": [
+        "advertising-and-social-content",
+        "billboard-advertisement",
+        "chatgpt-image-2",
+        "visual-prompt"
+      ]
+    },
+    {
+      "id": "P1-050",
+      "phase": "Phase 1",
+      "category": "Advertising and Social Content",
+      "title": "Email Header Graphic",
+      "prompt": "Create a marketing asset for [product/service] designed for [platform]. Use a strong focal point, bold composition, clean space for headline and CTA, brand colors, and a polished commercial style suitable for paid or organic social.",
+      "best_for": "Visual ideation, product concepts, mockups, brand content, campaign assets",
+      "framework": "Subject + context + style + environment + materials + camera/framing + lighting + brand constraints + output format",
+      "tags": [
+        "advertising-and-social-content",
+        "email-header-graphic",
+        "chatgpt-image-2",
+        "visual-prompt"
+      ]
+    },
+    {
+      "id": "P1-051",
+      "phase": "Phase 1",
+      "category": "Advertising and Social Content",
+      "title": "Sale Promotion Visual",
+      "prompt": "Create a marketing asset for [product/service] designed for [platform]. Use a strong focal point, bold composition, clean space for headline and CTA, brand colors, and a polished commercial style suitable for paid or organic social.",
+      "best_for": "Visual ideation, product concepts, mockups, brand content, campaign assets",
+      "framework": "Subject + context + style + environment + materials + camera/framing + lighting + brand constraints + output format",
+      "tags": [
+        "advertising-and-social-content",
+        "sale-promotion-visual",
+        "chatgpt-image-2",
+        "visual-prompt"
+      ]
+    },
+    {
+      "id": "P1-052",
+      "phase": "Phase 1",
+      "category": "Advertising and Social Content",
+      "title": "Product Launch Countdown Visual",
+      "prompt": "Create a marketing asset for [product/service] designed for [platform]. Use a strong focal point, bold composition, clean space for headline and CTA, brand colors, and a polished commercial style suitable for paid or organic social.",
+      "best_for": "Visual ideation, product concepts, mockups, brand content, campaign assets",
+      "framework": "Subject + context + style + environment + materials + camera/framing + lighting + brand constraints + output format",
+      "tags": [
+        "advertising-and-social-content",
+        "product-launch-countdown-visual",
+        "chatgpt-image-2",
+        "visual-prompt"
+      ]
+    },
+    {
+      "id": "P1-053",
+      "phase": "Phase 1",
+      "category": "Advertising and Social Content",
+      "title": "Testimonial Ad Visual",
+      "prompt": "Create a marketing asset for [product/service] designed for [platform]. Use a strong focal point, bold composition, clean space for headline and CTA, brand colors, and a polished commercial style suitable for paid or organic social.",
+      "best_for": "Visual ideation, product concepts, mockups, brand content, campaign assets",
+      "framework": "Subject + context + style + environment + materials + camera/framing + lighting + brand constraints + output format",
+      "tags": [
+        "advertising-and-social-content",
+        "testimonial-ad-visual",
+        "chatgpt-image-2",
+        "visual-prompt"
+      ]
+    },
+    {
+      "id": "P1-054",
+      "phase": "Phase 1",
+      "category": "Advertising and Social Content",
+      "title": "UGC-Style Product Ad",
+      "prompt": "Create a marketing asset for [product/service] designed for [platform]. Use a strong focal point, bold composition, clean space for headline and CTA, brand colors, and a polished commercial style suitable for paid or organic social.",
+      "best_for": "Visual ideation, product concepts, mockups, brand content, campaign assets",
+      "framework": "Subject + context + style + environment + materials + camera/framing + lighting + brand constraints + output format",
+      "tags": [
+        "advertising-and-social-content",
+        "ugc-style-product-ad",
+        "chatgpt-image-2",
+        "visual-prompt"
+      ]
+    },
+    {
+      "id": "P1-055",
+      "phase": "Phase 1",
+      "category": "Editorial, Commercial, and Lifestyle Scenes",
+      "title": "Editorial Product Story",
+      "prompt": "Create a photorealistic lifestyle scene featuring [product/service] in [environment]. Use natural human context, warm lighting, realistic textures, editorial composition, and a clean aspirational mood while keeping the subject recognizable.",
+      "best_for": "Visual ideation, product concepts, mockups, brand content, campaign assets",
+      "framework": "Subject + context + style + environment + materials + camera/framing + lighting + brand constraints + output format",
+      "tags": [
+        "editorial-commercial-and-lifestyle-scenes",
+        "editorial-product-story",
+        "chatgpt-image-2",
+        "visual-prompt"
+      ]
+    },
+    {
+      "id": "P1-056",
+      "phase": "Phase 1",
+      "category": "Editorial, Commercial, and Lifestyle Scenes",
+      "title": "Desk Setup Scene",
+      "prompt": "Create a photorealistic lifestyle scene featuring [product/service] in [environment]. Use natural human context, warm lighting, realistic textures, editorial composition, and a clean aspirational mood while keeping the subject recognizable.",
+      "best_for": "Visual ideation, product concepts, mockups, brand content, campaign assets",
+      "framework": "Subject + context + style + environment + materials + camera/framing + lighting + brand constraints + output format",
+      "tags": [
+        "editorial-commercial-and-lifestyle-scenes",
+        "desk-setup-scene",
+        "chatgpt-image-2",
+        "visual-prompt"
+      ]
+    },
+    {
+      "id": "P1-057",
+      "phase": "Phase 1",
+      "category": "Editorial, Commercial, and Lifestyle Scenes",
+      "title": "Outdoor Lifestyle Scene",
+      "prompt": "Create a photorealistic lifestyle scene featuring [product/service] in [environment]. Use natural human context, warm lighting, realistic textures, editorial composition, and a clean aspirational mood while keeping the subject recognizable.",
+      "best_for": "Visual ideation, product concepts, mockups, brand content, campaign assets",
+      "framework": "Subject + context + style + environment + materials + camera/framing + lighting + brand constraints + output format",
+      "tags": [
+        "editorial-commercial-and-lifestyle-scenes",
+        "outdoor-lifestyle-scene",
+        "chatgpt-image-2",
+        "visual-prompt"
+      ]
+    },
+    {
+      "id": "P1-058",
+      "phase": "Phase 1",
+      "category": "Editorial, Commercial, and Lifestyle Scenes",
+      "title": "Luxury Interior Scene",
+      "prompt": "Create a photorealistic lifestyle scene featuring [product/service] in [environment]. Use natural human context, warm lighting, realistic textures, editorial composition, and a clean aspirational mood while keeping the subject recognizable.",
+      "best_for": "Visual ideation, product concepts, mockups, brand content, campaign assets",
+      "framework": "Subject + context + style + environment + materials + camera/framing + lighting + brand constraints + output format",
+      "tags": [
+        "editorial-commercial-and-lifestyle-scenes",
+        "luxury-interior-scene",
+        "chatgpt-image-2",
+        "visual-prompt"
+      ]
+    },
+    {
+      "id": "P1-059",
+      "phase": "Phase 1",
+      "category": "Editorial, Commercial, and Lifestyle Scenes",
+      "title": "Hands-in-Use Product Shot",
+      "prompt": "Create a photorealistic lifestyle scene featuring [product/service] in [environment]. Use natural human context, warm lighting, realistic textures, editorial composition, and a clean aspirational mood while keeping the subject recognizable.",
+      "best_for": "Visual ideation, product concepts, mockups, brand content, campaign assets",
+      "framework": "Subject + context + style + environment + materials + camera/framing + lighting + brand constraints + output format",
+      "tags": [
+        "editorial-commercial-and-lifestyle-scenes",
+        "hands-in-use-product-shot",
+        "chatgpt-image-2",
+        "visual-prompt"
+      ]
+    },
+    {
+      "id": "P1-060",
+      "phase": "Phase 1",
+      "category": "Editorial, Commercial, and Lifestyle Scenes",
+      "title": "Morning Routine Scene",
+      "prompt": "Create a photorealistic lifestyle scene featuring [product/service] in [environment]. Use natural human context, warm lighting, realistic textures, editorial composition, and a clean aspirational mood while keeping the subject recognizable.",
+      "best_for": "Visual ideation, product concepts, mockups, brand content, campaign assets",
+      "framework": "Subject + context + style + environment + materials + camera/framing + lighting + brand constraints + output format",
+      "tags": [
+        "editorial-commercial-and-lifestyle-scenes",
+        "morning-routine-scene",
+        "chatgpt-image-2",
+        "visual-prompt"
+      ]
+    },
+    {
+      "id": "P1-061",
+      "phase": "Phase 1",
+      "category": "Editorial, Commercial, and Lifestyle Scenes",
+      "title": "Professional Workspace Scene",
+      "prompt": "Create a photorealistic lifestyle scene featuring [product/service] in [environment]. Use natural human context, warm lighting, realistic textures, editorial composition, and a clean aspirational mood while keeping the subject recognizable.",
+      "best_for": "Visual ideation, product concepts, mockups, brand content, campaign assets",
+      "framework": "Subject + context + style + environment + materials + camera/framing + lighting + brand constraints + output format",
+      "tags": [
+        "editorial-commercial-and-lifestyle-scenes",
+        "professional-workspace-scene",
+        "chatgpt-image-2",
+        "visual-prompt"
+      ]
+    },
+    {
+      "id": "P1-062",
+      "phase": "Phase 1",
+      "category": "Editorial, Commercial, and Lifestyle Scenes",
+      "title": "Retail Display Scene",
+      "prompt": "Create a photorealistic lifestyle scene featuring [product/service] in [environment]. Use natural human context, warm lighting, realistic textures, editorial composition, and a clean aspirational mood while keeping the subject recognizable.",
+      "best_for": "Visual ideation, product concepts, mockups, brand content, campaign assets",
+      "framework": "Subject + context + style + environment + materials + camera/framing + lighting + brand constraints + output format",
+      "tags": [
+        "editorial-commercial-and-lifestyle-scenes",
+        "retail-display-scene",
+        "chatgpt-image-2",
+        "visual-prompt"
+      ]
+    },
+    {
+      "id": "P1-063",
+      "phase": "Phase 1",
+      "category": "Product Visualization and Explainers",
+      "title": "Exploded View Product Visualization",
+      "prompt": "Create a clear product explainer visual for [product] highlighting [feature 1], [feature 2], and [feature 3]. Use sharp rendering, clean callout space, technical accuracy, strong hierarchy, and a professional presentation style.",
+      "best_for": "Visual ideation, product concepts, mockups, brand content, campaign assets",
+      "framework": "Subject + context + style + environment + materials + camera/framing + lighting + brand constraints + output format",
+      "tags": [
+        "product-visualization-and-explainers",
+        "exploded-view-product-visualization",
+        "chatgpt-image-2",
+        "visual-prompt"
+      ]
+    },
+    {
+      "id": "P1-064",
+      "phase": "Phase 1",
+      "category": "Product Visualization and Explainers",
+      "title": "Feature Callout Visual",
+      "prompt": "Create a clear product explainer visual for [product] highlighting [feature 1], [feature 2], and [feature 3]. Use sharp rendering, clean callout space, technical accuracy, strong hierarchy, and a professional presentation style.",
+      "best_for": "Visual ideation, product concepts, mockups, brand content, campaign assets",
+      "framework": "Subject + context + style + environment + materials + camera/framing + lighting + brand constraints + output format",
+      "tags": [
+        "product-visualization-and-explainers",
+        "feature-callout-visual",
+        "chatgpt-image-2",
+        "visual-prompt"
+      ]
+    },
+    {
+      "id": "P1-065",
+      "phase": "Phase 1",
+      "category": "Product Visualization and Explainers",
+      "title": "Material Detail Close-Up",
+      "prompt": "Create a clear product explainer visual for [product] highlighting [feature 1], [feature 2], and [feature 3]. Use sharp rendering, clean callout space, technical accuracy, strong hierarchy, and a professional presentation style.",
+      "best_for": "Visual ideation, product concepts, mockups, brand content, campaign assets",
+      "framework": "Subject + context + style + environment + materials + camera/framing + lighting + brand constraints + output format",
+      "tags": [
+        "product-visualization-and-explainers",
+        "material-detail-close-up",
+        "chatgpt-image-2",
+        "visual-prompt"
+      ]
+    },
+    {
+      "id": "P1-066",
+      "phase": "Phase 1",
+      "category": "Product Visualization and Explainers",
+      "title": "Comparison Chart Visual",
+      "prompt": "Create a clear product explainer visual for [product] highlighting [feature 1], [feature 2], and [feature 3]. Use sharp rendering, clean callout space, technical accuracy, strong hierarchy, and a professional presentation style.",
+      "best_for": "Visual ideation, product concepts, mockups, brand content, campaign assets",
+      "framework": "Subject + context + style + environment + materials + camera/framing + lighting + brand constraints + output format",
+      "tags": [
+        "product-visualization-and-explainers",
+        "comparison-chart-visual",
+        "chatgpt-image-2",
+        "visual-prompt"
+      ]
+    },
+    {
+      "id": "P1-067",
+      "phase": "Phase 1",
+      "category": "Product Visualization and Explainers",
+      "title": "Instructional Step Visual",
+      "prompt": "Create a clear product explainer visual for [product] highlighting [feature 1], [feature 2], and [feature 3]. Use sharp rendering, clean callout space, technical accuracy, strong hierarchy, and a professional presentation style.",
+      "best_for": "Visual ideation, product concepts, mockups, brand content, campaign assets",
+      "framework": "Subject + context + style + environment + materials + camera/framing + lighting + brand constraints + output format",
+      "tags": [
+        "product-visualization-and-explainers",
+        "instructional-step-visual",
+        "chatgpt-image-2",
+        "visual-prompt"
+      ]
+    },
+    {
+      "id": "P1-068",
+      "phase": "Phase 1",
+      "category": "Product Visualization and Explainers",
+      "title": "Product Benefits Infographic",
+      "prompt": "Create a clear product explainer visual for [product] highlighting [feature 1], [feature 2], and [feature 3]. Use sharp rendering, clean callout space, technical accuracy, strong hierarchy, and a professional presentation style.",
+      "best_for": "Visual ideation, product concepts, mockups, brand content, campaign assets",
+      "framework": "Subject + context + style + environment + materials + camera/framing + lighting + brand constraints + output format",
+      "tags": [
+        "product-visualization-and-explainers",
+        "product-benefits-infographic",
+        "chatgpt-image-2",
+        "visual-prompt"
+      ]
+    },
+    {
+      "id": "P1-069",
+      "phase": "Phase 1",
+      "category": "Product Visualization and Explainers",
+      "title": "Cutaway Product View",
+      "prompt": "Create a clear product explainer visual for [product] highlighting [feature 1], [feature 2], and [feature 3]. Use sharp rendering, clean callout space, technical accuracy, strong hierarchy, and a professional presentation style.",
+      "best_for": "Visual ideation, product concepts, mockups, brand content, campaign assets",
+      "framework": "Subject + context + style + environment + materials + camera/framing + lighting + brand constraints + output format",
+      "tags": [
+        "product-visualization-and-explainers",
+        "cutaway-product-view",
+        "chatgpt-image-2",
+        "visual-prompt"
+      ]
+    },
+    {
+      "id": "P1-070",
+      "phase": "Phase 1",
+      "category": "Product Visualization and Explainers",
+      "title": "Assembly Guide Visual",
+      "prompt": "Create a clear product explainer visual for [product] highlighting [feature 1], [feature 2], and [feature 3]. Use sharp rendering, clean callout space, technical accuracy, strong hierarchy, and a professional presentation style.",
+      "best_for": "Visual ideation, product concepts, mockups, brand content, campaign assets",
+      "framework": "Subject + context + style + environment + materials + camera/framing + lighting + brand constraints + output format",
+      "tags": [
+        "product-visualization-and-explainers",
+        "assembly-guide-visual",
+        "chatgpt-image-2",
+        "visual-prompt"
+      ]
+    },
+    {
+      "id": "P1-071",
+      "phase": "Phase 1",
+      "category": "Advanced Creative Direction",
+      "title": "Visual Metaphor Product Ad",
+      "prompt": "Create a high-end creative direction image for [product/brand] based on [theme or visual metaphor]. Use cinematic lighting, memorable composition, premium detail, strong mood, and enough negative space for campaign copy.",
+      "best_for": "Visual ideation, product concepts, mockups, brand content, campaign assets",
+      "framework": "Subject + context + style + environment + materials + camera/framing + lighting + brand constraints + output format",
+      "tags": [
+        "advanced-creative-direction",
+        "visual-metaphor-product-ad",
+        "chatgpt-image-2",
+        "visual-prompt"
+      ]
+    },
+    {
+      "id": "P1-072",
+      "phase": "Phase 1",
+      "category": "Advanced Creative Direction",
+      "title": "Surreal Product World",
+      "prompt": "Create a high-end creative direction image for [product/brand] based on [theme or visual metaphor]. Use cinematic lighting, memorable composition, premium detail, strong mood, and enough negative space for campaign copy.",
+      "best_for": "Visual ideation, product concepts, mockups, brand content, campaign assets",
+      "framework": "Subject + context + style + environment + materials + camera/framing + lighting + brand constraints + output format",
+      "tags": [
+        "advanced-creative-direction",
+        "surreal-product-world",
+        "chatgpt-image-2",
+        "visual-prompt"
+      ]
+    },
+    {
+      "id": "P1-073",
+      "phase": "Phase 1",
+      "category": "Advanced Creative Direction",
+      "title": "Monochrome Brand Visual",
+      "prompt": "Create a high-end creative direction image for [product/brand] based on [theme or visual metaphor]. Use cinematic lighting, memorable composition, premium detail, strong mood, and enough negative space for campaign copy.",
+      "best_for": "Visual ideation, product concepts, mockups, brand content, campaign assets",
+      "framework": "Subject + context + style + environment + materials + camera/framing + lighting + brand constraints + output format",
+      "tags": [
+        "advanced-creative-direction",
+        "monochrome-brand-visual",
+        "chatgpt-image-2",
+        "visual-prompt"
+      ]
+    },
+    {
+      "id": "P1-074",
+      "phase": "Phase 1",
+      "category": "Advanced Creative Direction",
+      "title": "Cinematic Product Scene",
+      "prompt": "Create a high-end creative direction image for [product/brand] based on [theme or visual metaphor]. Use cinematic lighting, memorable composition, premium detail, strong mood, and enough negative space for campaign copy.",
+      "best_for": "Visual ideation, product concepts, mockups, brand content, campaign assets",
+      "framework": "Subject + context + style + environment + materials + camera/framing + lighting + brand constraints + output format",
+      "tags": [
+        "advanced-creative-direction",
+        "cinematic-product-scene",
+        "chatgpt-image-2",
+        "visual-prompt"
+      ]
+    },
+    {
+      "id": "P1-075",
+      "phase": "Phase 1",
+      "category": "Advanced Creative Direction",
+      "title": "High-Fashion Product Editorial",
+      "prompt": "Create a high-end creative direction image for [product/brand] based on [theme or visual metaphor]. Use cinematic lighting, memorable composition, premium detail, strong mood, and enough negative space for campaign copy.",
+      "best_for": "Visual ideation, product concepts, mockups, brand content, campaign assets",
+      "framework": "Subject + context + style + environment + materials + camera/framing + lighting + brand constraints + output format",
+      "tags": [
+        "advanced-creative-direction",
+        "high-fashion-product-editorial",
+        "chatgpt-image-2",
+        "visual-prompt"
+      ]
+    },
+    {
+      "id": "P2-001",
+      "phase": "Phase 2",
+      "category": "Virtual Brand Ambassadors and AI Influencers",
+      "title": "Fictional Brand Ambassador Character Bible Portrait",
+      "prompt": "Create a photorealistic portrait of a fictional brand ambassador for [brand]. The character should feel [personality] and appeal to [target audience]. Use consistent facial structure, natural skin texture, expressive eyes, polished grooming, 85mm lens, f/1.8, cinematic lighting, and a clean background in [brand color palette]. No celebrity resemblance and no real-person likeness.",
+      "best_for": "Production services, client deliverables, ad testing, asset bundles, e-commerce, brand systems",
+      "framework": "S.E.E.D. - Subject, Elements, Environment, Details",
+      "tags": [
+        "virtual-brand-ambassadors-and-ai-influencers",
+        "fictional-brand-ambassador-character-bible-portrait",
+        "chatgpt-image-2",
+        "production-ready"
+      ]
+    },
+    {
+      "id": "P2-002",
+      "phase": "Phase 2",
+      "category": "Virtual Brand Ambassadors and AI Influencers",
+      "title": "AI Influencer Lifestyle Morning Routine",
+      "prompt": "Create a fictional, brand-safe AI ambassador for [brand]. Maintain consistent facial structure, age range, hairstyle, skin tone, body type, wardrobe language, and brand personality. Use 85mm lens, f/1.8, cinematic light, realistic skin texture, and no celebrity or real-person resemblance.",
+      "best_for": "Production services, client deliverables, ad testing, asset bundles, e-commerce, brand systems",
+      "framework": "S.E.E.D. - Subject, Elements, Environment, Details",
+      "tags": [
+        "virtual-brand-ambassadors-and-ai-influencers",
+        "ai-influencer-lifestyle-morning-routine",
+        "chatgpt-image-2",
+        "production-ready"
+      ]
+    },
+    {
+      "id": "P2-003",
+      "phase": "Phase 2",
+      "category": "Virtual Brand Ambassadors and AI Influencers",
+      "title": "Brand Ambassador Product Endorsement Shot",
+      "prompt": "Create a fictional, brand-safe AI ambassador for [brand]. Maintain consistent facial structure, age range, hairstyle, skin tone, body type, wardrobe language, and brand personality. Use 85mm lens, f/1.8, cinematic light, realistic skin texture, and no celebrity or real-person resemblance.",
+      "best_for": "Production services, client deliverables, ad testing, asset bundles, e-commerce, brand systems",
+      "framework": "S.E.E.D. - Subject, Elements, Environment, Details",
+      "tags": [
+        "virtual-brand-ambassadors-and-ai-influencers",
+        "brand-ambassador-product-endorsement-shot",
+        "chatgpt-image-2",
+        "production-ready"
+      ]
+    },
+    {
+      "id": "P2-004",
+      "phase": "Phase 2",
+      "category": "Virtual Brand Ambassadors and AI Influencers",
+      "title": "AI Influencer Outfit Variation Campaign",
+      "prompt": "Create a fictional, brand-safe AI ambassador for [brand]. Maintain consistent facial structure, age range, hairstyle, skin tone, body type, wardrobe language, and brand personality. Use 85mm lens, f/1.8, cinematic light, realistic skin texture, and no celebrity or real-person resemblance.",
+      "best_for": "Production services, client deliverables, ad testing, asset bundles, e-commerce, brand systems",
+      "framework": "S.E.E.D. - Subject, Elements, Environment, Details",
+      "tags": [
+        "virtual-brand-ambassadors-and-ai-influencers",
+        "ai-influencer-outfit-variation-campaign",
+        "chatgpt-image-2",
+        "production-ready"
+      ]
+    },
+    {
+      "id": "P2-005",
+      "phase": "Phase 2",
+      "category": "Virtual Brand Ambassadors and AI Influencers",
+      "title": "Brand Ambassador Social Media Selfie Style",
+      "prompt": "Create a fictional, brand-safe AI ambassador for [brand]. Maintain consistent facial structure, age range, hairstyle, skin tone, body type, wardrobe language, and brand personality. Use 85mm lens, f/1.8, cinematic light, realistic skin texture, and no celebrity or real-person resemblance.",
+      "best_for": "Production services, client deliverables, ad testing, asset bundles, e-commerce, brand systems",
+      "framework": "S.E.E.D. - Subject, Elements, Environment, Details",
+      "tags": [
+        "virtual-brand-ambassadors-and-ai-influencers",
+        "brand-ambassador-social-media-selfie-style",
+        "chatgpt-image-2",
+        "production-ready"
+      ]
+    },
+    {
+      "id": "P2-006",
+      "phase": "Phase 2",
+      "category": "Virtual Brand Ambassadors and AI Influencers",
+      "title": "AI Influencer Fitness or Wellness Campaign",
+      "prompt": "Create a fictional, brand-safe AI ambassador for [brand]. Maintain consistent facial structure, age range, hairstyle, skin tone, body type, wardrobe language, and brand personality. Use 85mm lens, f/1.8, cinematic light, realistic skin texture, and no celebrity or real-person resemblance.",
+      "best_for": "Production services, client deliverables, ad testing, asset bundles, e-commerce, brand systems",
+      "framework": "S.E.E.D. - Subject, Elements, Environment, Details",
+      "tags": [
+        "virtual-brand-ambassadors-and-ai-influencers",
+        "ai-influencer-fitness-or-wellness-campaign",
+        "chatgpt-image-2",
+        "production-ready"
+      ]
+    },
+    {
+      "id": "P2-007",
+      "phase": "Phase 2",
+      "category": "Virtual Brand Ambassadors and AI Influencers",
+      "title": "Brand Ambassador Seasonal Campaign",
+      "prompt": "Create a fictional, brand-safe AI ambassador for [brand]. Maintain consistent facial structure, age range, hairstyle, skin tone, body type, wardrobe language, and brand personality. Use 85mm lens, f/1.8, cinematic light, realistic skin texture, and no celebrity or real-person resemblance.",
+      "best_for": "Production services, client deliverables, ad testing, asset bundles, e-commerce, brand systems",
+      "framework": "S.E.E.D. - Subject, Elements, Environment, Details",
+      "tags": [
+        "virtual-brand-ambassadors-and-ai-influencers",
+        "brand-ambassador-seasonal-campaign",
+        "chatgpt-image-2",
+        "production-ready"
+      ]
+    },
+    {
+      "id": "P2-008",
+      "phase": "Phase 2",
+      "category": "Virtual Brand Ambassadors and AI Influencers",
+      "title": "AI Influencer Travel Campaign",
+      "prompt": "Create a fictional, brand-safe AI ambassador for [brand]. Maintain consistent facial structure, age range, hairstyle, skin tone, body type, wardrobe language, and brand personality. Use 85mm lens, f/1.8, cinematic light, realistic skin texture, and no celebrity or real-person resemblance.",
+      "best_for": "Production services, client deliverables, ad testing, asset bundles, e-commerce, brand systems",
+      "framework": "S.E.E.D. - Subject, Elements, Environment, Details",
+      "tags": [
+        "virtual-brand-ambassadors-and-ai-influencers",
+        "ai-influencer-travel-campaign",
+        "chatgpt-image-2",
+        "production-ready"
+      ]
+    },
+    {
+      "id": "P2-009",
+      "phase": "Phase 2",
+      "category": "Virtual Brand Ambassadors and AI Influencers",
+      "title": "Brand Ambassador Multi-Use Headshot Pack",
+      "prompt": "Create a fictional, brand-safe AI ambassador for [brand]. Maintain consistent facial structure, age range, hairstyle, skin tone, body type, wardrobe language, and brand personality. Use 85mm lens, f/1.8, cinematic light, realistic skin texture, and no celebrity or real-person resemblance.",
+      "best_for": "Production services, client deliverables, ad testing, asset bundles, e-commerce, brand systems",
+      "framework": "S.E.E.D. - Subject, Elements, Environment, Details",
+      "tags": [
+        "virtual-brand-ambassadors-and-ai-influencers",
+        "brand-ambassador-multi-use-headshot-pack",
+        "chatgpt-image-2",
+        "production-ready"
+      ]
+    },
+    {
+      "id": "P2-010",
+      "phase": "Phase 2",
+      "category": "Virtual Brand Ambassadors and AI Influencers",
+      "title": "AI Influencer Product Tutorial Frame",
+      "prompt": "Create a fictional, brand-safe AI ambassador for [brand]. Maintain consistent facial structure, age range, hairstyle, skin tone, body type, wardrobe language, and brand personality. Use 85mm lens, f/1.8, cinematic light, realistic skin texture, and no celebrity or real-person resemblance.",
+      "best_for": "Production services, client deliverables, ad testing, asset bundles, e-commerce, brand systems",
+      "framework": "S.E.E.D. - Subject, Elements, Environment, Details",
+      "tags": [
+        "virtual-brand-ambassadors-and-ai-influencers",
+        "ai-influencer-product-tutorial-frame",
+        "chatgpt-image-2",
+        "production-ready"
+      ]
+    },
+    {
+      "id": "P2-011",
+      "phase": "Phase 2",
+      "category": "Commercial Asset Bundles",
+      "title": "Corporate Abstract Art Bundle",
+      "prompt": "Create a reusable commercial asset for [industry/brand] that can work in a bundle. Use consistent colors, clean composition, scalable style, strong negative space, and a professional marketing-ready finish. No random text or real logos.",
+      "best_for": "Production services, client deliverables, ad testing, asset bundles, e-commerce, brand systems",
+      "framework": "S.E.E.D. - Subject, Elements, Environment, Details",
+      "tags": [
+        "commercial-asset-bundles",
+        "corporate-abstract-art-bundle",
+        "chatgpt-image-2",
+        "production-ready"
+      ]
+    },
+    {
+      "id": "P2-012",
+      "phase": "Phase 2",
+      "category": "Commercial Asset Bundles",
+      "title": "AI Corporate Office Art Pack",
+      "prompt": "Create a reusable commercial asset for [industry/brand] that can work in a bundle. Use consistent colors, clean composition, scalable style, strong negative space, and a professional marketing-ready finish. No random text or real logos.",
+      "best_for": "Production services, client deliverables, ad testing, asset bundles, e-commerce, brand systems",
+      "framework": "S.E.E.D. - Subject, Elements, Environment, Details",
+      "tags": [
+        "commercial-asset-bundles",
+        "ai-corporate-office-art-pack",
+        "chatgpt-image-2",
+        "production-ready"
+      ]
+    },
+    {
+      "id": "P2-013",
+      "phase": "Phase 2",
+      "category": "Commercial Asset Bundles",
+      "title": "SaaS Blog Featured Image",
+      "prompt": "Create a reusable commercial asset for [industry/brand] that can work in a bundle. Use consistent colors, clean composition, scalable style, strong negative space, and a professional marketing-ready finish. No random text or real logos.",
+      "best_for": "Production services, client deliverables, ad testing, asset bundles, e-commerce, brand systems",
+      "framework": "S.E.E.D. - Subject, Elements, Environment, Details",
+      "tags": [
+        "commercial-asset-bundles",
+        "saas-blog-featured-image",
+        "chatgpt-image-2",
+        "production-ready"
+      ]
+    },
+    {
+      "id": "P2-014",
+      "phase": "Phase 2",
+      "category": "Commercial Asset Bundles",
+      "title": "Marketing Clipart Bundle Element",
+      "prompt": "Create a reusable commercial asset for [industry/brand] that can work in a bundle. Use consistent colors, clean composition, scalable style, strong negative space, and a professional marketing-ready finish. No random text or real logos.",
+      "best_for": "Production services, client deliverables, ad testing, asset bundles, e-commerce, brand systems",
+      "framework": "S.E.E.D. - Subject, Elements, Environment, Details",
+      "tags": [
+        "commercial-asset-bundles",
+        "marketing-clipart-bundle-element",
+        "chatgpt-image-2",
+        "production-ready"
+      ]
+    },
+    {
+      "id": "P2-015",
+      "phase": "Phase 2",
+      "category": "Commercial Asset Bundles",
+      "title": "Business Icon Set Image",
+      "prompt": "Create a reusable commercial asset for [industry/brand] that can work in a bundle. Use consistent colors, clean composition, scalable style, strong negative space, and a professional marketing-ready finish. No random text or real logos.",
+      "best_for": "Production services, client deliverables, ad testing, asset bundles, e-commerce, brand systems",
+      "framework": "S.E.E.D. - Subject, Elements, Environment, Details",
+      "tags": [
+        "commercial-asset-bundles",
+        "business-icon-set-image",
+        "chatgpt-image-2",
+        "production-ready"
+      ]
+    },
+    {
+      "id": "P2-016",
+      "phase": "Phase 2",
+      "category": "Commercial Asset Bundles",
+      "title": "Website Background Texture Pack",
+      "prompt": "Create a reusable commercial asset for [industry/brand] that can work in a bundle. Use consistent colors, clean composition, scalable style, strong negative space, and a professional marketing-ready finish. No random text or real logos.",
+      "best_for": "Production services, client deliverables, ad testing, asset bundles, e-commerce, brand systems",
+      "framework": "S.E.E.D. - Subject, Elements, Environment, Details",
+      "tags": [
+        "commercial-asset-bundles",
+        "website-background-texture-pack",
+        "chatgpt-image-2",
+        "production-ready"
+      ]
+    },
+    {
+      "id": "P2-017",
+      "phase": "Phase 2",
+      "category": "Commercial Asset Bundles",
+      "title": "Presentation Cover Art",
+      "prompt": "Create a reusable commercial asset for [industry/brand] that can work in a bundle. Use consistent colors, clean composition, scalable style, strong negative space, and a professional marketing-ready finish. No random text or real logos.",
+      "best_for": "Production services, client deliverables, ad testing, asset bundles, e-commerce, brand systems",
+      "framework": "S.E.E.D. - Subject, Elements, Environment, Details",
+      "tags": [
+        "commercial-asset-bundles",
+        "presentation-cover-art",
+        "chatgpt-image-2",
+        "production-ready"
+      ]
+    },
+    {
+      "id": "P2-018",
+      "phase": "Phase 2",
+      "category": "Commercial Asset Bundles",
+      "title": "AI-Generated Stock Photo Bundle Image",
+      "prompt": "Create a reusable commercial asset for [industry/brand] that can work in a bundle. Use consistent colors, clean composition, scalable style, strong negative space, and a professional marketing-ready finish. No random text or real logos.",
+      "best_for": "Production services, client deliverables, ad testing, asset bundles, e-commerce, brand systems",
+      "framework": "S.E.E.D. - Subject, Elements, Environment, Details",
+      "tags": [
+        "commercial-asset-bundles",
+        "ai-generated-stock-photo-bundle-image",
+        "chatgpt-image-2",
+        "production-ready"
+      ]
+    },
+    {
+      "id": "P2-019",
+      "phase": "Phase 2",
+      "category": "Commercial Asset Bundles",
+      "title": "Social Media Background Pack",
+      "prompt": "Create a reusable commercial asset for [industry/brand] that can work in a bundle. Use consistent colors, clean composition, scalable style, strong negative space, and a professional marketing-ready finish. No random text or real logos.",
+      "best_for": "Production services, client deliverables, ad testing, asset bundles, e-commerce, brand systems",
+      "framework": "S.E.E.D. - Subject, Elements, Environment, Details",
+      "tags": [
+        "commercial-asset-bundles",
+        "social-media-background-pack",
+        "chatgpt-image-2",
+        "production-ready"
+      ]
+    },
+    {
+      "id": "P2-020",
+      "phase": "Phase 2",
+      "category": "Commercial Asset Bundles",
+      "title": "Newsletter Header Image",
+      "prompt": "Create a reusable commercial asset for [industry/brand] that can work in a bundle. Use consistent colors, clean composition, scalable style, strong negative space, and a professional marketing-ready finish. No random text or real logos.",
+      "best_for": "Production services, client deliverables, ad testing, asset bundles, e-commerce, brand systems",
+      "framework": "S.E.E.D. - Subject, Elements, Environment, Details",
+      "tags": [
+        "commercial-asset-bundles",
+        "newsletter-header-image",
+        "chatgpt-image-2",
+        "production-ready"
+      ]
+    },
+    {
+      "id": "P2-021",
+      "phase": "Phase 2",
+      "category": "Automated Print-on-Demand Designs",
+      "title": "Trending T-Shirt Typography Design",
+      "prompt": "Create a print-on-demand t-shirt design featuring the phrase [slogan]. Use bold typography, clean hierarchy, strong contrast, and a commercially appealing style for [target niche]. Center the design on a transparent background. No mockup, no model, no extra words.",
+      "best_for": "Production services, client deliverables, ad testing, asset bundles, e-commerce, brand systems",
+      "framework": "S.E.E.D. - Subject, Elements, Environment, Details",
+      "tags": [
+        "automated-print-on-demand-designs",
+        "trending-t-shirt-typography-design",
+        "chatgpt-image-2",
+        "production-ready"
+      ]
+    },
+    {
+      "id": "P2-022",
+      "phase": "Phase 2",
+      "category": "Automated Print-on-Demand Designs",
+      "title": "Retro Mascot T-Shirt Design",
+      "prompt": "Create a print-on-demand design for [niche] featuring [slogan or symbol]. Use centered composition, bold readable typography, clean outlines, strong contrast, and a transparent background. No product mockup, no model, no extra words.",
+      "best_for": "Production services, client deliverables, ad testing, asset bundles, e-commerce, brand systems",
+      "framework": "S.E.E.D. - Subject, Elements, Environment, Details",
+      "tags": [
+        "automated-print-on-demand-designs",
+        "retro-mascot-t-shirt-design",
+        "chatgpt-image-2",
+        "production-ready"
+      ]
+    },
+    {
+      "id": "P2-023",
+      "phase": "Phase 2",
+      "category": "Automated Print-on-Demand Designs",
+      "title": "Minimalist Mug Design",
+      "prompt": "Create a print-on-demand design for [niche] featuring [slogan or symbol]. Use centered composition, bold readable typography, clean outlines, strong contrast, and a transparent background. No product mockup, no model, no extra words.",
+      "best_for": "Production services, client deliverables, ad testing, asset bundles, e-commerce, brand systems",
+      "framework": "S.E.E.D. - Subject, Elements, Environment, Details",
+      "tags": [
+        "automated-print-on-demand-designs",
+        "minimalist-mug-design",
+        "chatgpt-image-2",
+        "production-ready"
+      ]
+    },
+    {
+      "id": "P2-024",
+      "phase": "Phase 2",
+      "category": "Automated Print-on-Demand Designs",
+      "title": "Sticker Sheet Design",
+      "prompt": "Create a print-on-demand design for [niche] featuring [slogan or symbol]. Use centered composition, bold readable typography, clean outlines, strong contrast, and a transparent background. No product mockup, no model, no extra words.",
+      "best_for": "Production services, client deliverables, ad testing, asset bundles, e-commerce, brand systems",
+      "framework": "S.E.E.D. - Subject, Elements, Environment, Details",
+      "tags": [
+        "automated-print-on-demand-designs",
+        "sticker-sheet-design",
+        "chatgpt-image-2",
+        "production-ready"
+      ]
+    },
+    {
+      "id": "P2-025",
+      "phase": "Phase 2",
+      "category": "Automated Print-on-Demand Designs",
+      "title": "Niche Quote Wall Art Print",
+      "prompt": "Create a print-on-demand design for [niche] featuring [slogan or symbol]. Use centered composition, bold readable typography, clean outlines, strong contrast, and a transparent background. No product mockup, no model, no extra words.",
+      "best_for": "Production services, client deliverables, ad testing, asset bundles, e-commerce, brand systems",
+      "framework": "S.E.E.D. - Subject, Elements, Environment, Details",
+      "tags": [
+        "automated-print-on-demand-designs",
+        "niche-quote-wall-art-print",
+        "chatgpt-image-2",
+        "production-ready"
+      ]
+    },
+    {
+      "id": "P2-026",
+      "phase": "Phase 2",
+      "category": "Automated Print-on-Demand Designs",
+      "title": "Trendy Tote Bag Graphic",
+      "prompt": "Create a print-on-demand design for [niche] featuring [slogan or symbol]. Use centered composition, bold readable typography, clean outlines, strong contrast, and a transparent background. No product mockup, no model, no extra words.",
+      "best_for": "Production services, client deliverables, ad testing, asset bundles, e-commerce, brand systems",
+      "framework": "S.E.E.D. - Subject, Elements, Environment, Details",
+      "tags": [
+        "automated-print-on-demand-designs",
+        "trendy-tote-bag-graphic",
+        "chatgpt-image-2",
+        "production-ready"
+      ]
+    },
+    {
+      "id": "P2-027",
+      "phase": "Phase 2",
+      "category": "Automated Print-on-Demand Designs",
+      "title": "Holiday POD Design",
+      "prompt": "Create a print-on-demand design for [niche] featuring [slogan or symbol]. Use centered composition, bold readable typography, clean outlines, strong contrast, and a transparent background. No product mockup, no model, no extra words.",
+      "best_for": "Production services, client deliverables, ad testing, asset bundles, e-commerce, brand systems",
+      "framework": "S.E.E.D. - Subject, Elements, Environment, Details",
+      "tags": [
+        "automated-print-on-demand-designs",
+        "holiday-pod-design",
+        "chatgpt-image-2",
+        "production-ready"
+      ]
+    },
+    {
+      "id": "P2-028",
+      "phase": "Phase 2",
+      "category": "Automated Print-on-Demand Designs",
+      "title": "Pet Lover POD Design",
+      "prompt": "Create a print-on-demand design for [niche] featuring [slogan or symbol]. Use centered composition, bold readable typography, clean outlines, strong contrast, and a transparent background. No product mockup, no model, no extra words.",
+      "best_for": "Production services, client deliverables, ad testing, asset bundles, e-commerce, brand systems",
+      "framework": "S.E.E.D. - Subject, Elements, Environment, Details",
+      "tags": [
+        "automated-print-on-demand-designs",
+        "pet-lover-pod-design",
+        "chatgpt-image-2",
+        "production-ready"
+      ]
+    },
+    {
+      "id": "P2-029",
+      "phase": "Phase 2",
+      "category": "Automated Print-on-Demand Designs",
+      "title": "Teacher or Classroom POD Design",
+      "prompt": "Create a print-on-demand design for [niche] featuring [slogan or symbol]. Use centered composition, bold readable typography, clean outlines, strong contrast, and a transparent background. No product mockup, no model, no extra words.",
+      "best_for": "Production services, client deliverables, ad testing, asset bundles, e-commerce, brand systems",
+      "framework": "S.E.E.D. - Subject, Elements, Environment, Details",
+      "tags": [
+        "automated-print-on-demand-designs",
+        "teacher-or-classroom-pod-design",
+        "chatgpt-image-2",
+        "production-ready"
+      ]
+    },
+    {
+      "id": "P2-030",
+      "phase": "Phase 2",
+      "category": "Automated Print-on-Demand Designs",
+      "title": "Fitness Niche POD Design",
+      "prompt": "Create a print-on-demand design for [niche] featuring [slogan or symbol]. Use centered composition, bold readable typography, clean outlines, strong contrast, and a transparent background. No product mockup, no model, no extra words.",
+      "best_for": "Production services, client deliverables, ad testing, asset bundles, e-commerce, brand systems",
+      "framework": "S.E.E.D. - Subject, Elements, Environment, Details",
+      "tags": [
+        "automated-print-on-demand-designs",
+        "fitness-niche-pod-design",
+        "chatgpt-image-2",
+        "production-ready"
+      ]
+    },
+    {
+      "id": "P2-031",
+      "phase": "Phase 2",
+      "category": "Ad Creative Optimization",
+      "title": "Product Ad Variation: Background Test",
+      "prompt": "Create an ad creative variation for [product/service] testing [single variable]. Keep product angle and brand style consistent, leave headline and CTA space, use commercial lighting, and make the visual suitable for A/B testing.",
+      "best_for": "Production services, client deliverables, ad testing, asset bundles, e-commerce, brand systems",
+      "framework": "S.E.E.D. - Subject, Elements, Environment, Details",
+      "tags": [
+        "ad-creative-optimization",
+        "product-ad-variation-background-test",
+        "chatgpt-image-2",
+        "production-ready"
+      ]
+    },
+    {
+      "id": "P2-032",
+      "phase": "Phase 2",
+      "category": "Ad Creative Optimization",
+      "title": "Product Ad Variation: Emotional Angle",
+      "prompt": "Create an ad creative variation for [product/service] testing [single variable]. Keep product angle and brand style consistent, leave headline and CTA space, use commercial lighting, and make the visual suitable for A/B testing.",
+      "best_for": "Production services, client deliverables, ad testing, asset bundles, e-commerce, brand systems",
+      "framework": "S.E.E.D. - Subject, Elements, Environment, Details",
+      "tags": [
+        "ad-creative-optimization",
+        "product-ad-variation-emotional-angle",
+        "chatgpt-image-2",
+        "production-ready"
+      ]
+    },
+    {
+      "id": "P2-033",
+      "phase": "Phase 2",
+      "category": "Ad Creative Optimization",
+      "title": "Product Ad Variation: Problem-Solution Visual",
+      "prompt": "Create an ad creative variation for [product/service] testing [single variable]. Keep product angle and brand style consistent, leave headline and CTA space, use commercial lighting, and make the visual suitable for A/B testing.",
+      "best_for": "Production services, client deliverables, ad testing, asset bundles, e-commerce, brand systems",
+      "framework": "S.E.E.D. - Subject, Elements, Environment, Details",
+      "tags": [
+        "ad-creative-optimization",
+        "product-ad-variation-problem-solution-visual",
+        "chatgpt-image-2",
+        "production-ready"
+      ]
+    },
+    {
+      "id": "P2-034",
+      "phase": "Phase 2",
+      "category": "Ad Creative Optimization",
+      "title": "Product Ad Variation: Benefit Hero",
+      "prompt": "Create an ad creative variation for [product/service] testing [single variable]. Keep product angle and brand style consistent, leave headline and CTA space, use commercial lighting, and make the visual suitable for A/B testing.",
+      "best_for": "Production services, client deliverables, ad testing, asset bundles, e-commerce, brand systems",
+      "framework": "S.E.E.D. - Subject, Elements, Environment, Details",
+      "tags": [
+        "ad-creative-optimization",
+        "product-ad-variation-benefit-hero",
+        "chatgpt-image-2",
+        "production-ready"
+      ]
+    },
+    {
+      "id": "P2-035",
+      "phase": "Phase 2",
+      "category": "Ad Creative Optimization",
+      "title": "Product Ad Variation: Audience-Specific Scene",
+      "prompt": "Create an ad creative variation for [product/service] testing [single variable]. Keep product angle and brand style consistent, leave headline and CTA space, use commercial lighting, and make the visual suitable for A/B testing.",
+      "best_for": "Production services, client deliverables, ad testing, asset bundles, e-commerce, brand systems",
+      "framework": "S.E.E.D. - Subject, Elements, Environment, Details",
+      "tags": [
+        "ad-creative-optimization",
+        "product-ad-variation-audience-specific-scene",
+        "chatgpt-image-2",
+        "production-ready"
+      ]
+    },
+    {
+      "id": "P2-036",
+      "phase": "Phase 2",
+      "category": "Ad Creative Optimization",
+      "title": "Product Ad Variation: Luxury Positioning",
+      "prompt": "Create an ad creative variation for [product/service] testing [single variable]. Keep product angle and brand style consistent, leave headline and CTA space, use commercial lighting, and make the visual suitable for A/B testing.",
+      "best_for": "Production services, client deliverables, ad testing, asset bundles, e-commerce, brand systems",
+      "framework": "S.E.E.D. - Subject, Elements, Environment, Details",
+      "tags": [
+        "ad-creative-optimization",
+        "product-ad-variation-luxury-positioning",
+        "chatgpt-image-2",
+        "production-ready"
+      ]
+    },
+    {
+      "id": "P2-037",
+      "phase": "Phase 2",
+      "category": "Ad Creative Optimization",
+      "title": "Product Ad Variation: UGC Style",
+      "prompt": "Create an ad creative variation for [product/service] testing [single variable]. Keep product angle and brand style consistent, leave headline and CTA space, use commercial lighting, and make the visual suitable for A/B testing.",
+      "best_for": "Production services, client deliverables, ad testing, asset bundles, e-commerce, brand systems",
+      "framework": "S.E.E.D. - Subject, Elements, Environment, Details",
+      "tags": [
+        "ad-creative-optimization",
+        "product-ad-variation-ugc-style",
+        "chatgpt-image-2",
+        "production-ready"
+      ]
+    },
+    {
+      "id": "P2-038",
+      "phase": "Phase 2",
+      "category": "Ad Creative Optimization",
+      "title": "Product Ad Variation: Offer Graphic Base",
+      "prompt": "Create an ad creative variation for [product/service] testing [single variable]. Keep product angle and brand style consistent, leave headline and CTA space, use commercial lighting, and make the visual suitable for A/B testing.",
+      "best_for": "Production services, client deliverables, ad testing, asset bundles, e-commerce, brand systems",
+      "framework": "S.E.E.D. - Subject, Elements, Environment, Details",
+      "tags": [
+        "ad-creative-optimization",
+        "product-ad-variation-offer-graphic-base",
+        "chatgpt-image-2",
+        "production-ready"
+      ]
+    },
+    {
+      "id": "P2-039",
+      "phase": "Phase 2",
+      "category": "Ad Creative Optimization",
+      "title": "Product Ad Variation: Trust Builder",
+      "prompt": "Create an ad creative variation for [product/service] testing [single variable]. Keep product angle and brand style consistent, leave headline and CTA space, use commercial lighting, and make the visual suitable for A/B testing.",
+      "best_for": "Production services, client deliverables, ad testing, asset bundles, e-commerce, brand systems",
+      "framework": "S.E.E.D. - Subject, Elements, Environment, Details",
+      "tags": [
+        "ad-creative-optimization",
+        "product-ad-variation-trust-builder",
+        "chatgpt-image-2",
+        "production-ready"
+      ]
+    },
+    {
+      "id": "P2-040",
+      "phase": "Phase 2",
+      "category": "Ad Creative Optimization",
+      "title": "Product Ad Variation: Urgency Campaign",
+      "prompt": "Create an ad creative variation for [product/service] testing [single variable]. Keep product angle and brand style consistent, leave headline and CTA space, use commercial lighting, and make the visual suitable for A/B testing.",
+      "best_for": "Production services, client deliverables, ad testing, asset bundles, e-commerce, brand systems",
+      "framework": "S.E.E.D. - Subject, Elements, Environment, Details",
+      "tags": [
+        "ad-creative-optimization",
+        "product-ad-variation-urgency-campaign",
+        "chatgpt-image-2",
+        "production-ready"
+      ]
+    },
+    {
+      "id": "P2-041",
+      "phase": "Phase 2",
+      "category": "Photorealistic Business and Lifestyle",
+      "title": "Professional Founder Headshot",
+      "prompt": "Create a photorealistic business or lifestyle image for [brand/service]. Use natural expressions, professional styling, realistic environment, 85mm lens, f/1.8, bokeh background, cinematic lighting, and strong commercial usability.",
+      "best_for": "Production services, client deliverables, ad testing, asset bundles, e-commerce, brand systems",
+      "framework": "S.E.E.D. - Subject, Elements, Environment, Details",
+      "tags": [
+        "photorealistic-business-and-lifestyle",
+        "professional-founder-headshot",
+        "chatgpt-image-2",
+        "production-ready"
+      ]
+    },
+    {
+      "id": "P2-042",
+      "phase": "Phase 2",
+      "category": "Photorealistic Business and Lifestyle",
+      "title": "Service Business Lifestyle Image",
+      "prompt": "Create a photorealistic business or lifestyle image for [brand/service]. Use natural expressions, professional styling, realistic environment, 85mm lens, f/1.8, bokeh background, cinematic lighting, and strong commercial usability.",
+      "best_for": "Production services, client deliverables, ad testing, asset bundles, e-commerce, brand systems",
+      "framework": "S.E.E.D. - Subject, Elements, Environment, Details",
+      "tags": [
+        "photorealistic-business-and-lifestyle",
+        "service-business-lifestyle-image",
+        "chatgpt-image-2",
+        "production-ready"
+      ]
+    },
+    {
+      "id": "P2-043",
+      "phase": "Phase 2",
+      "category": "Photorealistic Business and Lifestyle",
+      "title": "Premium Personal Brand Portrait",
+      "prompt": "Create a photorealistic business or lifestyle image for [brand/service]. Use natural expressions, professional styling, realistic environment, 85mm lens, f/1.8, bokeh background, cinematic lighting, and strong commercial usability.",
+      "best_for": "Production services, client deliverables, ad testing, asset bundles, e-commerce, brand systems",
+      "framework": "S.E.E.D. - Subject, Elements, Environment, Details",
+      "tags": [
+        "photorealistic-business-and-lifestyle",
+        "premium-personal-brand-portrait",
+        "chatgpt-image-2",
+        "production-ready"
+      ]
+    },
+    {
+      "id": "P2-044",
+      "phase": "Phase 2",
+      "category": "Photorealistic Business and Lifestyle",
+      "title": "Team Collaboration Stock Image",
+      "prompt": "Create a photorealistic business or lifestyle image for [brand/service]. Use natural expressions, professional styling, realistic environment, 85mm lens, f/1.8, bokeh background, cinematic lighting, and strong commercial usability.",
+      "best_for": "Production services, client deliverables, ad testing, asset bundles, e-commerce, brand systems",
+      "framework": "S.E.E.D. - Subject, Elements, Environment, Details",
+      "tags": [
+        "photorealistic-business-and-lifestyle",
+        "team-collaboration-stock-image",
+        "chatgpt-image-2",
+        "production-ready"
+      ]
+    },
+    {
+      "id": "P2-045",
+      "phase": "Phase 2",
+      "category": "Photorealistic Business and Lifestyle",
+      "title": "Coach or Consultant Brand Image",
+      "prompt": "Create a photorealistic business or lifestyle image for [brand/service]. Use natural expressions, professional styling, realistic environment, 85mm lens, f/1.8, bokeh background, cinematic lighting, and strong commercial usability.",
+      "best_for": "Production services, client deliverables, ad testing, asset bundles, e-commerce, brand systems",
+      "framework": "S.E.E.D. - Subject, Elements, Environment, Details",
+      "tags": [
+        "photorealistic-business-and-lifestyle",
+        "coach-or-consultant-brand-image",
+        "chatgpt-image-2",
+        "production-ready"
+      ]
+    },
+    {
+      "id": "P2-046",
+      "phase": "Phase 2",
+      "category": "Photorealistic Business and Lifestyle",
+      "title": "Local Business Website Hero",
+      "prompt": "Create a photorealistic business or lifestyle image for [brand/service]. Use natural expressions, professional styling, realistic environment, 85mm lens, f/1.8, bokeh background, cinematic lighting, and strong commercial usability.",
+      "best_for": "Production services, client deliverables, ad testing, asset bundles, e-commerce, brand systems",
+      "framework": "S.E.E.D. - Subject, Elements, Environment, Details",
+      "tags": [
+        "photorealistic-business-and-lifestyle",
+        "local-business-website-hero",
+        "chatgpt-image-2",
+        "production-ready"
+      ]
+    },
+    {
+      "id": "P2-047",
+      "phase": "Phase 2",
+      "category": "Photorealistic Business and Lifestyle",
+      "title": "Lifestyle Social Content Image",
+      "prompt": "Create a photorealistic business or lifestyle image for [brand/service]. Use natural expressions, professional styling, realistic environment, 85mm lens, f/1.8, bokeh background, cinematic lighting, and strong commercial usability.",
+      "best_for": "Production services, client deliverables, ad testing, asset bundles, e-commerce, brand systems",
+      "framework": "S.E.E.D. - Subject, Elements, Environment, Details",
+      "tags": [
+        "photorealistic-business-and-lifestyle",
+        "lifestyle-social-content-image",
+        "chatgpt-image-2",
+        "production-ready"
+      ]
+    },
+    {
+      "id": "P2-048",
+      "phase": "Phase 2",
+      "category": "Photorealistic Business and Lifestyle",
+      "title": "Professional Workshop or Webinar Image",
+      "prompt": "Create a photorealistic business or lifestyle image for [brand/service]. Use natural expressions, professional styling, realistic environment, 85mm lens, f/1.8, bokeh background, cinematic lighting, and strong commercial usability.",
+      "best_for": "Production services, client deliverables, ad testing, asset bundles, e-commerce, brand systems",
+      "framework": "S.E.E.D. - Subject, Elements, Environment, Details",
+      "tags": [
+        "photorealistic-business-and-lifestyle",
+        "professional-workshop-or-webinar-image",
+        "chatgpt-image-2",
+        "production-ready"
+      ]
+    },
+    {
+      "id": "P2-049",
+      "phase": "Phase 2",
+      "category": "Photorealistic Business and Lifestyle",
+      "title": "Health and Wellness Lifestyle Image",
+      "prompt": "Create a photorealistic business or lifestyle image for [brand/service]. Use natural expressions, professional styling, realistic environment, 85mm lens, f/1.8, bokeh background, cinematic lighting, and strong commercial usability.",
+      "best_for": "Production services, client deliverables, ad testing, asset bundles, e-commerce, brand systems",
+      "framework": "S.E.E.D. - Subject, Elements, Environment, Details",
+      "tags": [
+        "photorealistic-business-and-lifestyle",
+        "health-and-wellness-lifestyle-image",
+        "chatgpt-image-2",
+        "production-ready"
+      ]
+    },
+    {
+      "id": "P2-050",
+      "phase": "Phase 2",
+      "category": "Photorealistic Business and Lifestyle",
+      "title": "Luxury Client Experience Image",
+      "prompt": "Create a photorealistic business or lifestyle image for [brand/service]. Use natural expressions, professional styling, realistic environment, 85mm lens, f/1.8, bokeh background, cinematic lighting, and strong commercial usability.",
+      "best_for": "Production services, client deliverables, ad testing, asset bundles, e-commerce, brand systems",
+      "framework": "S.E.E.D. - Subject, Elements, Environment, Details",
+      "tags": [
+        "photorealistic-business-and-lifestyle",
+        "luxury-client-experience-image",
+        "chatgpt-image-2",
+        "production-ready"
+      ]
+    },
+    {
+      "id": "P2-051",
+      "phase": "Phase 2",
+      "category": "Product-Focused E-Commerce and Mockups",
+      "title": "Minimalist Studio Product Hero",
+      "prompt": "Create a sharp e-commerce product image of [product]. Use a clean background or [surface], accurate proportions, soft shadows, crisp focus, realistic materials, and clear product visibility. No labels unless supplied, no grids, no split screen.",
+      "best_for": "Production services, client deliverables, ad testing, asset bundles, e-commerce, brand systems",
+      "framework": "S.E.E.D. - Subject, Elements, Environment, Details",
+      "tags": [
+        "product-focused-e-commerce-and-mockups",
+        "minimalist-studio-product-hero",
+        "chatgpt-image-2",
+        "production-ready"
+      ]
+    },
+    {
+      "id": "P2-052",
+      "phase": "Phase 2",
+      "category": "Product-Focused E-Commerce and Mockups",
+      "title": "Natural Stone Product Mockup",
+      "prompt": "Create a photorealistic standalone product mockup of [product] resting on a natural stone surface. Bathe the scene in soft directional morning sunlight with realistic shadows and cinematic depth of field. Keep a clean singular focus. Strictly no labels unless supplied, no grids, and no split-screen layouts.",
+      "best_for": "Production services, client deliverables, ad testing, asset bundles, e-commerce, brand systems",
+      "framework": "S.E.E.D. - Subject, Elements, Environment, Details",
+      "tags": [
+        "product-focused-e-commerce-and-mockups",
+        "natural-stone-product-mockup",
+        "chatgpt-image-2",
+        "production-ready"
+      ]
+    },
+    {
+      "id": "P2-053",
+      "phase": "Phase 2",
+      "category": "Product-Focused E-Commerce and Mockups",
+      "title": "Amazon Main Listing Image",
+      "prompt": "Create a clean e-commerce main listing image of [product] on a pure white background. Center the product, use sharp focus, accurate proportions, realistic shadow, no props, no hands, no lifestyle environment, and no extra text.",
+      "best_for": "Production services, client deliverables, ad testing, asset bundles, e-commerce, brand systems",
+      "framework": "S.E.E.D. - Subject, Elements, Environment, Details",
+      "tags": [
+        "product-focused-e-commerce-and-mockups",
+        "amazon-main-listing-image",
+        "chatgpt-image-2",
+        "production-ready"
+      ]
+    },
+    {
+      "id": "P2-054",
+      "phase": "Phase 2",
+      "category": "Product-Focused E-Commerce and Mockups",
+      "title": "Amazon Secondary Lifestyle Image",
+      "prompt": "Create a sharp e-commerce product image of [product]. Use a clean background or [surface], accurate proportions, soft shadows, crisp focus, realistic materials, and clear product visibility. No labels unless supplied, no grids, no split screen.",
+      "best_for": "Production services, client deliverables, ad testing, asset bundles, e-commerce, brand systems",
+      "framework": "S.E.E.D. - Subject, Elements, Environment, Details",
+      "tags": [
+        "product-focused-e-commerce-and-mockups",
+        "amazon-secondary-lifestyle-image",
+        "chatgpt-image-2",
+        "production-ready"
+      ]
+    },
+    {
+      "id": "P2-055",
+      "phase": "Phase 2",
+      "category": "Product-Focused E-Commerce and Mockups",
+      "title": "Product Feature Callout Base",
+      "prompt": "Create a sharp e-commerce product image of [product]. Use a clean background or [surface], accurate proportions, soft shadows, crisp focus, realistic materials, and clear product visibility. No labels unless supplied, no grids, no split screen.",
+      "best_for": "Production services, client deliverables, ad testing, asset bundles, e-commerce, brand systems",
+      "framework": "S.E.E.D. - Subject, Elements, Environment, Details",
+      "tags": [
+        "product-focused-e-commerce-and-mockups",
+        "product-feature-callout-base",
+        "chatgpt-image-2",
+        "production-ready"
+      ]
+    },
+    {
+      "id": "P2-056",
+      "phase": "Phase 2",
+      "category": "Product-Focused E-Commerce and Mockups",
+      "title": "Product Bundle Flat Lay",
+      "prompt": "Create a sharp e-commerce product image of [product]. Use a clean background or [surface], accurate proportions, soft shadows, crisp focus, realistic materials, and clear product visibility. No labels unless supplied, no grids, no split screen.",
+      "best_for": "Production services, client deliverables, ad testing, asset bundles, e-commerce, brand systems",
+      "framework": "S.E.E.D. - Subject, Elements, Environment, Details",
+      "tags": [
+        "product-focused-e-commerce-and-mockups",
+        "product-bundle-flat-lay",
+        "chatgpt-image-2",
+        "production-ready"
+      ]
+    },
+    {
+      "id": "P2-057",
+      "phase": "Phase 2",
+      "category": "Product-Focused E-Commerce and Mockups",
+      "title": "Luxury Beauty Product Shot",
+      "prompt": "Create a sharp e-commerce product image of [product]. Use a clean background or [surface], accurate proportions, soft shadows, crisp focus, realistic materials, and clear product visibility. No labels unless supplied, no grids, no split screen.",
+      "best_for": "Production services, client deliverables, ad testing, asset bundles, e-commerce, brand systems",
+      "framework": "S.E.E.D. - Subject, Elements, Environment, Details",
+      "tags": [
+        "product-focused-e-commerce-and-mockups",
+        "luxury-beauty-product-shot",
+        "chatgpt-image-2",
+        "production-ready"
+      ]
+    },
+    {
+      "id": "P2-058",
+      "phase": "Phase 2",
+      "category": "Product-Focused E-Commerce and Mockups",
+      "title": "Tech Product Mockup",
+      "prompt": "Create a sharp e-commerce product image of [product]. Use a clean background or [surface], accurate proportions, soft shadows, crisp focus, realistic materials, and clear product visibility. No labels unless supplied, no grids, no split screen.",
+      "best_for": "Production services, client deliverables, ad testing, asset bundles, e-commerce, brand systems",
+      "framework": "S.E.E.D. - Subject, Elements, Environment, Details",
+      "tags": [
+        "product-focused-e-commerce-and-mockups",
+        "tech-product-mockup",
+        "chatgpt-image-2",
+        "production-ready"
+      ]
+    },
+    {
+      "id": "P2-059",
+      "phase": "Phase 2",
+      "category": "Product-Focused E-Commerce and Mockups",
+      "title": "Food Product Packaging Shot",
+      "prompt": "Create a sharp e-commerce product image of [product]. Use a clean background or [surface], accurate proportions, soft shadows, crisp focus, realistic materials, and clear product visibility. No labels unless supplied, no grids, no split screen.",
+      "best_for": "Production services, client deliverables, ad testing, asset bundles, e-commerce, brand systems",
+      "framework": "S.E.E.D. - Subject, Elements, Environment, Details",
+      "tags": [
+        "product-focused-e-commerce-and-mockups",
+        "food-product-packaging-shot",
+        "chatgpt-image-2",
+        "production-ready"
+      ]
+    },
+    {
+      "id": "P2-060",
+      "phase": "Phase 2",
+      "category": "Product-Focused E-Commerce and Mockups",
+      "title": "Handmade Product Etsy Image",
+      "prompt": "Create a sharp e-commerce product image of [product]. Use a clean background or [surface], accurate proportions, soft shadows, crisp focus, realistic materials, and clear product visibility. No labels unless supplied, no grids, no split screen.",
+      "best_for": "Production services, client deliverables, ad testing, asset bundles, e-commerce, brand systems",
+      "framework": "S.E.E.D. - Subject, Elements, Environment, Details",
+      "tags": [
+        "product-focused-e-commerce-and-mockups",
+        "handmade-product-etsy-image",
+        "chatgpt-image-2",
+        "production-ready"
+      ]
+    },
+    {
+      "id": "P2-061",
+      "phase": "Phase 2",
+      "category": "Brand-Stylized Visual Systems",
+      "title": "Corporate Memphis SaaS Illustration",
+      "prompt": "Create a brand-stylized illustration for [SaaS product/topic] using flat vector illustration, isometric view, pastel colors, sleek lines, and corporate Memphis style. Include symbolic elements for [benefit] and leave room for headline placement.",
+      "best_for": "Production services, client deliverables, ad testing, asset bundles, e-commerce, brand systems",
+      "framework": "S.E.E.D. - Subject, Elements, Environment, Details",
+      "tags": [
+        "brand-stylized-visual-systems",
+        "corporate-memphis-saas-illustration",
+        "chatgpt-image-2",
+        "production-ready"
+      ]
+    },
+    {
+      "id": "P2-062",
+      "phase": "Phase 2",
+      "category": "Brand-Stylized Visual Systems",
+      "title": "Isometric Workflow Illustration",
+      "prompt": "Create a brand-stylized visual for [topic] using flat vector illustration, isometric view, pastel colors, sleek lines, corporate Memphis style, and consistent brand palette. Leave room for headline placement and avoid random text.",
+      "best_for": "Production services, client deliverables, ad testing, asset bundles, e-commerce, brand systems",
+      "framework": "S.E.E.D. - Subject, Elements, Environment, Details",
+      "tags": [
+        "brand-stylized-visual-systems",
+        "isometric-workflow-illustration",
+        "chatgpt-image-2",
+        "production-ready"
+      ]
+    },
+    {
+      "id": "P2-063",
+      "phase": "Phase 2",
+      "category": "Brand-Stylized Visual Systems",
+      "title": "Fintech Brand Illustration",
+      "prompt": "Create a brand-stylized visual for [topic] using flat vector illustration, isometric view, pastel colors, sleek lines, corporate Memphis style, and consistent brand palette. Leave room for headline placement and avoid random text.",
+      "best_for": "Production services, client deliverables, ad testing, asset bundles, e-commerce, brand systems",
+      "framework": "S.E.E.D. - Subject, Elements, Environment, Details",
+      "tags": [
+        "brand-stylized-visual-systems",
+        "fintech-brand-illustration",
+        "chatgpt-image-2",
+        "production-ready"
+      ]
+    },
+    {
+      "id": "P2-064",
+      "phase": "Phase 2",
+      "category": "Brand-Stylized Visual Systems",
+      "title": "Healthcare Brand Illustration",
+      "prompt": "Create a brand-stylized visual for [topic] using flat vector illustration, isometric view, pastel colors, sleek lines, corporate Memphis style, and consistent brand palette. Leave room for headline placement and avoid random text.",
+      "best_for": "Production services, client deliverables, ad testing, asset bundles, e-commerce, brand systems",
+      "framework": "S.E.E.D. - Subject, Elements, Environment, Details",
+      "tags": [
+        "brand-stylized-visual-systems",
+        "healthcare-brand-illustration",
+        "chatgpt-image-2",
+        "production-ready"
+      ]
+    },
+    {
+      "id": "P2-065",
+      "phase": "Phase 2",
+      "category": "Brand-Stylized Visual Systems",
+      "title": "Education Brand Illustration",
+      "prompt": "Create a brand-stylized visual for [topic] using flat vector illustration, isometric view, pastel colors, sleek lines, corporate Memphis style, and consistent brand palette. Leave room for headline placement and avoid random text.",
+      "best_for": "Production services, client deliverables, ad testing, asset bundles, e-commerce, brand systems",
+      "framework": "S.E.E.D. - Subject, Elements, Environment, Details",
+      "tags": [
+        "brand-stylized-visual-systems",
+        "education-brand-illustration",
+        "chatgpt-image-2",
+        "production-ready"
+      ]
+    },
+    {
+      "id": "P2-066",
+      "phase": "Phase 2",
+      "category": "Brand-Stylized Visual Systems",
+      "title": "Data and Analytics Illustration",
+      "prompt": "Create a brand-stylized visual for [topic] using flat vector illustration, isometric view, pastel colors, sleek lines, corporate Memphis style, and consistent brand palette. Leave room for headline placement and avoid random text.",
+      "best_for": "Production services, client deliverables, ad testing, asset bundles, e-commerce, brand systems",
+      "framework": "S.E.E.D. - Subject, Elements, Environment, Details",
+      "tags": [
+        "brand-stylized-visual-systems",
+        "data-and-analytics-illustration",
+        "chatgpt-image-2",
+        "production-ready"
+      ]
+    },
+    {
+      "id": "P2-067",
+      "phase": "Phase 2",
+      "category": "Brand-Stylized Visual Systems",
+      "title": "Cybersecurity Brand Illustration",
+      "prompt": "Create a brand-stylized visual for [topic] using flat vector illustration, isometric view, pastel colors, sleek lines, corporate Memphis style, and consistent brand palette. Leave room for headline placement and avoid random text.",
+      "best_for": "Production services, client deliverables, ad testing, asset bundles, e-commerce, brand systems",
+      "framework": "S.E.E.D. - Subject, Elements, Environment, Details",
+      "tags": [
+        "brand-stylized-visual-systems",
+        "cybersecurity-brand-illustration",
+        "chatgpt-image-2",
+        "production-ready"
+      ]
+    },
+    {
+      "id": "P2-068",
+      "phase": "Phase 2",
+      "category": "Brand-Stylized Visual Systems",
+      "title": "AI Automation Brand Graphic",
+      "prompt": "Create a brand-stylized visual for [topic] using flat vector illustration, isometric view, pastel colors, sleek lines, corporate Memphis style, and consistent brand palette. Leave room for headline placement and avoid random text.",
+      "best_for": "Production services, client deliverables, ad testing, asset bundles, e-commerce, brand systems",
+      "framework": "S.E.E.D. - Subject, Elements, Environment, Details",
+      "tags": [
+        "brand-stylized-visual-systems",
+        "ai-automation-brand-graphic",
+        "chatgpt-image-2",
+        "production-ready"
+      ]
+    },
+    {
+      "id": "P2-069",
+      "phase": "Phase 2",
+      "category": "Brand-Stylized Visual Systems",
+      "title": "Corporate Values Illustration",
+      "prompt": "Create a brand-stylized visual for [topic] using flat vector illustration, isometric view, pastel colors, sleek lines, corporate Memphis style, and consistent brand palette. Leave room for headline placement and avoid random text.",
+      "best_for": "Production services, client deliverables, ad testing, asset bundles, e-commerce, brand systems",
+      "framework": "S.E.E.D. - Subject, Elements, Environment, Details",
+      "tags": [
+        "brand-stylized-visual-systems",
+        "corporate-values-illustration",
+        "chatgpt-image-2",
+        "production-ready"
+      ]
+    },
+    {
+      "id": "P2-070",
+      "phase": "Phase 2",
+      "category": "Brand-Stylized Visual Systems",
+      "title": "Blog Image Series Template",
+      "prompt": "Create a brand-stylized visual for [topic] using flat vector illustration, isometric view, pastel colors, sleek lines, corporate Memphis style, and consistent brand palette. Leave room for headline placement and avoid random text.",
+      "best_for": "Production services, client deliverables, ad testing, asset bundles, e-commerce, brand systems",
+      "framework": "S.E.E.D. - Subject, Elements, Environment, Details",
+      "tags": [
+        "brand-stylized-visual-systems",
+        "blog-image-series-template",
+        "chatgpt-image-2",
+        "production-ready"
+      ]
+    },
+    {
+      "id": "P2-071",
+      "phase": "Phase 2",
+      "category": "High-Concept, Entertainment, and Storytelling",
+      "title": "Cyberpunk Futuristic Cityscape",
+      "prompt": "Create a high-concept cyberpunk futuristic cityscape for [story/game/channel topic] with neon reflections, rainy streets, towering buildings, cinematic atmosphere, ultra-detailed concept art, dramatic lighting, and 8k visual polish. Leave a clear focal area for title placement.",
+      "best_for": "Production services, client deliverables, ad testing, asset bundles, e-commerce, brand systems",
+      "framework": "S.E.E.D. - Subject, Elements, Environment, Details",
+      "tags": [
+        "high-concept-entertainment-and-storytelling",
+        "cyberpunk-futuristic-cityscape",
+        "chatgpt-image-2",
+        "production-ready"
+      ]
+    },
+    {
+      "id": "P2-072",
+      "phase": "Phase 2",
+      "category": "High-Concept, Entertainment, and Storytelling",
+      "title": "Fantasy Product World",
+      "prompt": "Create a high-concept visual for [story/channel/product] using [genre style], dramatic lighting, cinematic composition, ultra-detailed concept art, rich atmosphere, and a clear focal area for titles or overlays.",
+      "best_for": "Production services, client deliverables, ad testing, asset bundles, e-commerce, brand systems",
+      "framework": "S.E.E.D. - Subject, Elements, Environment, Details",
+      "tags": [
+        "high-concept-entertainment-and-storytelling",
+        "fantasy-product-world",
+        "chatgpt-image-2",
+        "production-ready"
+      ]
+    },
+    {
+      "id": "P2-073",
+      "phase": "Phase 2",
+      "category": "High-Concept, Entertainment, and Storytelling",
+      "title": "YouTube Thumbnail Concept Background",
+      "prompt": "Create a high-concept visual for [story/channel/product] using [genre style], dramatic lighting, cinematic composition, ultra-detailed concept art, rich atmosphere, and a clear focal area for titles or overlays.",
+      "best_for": "Production services, client deliverables, ad testing, asset bundles, e-commerce, brand systems",
+      "framework": "S.E.E.D. - Subject, Elements, Environment, Details",
+      "tags": [
+        "high-concept-entertainment-and-storytelling",
+        "youtube-thumbnail-concept-background",
+        "chatgpt-image-2",
+        "production-ready"
+      ]
+    },
+    {
+      "id": "P2-074",
+      "phase": "Phase 2",
+      "category": "High-Concept, Entertainment, and Storytelling",
+      "title": "Sci-Fi Brand Campaign Visual",
+      "prompt": "Create a high-concept visual for [story/channel/product] using [genre style], dramatic lighting, cinematic composition, ultra-detailed concept art, rich atmosphere, and a clear focal area for titles or overlays.",
+      "best_for": "Production services, client deliverables, ad testing, asset bundles, e-commerce, brand systems",
+      "framework": "S.E.E.D. - Subject, Elements, Environment, Details",
+      "tags": [
+        "high-concept-entertainment-and-storytelling",
+        "sci-fi-brand-campaign-visual",
+        "chatgpt-image-2",
+        "production-ready"
+      ]
+    },
+    {
+      "id": "P2-075",
+      "phase": "Phase 2",
+      "category": "High-Concept, Entertainment, and Storytelling",
+      "title": "Game Character Concept Sheet",
+      "prompt": "Create a high-concept visual for [story/channel/product] using [genre style], dramatic lighting, cinematic composition, ultra-detailed concept art, rich atmosphere, and a clear focal area for titles or overlays.",
+      "best_for": "Production services, client deliverables, ad testing, asset bundles, e-commerce, brand systems",
+      "framework": "S.E.E.D. - Subject, Elements, Environment, Details",
+      "tags": [
+        "high-concept-entertainment-and-storytelling",
+        "game-character-concept-sheet",
+        "chatgpt-image-2",
+        "production-ready"
+      ]
+    },
+    {
+      "id": "P2-076",
+      "phase": "Phase 2",
+      "category": "High-Concept, Entertainment, and Storytelling",
+      "title": "Book Cover Concept Art",
+      "prompt": "Create a high-concept visual for [story/channel/product] using [genre style], dramatic lighting, cinematic composition, ultra-detailed concept art, rich atmosphere, and a clear focal area for titles or overlays.",
+      "best_for": "Production services, client deliverables, ad testing, asset bundles, e-commerce, brand systems",
+      "framework": "S.E.E.D. - Subject, Elements, Environment, Details",
+      "tags": [
+        "high-concept-entertainment-and-storytelling",
+        "book-cover-concept-art",
+        "chatgpt-image-2",
+        "production-ready"
+      ]
+    },
+    {
+      "id": "P2-077",
+      "phase": "Phase 2",
+      "category": "High-Concept, Entertainment, and Storytelling",
+      "title": "Album or Podcast Cover Art",
+      "prompt": "Create a high-concept visual for [story/channel/product] using [genre style], dramatic lighting, cinematic composition, ultra-detailed concept art, rich atmosphere, and a clear focal area for titles or overlays.",
+      "best_for": "Production services, client deliverables, ad testing, asset bundles, e-commerce, brand systems",
+      "framework": "S.E.E.D. - Subject, Elements, Environment, Details",
+      "tags": [
+        "high-concept-entertainment-and-storytelling",
+        "album-or-podcast-cover-art",
+        "chatgpt-image-2",
+        "production-ready"
+      ]
+    },
+    {
+      "id": "P2-078",
+      "phase": "Phase 2",
+      "category": "High-Concept, Entertainment, and Storytelling",
+      "title": "Surreal Marketing Visual",
+      "prompt": "Create a high-concept visual for [story/channel/product] using [genre style], dramatic lighting, cinematic composition, ultra-detailed concept art, rich atmosphere, and a clear focal area for titles or overlays.",
+      "best_for": "Production services, client deliverables, ad testing, asset bundles, e-commerce, brand systems",
+      "framework": "S.E.E.D. - Subject, Elements, Environment, Details",
+      "tags": [
+        "high-concept-entertainment-and-storytelling",
+        "surreal-marketing-visual",
+        "chatgpt-image-2",
+        "production-ready"
+      ]
+    },
+    {
+      "id": "P2-079",
+      "phase": "Phase 2",
+      "category": "High-Concept, Entertainment, and Storytelling",
+      "title": "Luxury Futuristic Product Environment",
+      "prompt": "Create a high-concept visual for [story/channel/product] using [genre style], dramatic lighting, cinematic composition, ultra-detailed concept art, rich atmosphere, and a clear focal area for titles or overlays.",
+      "best_for": "Production services, client deliverables, ad testing, asset bundles, e-commerce, brand systems",
+      "framework": "S.E.E.D. - Subject, Elements, Environment, Details",
+      "tags": [
+        "high-concept-entertainment-and-storytelling",
+        "luxury-futuristic-product-environment",
+        "chatgpt-image-2",
+        "production-ready"
+      ]
+    },
+    {
+      "id": "P2-080",
+      "phase": "Phase 2",
+      "category": "High-Concept, Entertainment, and Storytelling",
+      "title": "Mythic Brand Story Visual",
+      "prompt": "Create a high-concept visual for [story/channel/product] using [genre style], dramatic lighting, cinematic composition, ultra-detailed concept art, rich atmosphere, and a clear focal area for titles or overlays.",
+      "best_for": "Production services, client deliverables, ad testing, asset bundles, e-commerce, brand systems",
+      "framework": "S.E.E.D. - Subject, Elements, Environment, Details",
+      "tags": [
+        "high-concept-entertainment-and-storytelling",
+        "mythic-brand-story-visual",
+        "chatgpt-image-2",
+        "production-ready"
+      ]
+    },
+    {
+      "id": "P2-081",
+      "phase": "Phase 2",
+      "category": "Brand Consistency and Visual Systems",
+      "title": "Brand Visual Direction Board",
+      "prompt": "Create a cohesive brand system preview for [brand] showing consistent colors, photography mood, product presentation, layout rhythm, patterns, icons, and campaign applications. Make it client-presentation ready.",
+      "best_for": "Production services, client deliverables, ad testing, asset bundles, e-commerce, brand systems",
+      "framework": "S.E.E.D. - Subject, Elements, Environment, Details",
+      "tags": [
+        "brand-consistency-and-visual-systems",
+        "brand-visual-direction-board",
+        "chatgpt-image-2",
+        "production-ready"
+      ]
+    },
+    {
+      "id": "P2-082",
+      "phase": "Phase 2",
+      "category": "Brand Consistency and Visual Systems",
+      "title": "Product Photography Style Guide Image",
+      "prompt": "Create a cohesive brand system preview for [brand] showing consistent colors, photography mood, product presentation, layout rhythm, patterns, icons, and campaign applications. Make it client-presentation ready.",
+      "best_for": "Production services, client deliverables, ad testing, asset bundles, e-commerce, brand systems",
+      "framework": "S.E.E.D. - Subject, Elements, Environment, Details",
+      "tags": [
+        "brand-consistency-and-visual-systems",
+        "product-photography-style-guide-image",
+        "chatgpt-image-2",
+        "production-ready"
+      ]
+    },
+    {
+      "id": "P2-083",
+      "phase": "Phase 2",
+      "category": "Brand Consistency and Visual Systems",
+      "title": "Social Media Grid System Preview",
+      "prompt": "Create a cohesive brand system preview for [brand] showing consistent colors, photography mood, product presentation, layout rhythm, patterns, icons, and campaign applications. Make it client-presentation ready.",
+      "best_for": "Production services, client deliverables, ad testing, asset bundles, e-commerce, brand systems",
+      "framework": "S.E.E.D. - Subject, Elements, Environment, Details",
+      "tags": [
+        "brand-consistency-and-visual-systems",
+        "social-media-grid-system-preview",
+        "chatgpt-image-2",
+        "production-ready"
+      ]
+    },
+    {
+      "id": "P2-084",
+      "phase": "Phase 2",
+      "category": "Brand Consistency and Visual Systems",
+      "title": "Brand Pattern System",
+      "prompt": "Create a cohesive brand system preview for [brand] showing consistent colors, photography mood, product presentation, layout rhythm, patterns, icons, and campaign applications. Make it client-presentation ready.",
+      "best_for": "Production services, client deliverables, ad testing, asset bundles, e-commerce, brand systems",
+      "framework": "S.E.E.D. - Subject, Elements, Environment, Details",
+      "tags": [
+        "brand-consistency-and-visual-systems",
+        "brand-pattern-system",
+        "chatgpt-image-2",
+        "production-ready"
+      ]
+    },
+    {
+      "id": "P2-085",
+      "phase": "Phase 2",
+      "category": "Brand Consistency and Visual Systems",
+      "title": "Campaign Asset Family",
+      "prompt": "Create a cohesive brand system preview for [brand] showing consistent colors, photography mood, product presentation, layout rhythm, patterns, icons, and campaign applications. Make it client-presentation ready.",
+      "best_for": "Production services, client deliverables, ad testing, asset bundles, e-commerce, brand systems",
+      "framework": "S.E.E.D. - Subject, Elements, Environment, Details",
+      "tags": [
+        "brand-consistency-and-visual-systems",
+        "campaign-asset-family",
+        "chatgpt-image-2",
+        "production-ready"
+      ]
+    },
+    {
+      "id": "P2-086",
+      "phase": "Phase 2",
+      "category": "Brand Consistency and Visual Systems",
+      "title": "Brand Color Application Board",
+      "prompt": "Create a cohesive brand system preview for [brand] showing consistent colors, photography mood, product presentation, layout rhythm, patterns, icons, and campaign applications. Make it client-presentation ready.",
+      "best_for": "Production services, client deliverables, ad testing, asset bundles, e-commerce, brand systems",
+      "framework": "S.E.E.D. - Subject, Elements, Environment, Details",
+      "tags": [
+        "brand-consistency-and-visual-systems",
+        "brand-color-application-board",
+        "chatgpt-image-2",
+        "production-ready"
+      ]
+    },
+    {
+      "id": "P2-087",
+      "phase": "Phase 2",
+      "category": "Brand Consistency and Visual Systems",
+      "title": "Brand Photography Mood Board",
+      "prompt": "Create a cohesive brand system preview for [brand] showing consistent colors, photography mood, product presentation, layout rhythm, patterns, icons, and campaign applications. Make it client-presentation ready.",
+      "best_for": "Production services, client deliverables, ad testing, asset bundles, e-commerce, brand systems",
+      "framework": "S.E.E.D. - Subject, Elements, Environment, Details",
+      "tags": [
+        "brand-consistency-and-visual-systems",
+        "brand-photography-mood-board",
+        "chatgpt-image-2",
+        "production-ready"
+      ]
+    },
+    {
+      "id": "P2-088",
+      "phase": "Phase 2",
+      "category": "Brand Consistency and Visual Systems",
+      "title": "Client Pitch Visual System",
+      "prompt": "Create a cohesive brand system preview for [brand] showing consistent colors, photography mood, product presentation, layout rhythm, patterns, icons, and campaign applications. Make it client-presentation ready.",
+      "best_for": "Production services, client deliverables, ad testing, asset bundles, e-commerce, brand systems",
+      "framework": "S.E.E.D. - Subject, Elements, Environment, Details",
+      "tags": [
+        "brand-consistency-and-visual-systems",
+        "client-pitch-visual-system",
+        "chatgpt-image-2",
+        "production-ready"
+      ]
+    },
+    {
+      "id": "P2-089",
+      "phase": "Phase 2",
+      "category": "Brand Consistency and Visual Systems",
+      "title": "Brand Icon and Pattern Kit",
+      "prompt": "Create a cohesive brand system preview for [brand] showing consistent colors, photography mood, product presentation, layout rhythm, patterns, icons, and campaign applications. Make it client-presentation ready.",
+      "best_for": "Production services, client deliverables, ad testing, asset bundles, e-commerce, brand systems",
+      "framework": "S.E.E.D. - Subject, Elements, Environment, Details",
+      "tags": [
+        "brand-consistency-and-visual-systems",
+        "brand-icon-and-pattern-kit",
+        "chatgpt-image-2",
+        "production-ready"
+      ]
+    },
+    {
+      "id": "P2-090",
+      "phase": "Phase 2",
+      "category": "Brand Consistency and Visual Systems",
+      "title": "Complete Mini Brand Campaign Preview",
+      "prompt": "Create a cohesive brand system preview for [brand] showing consistent colors, photography mood, product presentation, layout rhythm, patterns, icons, and campaign applications. Make it client-presentation ready.",
+      "best_for": "Production services, client deliverables, ad testing, asset bundles, e-commerce, brand systems",
+      "framework": "S.E.E.D. - Subject, Elements, Environment, Details",
+      "tags": [
+        "brand-consistency-and-visual-systems",
+        "complete-mini-brand-campaign-preview",
+        "chatgpt-image-2",
+        "production-ready"
+      ]
+    },
+    {
+      "id": "P2-091",
+      "phase": "Phase 2",
+      "category": "Bonus Production Prompts for Service Packages",
+      "title": "AI Influencer Monthly Content Pack",
+      "prompt": "Create a complete service-package preview for [client/business] with multiple coordinated deliverables. Keep the same visual language across all assets, include production-ready spacing, and make it suitable for client review.",
+      "best_for": "Production services, client deliverables, ad testing, asset bundles, e-commerce, brand systems",
+      "framework": "S.E.E.D. - Subject, Elements, Environment, Details",
+      "tags": [
+        "bonus-production-prompts-for-service-packages",
+        "ai-influencer-monthly-content-pack",
+        "chatgpt-image-2",
+        "production-ready"
+      ]
+    },
+    {
+      "id": "P2-092",
+      "phase": "Phase 2",
+      "category": "Bonus Production Prompts for Service Packages",
+      "title": "E-Commerce Launch Image Bundle",
+      "prompt": "Create a complete service-package preview for [client/business] with multiple coordinated deliverables. Keep the same visual language across all assets, include production-ready spacing, and make it suitable for client review.",
+      "best_for": "Production services, client deliverables, ad testing, asset bundles, e-commerce, brand systems",
+      "framework": "S.E.E.D. - Subject, Elements, Environment, Details",
+      "tags": [
+        "bonus-production-prompts-for-service-packages",
+        "e-commerce-launch-image-bundle",
+        "chatgpt-image-2",
+        "production-ready"
+      ]
+    },
+    {
+      "id": "P2-093",
+      "phase": "Phase 2",
+      "category": "Bonus Production Prompts for Service Packages",
+      "title": "Paid Ad Testing Matrix",
+      "prompt": "Create a complete service-package preview for [client/business] with multiple coordinated deliverables. Keep the same visual language across all assets, include production-ready spacing, and make it suitable for client review.",
+      "best_for": "Production services, client deliverables, ad testing, asset bundles, e-commerce, brand systems",
+      "framework": "S.E.E.D. - Subject, Elements, Environment, Details",
+      "tags": [
+        "bonus-production-prompts-for-service-packages",
+        "paid-ad-testing-matrix",
+        "chatgpt-image-2",
+        "production-ready"
+      ]
+    },
+    {
+      "id": "P2-094",
+      "phase": "Phase 2",
+      "category": "Bonus Production Prompts for Service Packages",
+      "title": "Print-on-Demand Niche Collection",
+      "prompt": "Create a complete service-package preview for [client/business] with multiple coordinated deliverables. Keep the same visual language across all assets, include production-ready spacing, and make it suitable for client review.",
+      "best_for": "Production services, client deliverables, ad testing, asset bundles, e-commerce, brand systems",
+      "framework": "S.E.E.D. - Subject, Elements, Environment, Details",
+      "tags": [
+        "bonus-production-prompts-for-service-packages",
+        "print-on-demand-niche-collection",
+        "chatgpt-image-2",
+        "production-ready"
+      ]
+    },
+    {
+      "id": "P2-095",
+      "phase": "Phase 2",
+      "category": "Bonus Production Prompts for Service Packages",
+      "title": "Corporate Illustration Bundle Preview",
+      "prompt": "Create a complete service-package preview for [client/business] with multiple coordinated deliverables. Keep the same visual language across all assets, include production-ready spacing, and make it suitable for client review.",
+      "best_for": "Production services, client deliverables, ad testing, asset bundles, e-commerce, brand systems",
+      "framework": "S.E.E.D. - Subject, Elements, Environment, Details",
+      "tags": [
+        "bonus-production-prompts-for-service-packages",
+        "corporate-illustration-bundle-preview",
+        "chatgpt-image-2",
+        "production-ready"
+      ]
+    }
+  ]
+}
