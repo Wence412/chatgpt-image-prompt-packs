@@ -337,7 +337,7 @@ You're free to use, modify, and distribute these prompts. Just give credit where
 
 ---
 
-Made with 🎨 by **WenceStudio by SmartDesign**
+Made with 🎨 **WenceStudio by SmartDesign**
 
 *170 prompts. Infinite possibilities.*
 
