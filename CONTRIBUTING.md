@@ -362,6 +362,6 @@ Whether it's a single prompt, bug fix, or feature suggestion—your effort matte
 
 ---
 
-Made with 💜 by **WenceStudio by SmartDesign** | **ChatGPT-Image 2.0 Prompt Packs**
+Made with 💜 **WenceStudio by SmartDesign** | **ChatGPT-Image 2.0 Prompt Packs**
 
 </div>
