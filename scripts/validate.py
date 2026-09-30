@@ -11,6 +11,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 REQUIRED_FIELDS = {"id", "phase", "category", "title", "prompt", "best_for", "framework", "tags"}
+CAPABILITY_REQUIRED_FIELDS = {"id", "pack", "title", "operation", "prompt", "variables", "inputs", "output", "acceptance_criteria", "rights_and_safety", "evidence"}
 CATALOGS = [
     ROOT / "combined-prompt-library.md",
     ROOT / "phase-1-visual-prompt-pack.md",
@@ -85,6 +86,33 @@ def main() -> int:
     if mapped != ids:
         error(errors, "Category mapping does not cover exactly the prompt IDs")
 
+    capability_data = json.loads((ROOT / "capability-packs-v2.json").read_text(encoding="utf-8"))
+    capability_cards = capability_data.get("packs", [])
+    capability_ids: set[str] = set()
+    for index, card in enumerate(capability_cards, start=1):
+        missing = CAPABILITY_REQUIRED_FIELDS - card.keys()
+        if missing:
+            error(errors, f"Capability card #{index} is missing: {', '.join(sorted(missing))}")
+            continue
+        identifier = card["id"]
+        if not re.fullmatch(r"[A-Z]+-\d{3}", identifier):
+            error(errors, f"Invalid capability card ID: {identifier}")
+        if identifier in capability_ids or identifier in ids:
+            error(errors, f"Duplicate capability card ID: {identifier}")
+        capability_ids.add(identifier)
+        if card["operation"] not in {"generate", "edit", "extend", "compose", "iterate"}:
+            error(errors, f"Invalid operation for {identifier}: {card['operation']}")
+        if not isinstance(card["variables"], list):
+            error(errors, f"{identifier}.variables must be an array")
+        if not isinstance(card["acceptance_criteria"], list) or not card["acceptance_criteria"]:
+            error(errors, f"{identifier} must include acceptance criteria")
+        if card["output"].get("format") not in {"png", "jpeg", "webp"}:
+            error(errors, f"{identifier} has an unsupported output format")
+        if not {"requires_consent_for_people", "no_unlicensed_logos"} <= card["rights_and_safety"].keys():
+            error(errors, f"{identifier} is missing a rights-and-safety control")
+    if capability_data.get("metadata", {}).get("total_cards") != len(capability_cards):
+        error(errors, "Capability metadata total does not match the card list")
+
     combined = CATALOGS[0].read_text(encoding="utf-8")
     for identifier in ids:
         if identifier not in combined:
@@ -100,7 +128,7 @@ def main() -> int:
         print("Validation failed:", file=sys.stderr)
         print("\n".join(f"- {item}" for item in errors), file=sys.stderr)
         return 1
-    print(f"Validated {len(prompts)} prompts, categories, catalogs, and local links.")
+    print(f"Validated {len(prompts)} prompts, {len(capability_cards)} capability cards, categories, catalogs, and local links.")
     return 0
 
 

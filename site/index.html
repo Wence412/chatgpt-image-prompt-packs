@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="A searchable library of production-oriented GPT Image prompt cards.">
+    <title>Prompt Packs. WenceStudio</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <a class="skip-link" href="#library">Skip to prompt library</a>
+    <header class="site-header">
+      <p class="eyebrow">WenceStudio by SmartDesign</p>
+      <div class="hero">
+        <div>
+          <h1>Prompt packs<br><em>for real visual work.</em></h1>
+          <p class="lede">Search production-oriented generation and editing prompts. Each capability card includes inputs, output requirements, and a human review gate.</p>
+        </div>
+        <aside class="release-note" aria-label="Library status">
+          <span>Library status</span>
+          <strong id="count">Loading</strong>
+          <small>Prompt templates and capability cards</small>
+        </aside>
+      </div>
+    </header>
+
+    <main id="library">
+      <section class="controls" aria-label="Filter prompt library">
+        <label>
+          <span>Search</span>
+          <input id="search" type="search" placeholder="Product, edit, campaign, transparent..." autocomplete="off">
+        </label>
+        <label>
+          <span>Collection</span>
+          <select id="collection"><option value="">All collections</option></select>
+        </label>
+        <label>
+          <span>Operation</span>
+          <select id="operation"><option value="">All operations</option></select>
+        </label>
+        <button id="clear" type="button">Clear filters</button>
+      </section>
+
+      <section class="library-head" aria-live="polite">
+        <p id="result-summary">Loading library...</p>
+        <p class="review-note">Copy a prompt, replace bracketed variables, then review its acceptance criteria before publishing.</p>
+      </section>
+
+      <section id="cards" class="cards" aria-label="Prompt results"></section>
+      <section id="empty" class="empty" hidden>
+        <p>No prompts match those filters.</p>
+        <button type="button" id="empty-clear">Show all prompts</button>
+      </section>
+    </main>
+
+    <template id="card-template">
+      <article class="card">
+        <div class="card-meta"><span class="card-id"></span><span class="card-operation"></span></div>
+        <h2 class="card-title"></h2>
+        <p class="card-collection"></p>
+        <p class="card-prompt"></p>
+        <div class="card-footer"><span class="card-output"></span><button type="button" class="copy">Copy prompt</button></div>
+      </article>
+    </template>
+    <p class="toast" id="toast" role="status" aria-live="polite"></p>
+    <script src="app.js"></script>
+  </body>
+</html>

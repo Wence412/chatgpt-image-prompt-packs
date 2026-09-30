@@ -5,7 +5,9 @@
 
 > **Stop Creating Random Images. Start Building Scalable Visual Systems.**
 
-This is the definitive prompt library for professionals, agencies, and creators who generate commercial-grade AI visuals at scale. **170 battle-tested prompts** organized across 9 production categories—from product mockups to AI influencer systems to e-commerce optimization.
+This is a production-oriented prompt library for professionals, agencies, and creators who generate commercial-grade AI visuals at scale. **170 reusable prompt templates** are organized across 9 production categories, from product mockups to AI influencer systems to e-commerce optimization.
+
+The v1.2 capability packs add **14 prompt cards** for reference-led generation, precise editing, canvas extension, text-led layouts, transparent assets, visual explainers, and campaign systems. See [the capability-pack guide](docs/capability-packs.md).
 
 ---
 
@@ -218,6 +220,16 @@ cat prompts.json | jq '.prompts[] | select(.phase=="Phase 2")'
 
 ### **5. Custom Tools**
 All data is structured and documented—integrate into your workflow, plugin, or app.
+
+### **6. Searchable Browser**
+The dependency-free prompt browser lives in [`site/`](site/). To preview it locally:
+
+```bash
+cd site
+python3 -m http.server 8000
+```
+
+For GitHub Pages, select the `/site` folder as the publishing source. The browser reads the current prompt data from this repository's public raw files.
 
 ---
 

@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.2.0 - Unreleased
+
+- Added 14 capability prompt cards across seven modern generation and editing workflows.
+- Added a searchable, accessible static prompt browser for GitHub Pages.
+- Extended repository validation to cover capability cards.
+
 ## 1.1.0 - Unreleased
 
 - Established `prompts.json` as the canonical structured source.
