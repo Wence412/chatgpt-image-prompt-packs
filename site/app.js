@@ -25,7 +25,7 @@ function populateFilters() {
 function filteredPrompts() {
   const query = state.query.toLowerCase().trim();
   return state.prompts.filter(prompt => {
-    const haystack = [prompt.id, prompt.title, prompt.collection, prompt.operation, prompt.prompt, ...(prompt.tags || [])].join(' ').toLowerCase();
+    const haystack = [prompt.id, prompt.title, prompt.collection, prompt.category, prompt.operation, prompt.prompt, ...(prompt.tags || []), JSON.stringify(prompt.apae || {}), JSON.stringify(prompt.variants || [])].join(' ').toLowerCase();
     return (!query || haystack.includes(query)) && (!state.collection || prompt.collection === state.collection) && (!state.operation || prompt.operation === state.operation);
   });
 }
@@ -59,6 +59,32 @@ function render() {
     card.querySelector('.card-prompt').textContent = prompt.prompt;
     card.querySelector('.card-output').textContent = `${prompt.output.aspect_ratio} · ${prompt.output.format}`;
     card.querySelector('.copy').addEventListener('click', () => copyPrompt(prompt));
+    if (prompt.source) {
+      const article = card.querySelector('article');
+      const details = document.createElement('details');
+      const summary = document.createElement('summary');
+      summary.textContent = 'APAE, variants and engine prompts';
+      details.append(summary);
+      const note = document.createElement('p');
+      note.textContent = prompt.compatibility_note;
+      details.append(note);
+      const pre = document.createElement('pre');
+      pre.textContent = JSON.stringify({ apae: prompt.apae, negatives: prompt.negatives, variants: prompt.variants, engine_overrides: prompt.engine_overrides }, null, 2);
+      details.append(pre);
+      for (const [engine, override] of Object.entries(prompt.engine_overrides || {})) {
+        if (!override.prompt) continue;
+        const button = document.createElement('button');
+        button.type = 'button';
+        button.textContent = `Copy ${engine} prompt`;
+        button.addEventListener('click', () => copyPrompt({ id: `${prompt.id} ${engine}`, prompt: override.prompt }));
+        details.append(button);
+      }
+      const link = document.createElement('a');
+      link.href = prompt.source.url;
+      link.textContent = 'View pinned VPH source';
+      details.append(link);
+      article.append(details);
+    }
     elements.cards.append(card);
   }
 }
@@ -76,8 +102,19 @@ async function load() {
       fetch(`${RAW_BASE}/capability-packs-v2.json`).then(response => response.ok ? response.json() : Promise.reject())
     ]);
     state.prompts = [...legacy.prompts.map(normalizeLegacy), ...capability.packs.map(normalizeCard)];
+    let vphUnavailable = false;
+    try {
+      const response = await fetch(`${RAW_BASE}/vph-import.json`);
+      if (!response.ok) throw new Error('VPH data unavailable');
+      const vph = await response.json();
+      if (!Array.isArray(vph.prompts)) throw new Error('Invalid VPH data');
+      state.prompts.push(...vph.prompts);
+    } catch {
+      vphUnavailable = true;
+    }
     elements.count.textContent = `${state.prompts.length} cards`;
     populateFilters(); render();
+    if (vphUnavailable) toast('VPH collection unavailable. Other collections remain usable.');
   } catch {
     elements.count.textContent = 'Unavailable';
     elements.summary.textContent = 'The prompt data could not be loaded. Try again after the repository publishes.';

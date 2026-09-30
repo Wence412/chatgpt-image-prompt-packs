@@ -54,4 +54,10 @@ button:active { transform: translateY(0) scale(.98); }
 .empty p { font-family: var(--serif); font-size: 1.6rem; }
 .toast { position: fixed; right: 1rem; bottom: 1rem; margin: 0; padding: .7rem .9rem; background: var(--paper); color: var(--ink); opacity: 0; transform: translateY(1rem); transition: opacity .2s, transform .2s; }
 .toast.visible { opacity: 1; transform: translateY(0); }
+details { margin-top: 1rem; color: var(--muted); font-size: .85rem; }
+summary { cursor: pointer; color: var(--gold-soft); padding: .5rem 0; }
+summary:focus-visible, a:focus-visible { outline: 2px solid var(--gold-soft); outline-offset: 3px; }
+details pre { white-space: pre-wrap; overflow-wrap: anywhere; font-size: .75rem; }
+details button { display: block; margin: .5rem 0; }
+a { color: var(--gold-soft); }
 @media (max-width: 720px) { .site-header { padding-top: 2rem; } .hero, .controls { grid-template-columns: 1fr; } .hero { gap: 2rem; } .release-note { max-width: 18rem; } .library-head { display: grid; margin-top: 2.5rem; } .cards { grid-template-columns: 1fr; } }

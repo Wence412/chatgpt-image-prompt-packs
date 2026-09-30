@@ -95,7 +95,7 @@ def main() -> int:
             error(errors, f"Capability card #{index} is missing: {', '.join(sorted(missing))}")
             continue
         identifier = card["id"]
-        if not re.fullmatch(r"[A-Z]+-\d{3}", identifier):
+        if not re.fullmatch(r"[A-Z][A-Z0-9]*-\d{3}", identifier):
             error(errors, f"Invalid capability card ID: {identifier}")
         if identifier in capability_ids or identifier in ids:
             error(errors, f"Duplicate capability card ID: {identifier}")

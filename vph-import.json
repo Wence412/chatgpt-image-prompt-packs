@@ -1,0 +1,1272 @@
+{
+  "metadata": {
+    "source_repository": "https://github.com/Wence412/Visual-Prompts-Hub-VPH-",
+    "source_revision": "51415307c99761fecf0dc66f7492bbac7b2ae122",
+    "total_cards": 8,
+    "license": "MIT"
+  },
+  "prompts": [
+    {
+      "id": "VPH-EDITORIAL-CHARACTER-DARK",
+      "title": "Editorial Portrait — Dark Studio — Character Study",
+      "collection": "Visual Prompts Hub",
+      "category": "portraits",
+      "operation": "generate",
+      "prompt": "Editorial portrait of a fictional character with ambiguous gender presentation, sharp angular facial features, and textured dark clothing with no visible branding. Three-quarter turn toward camera, chin slightly lowered, direct eye contact. Dark studio with split lighting, one side of the face lit with a hard key light, the opposite side falling into deep shadow. Rembrandt lighting triangle on the shadow side. Magazine editorial photography. Skin texture visible. Intense, composed expression. Quiet authority. No softening filters.",
+      "apae": {
+        "appearance": "fictional character, ambiguous gender, sharp angular features, textured dark clothing, no visible branding",
+        "place": "dark studio with split lighting setup, one side lit, one side in deep shadow",
+        "action": "three-quarter turn toward camera, chin slightly lowered, direct eye contact, hands not visible",
+        "emotion": "intense, composed, authority, quiet power"
+      },
+      "tags": [
+        "portrait",
+        "editorial",
+        "character",
+        "dark",
+        "cinematic",
+        "studio"
+      ],
+      "variants": [
+        {
+          "id": "v1",
+          "label": "High Key White",
+          "change": "White seamless background. Bright overcast studio light. Same character, same expression. Starkly different mood.",
+          "background": "clean"
+        },
+        {
+          "id": "v2",
+          "label": "Environmental",
+          "change": "Character placed in an industrial corridor. Ambient light from far end. Walking toward camera. Motion blur on feet.",
+          "background": "environment"
+        },
+        {
+          "id": "v3",
+          "label": "Profile Study",
+          "change": "Pure profile shot. Full side on. Single harsh side light. Shadow-to-face. No eye contact. Sculptural."
+        },
+        {
+          "id": "v4",
+          "label": "Warm Editorial",
+          "change": "Warm amber light source from window. Golden hour interior. Same dark clothing. Warm-cool contrast on face.",
+          "background": "environment"
+        }
+      ],
+      "engine_overrides": {
+        "midjourney": {
+          "prompt": "Editorial portrait fictional character angular features dark textured clothing, dark studio split lighting hard key light deep shadow, three-quarter turn direct eye contact, Rembrandt lighting, magazine photography --ar 4:5 --style raw --v 6\n",
+          "flags": "--ar 4:5 --style raw --v 6"
+        },
+        "dalle3": {
+          "prompt": "A magazine editorial portrait of a fictional character with sharp angular features and textured dark clothing. Three-quarter turn, chin slightly lowered, direct eye contact. Dark studio with split lighting. Hard key light on one side, deep shadow on the other. Rembrandt triangle on shadow side. Intense, composed expression. No logos, text, or branding visible.\n"
+        }
+      },
+      "negatives": [
+        "logos",
+        "text",
+        "watermark",
+        "soft beauty filters",
+        "identifiable real person",
+        "hands visible",
+        "distracting background",
+        "bright colors"
+      ],
+      "original_record": {
+        "title": "Editorial Portrait — Dark Studio — Character Study",
+        "version": "1.0.0",
+        "category": "portraits",
+        "engine_primary": "chatgpt_image_2",
+        "tags": [
+          "portrait",
+          "editorial",
+          "character",
+          "dark",
+          "cinematic",
+          "studio"
+        ],
+        "authors": [
+          {
+            "name": "WenceStudio by SmartDesign",
+            "github": "Wence412"
+          }
+        ],
+        "apae": {
+          "appearance": "fictional character, ambiguous gender, sharp angular features, textured dark clothing, no visible branding",
+          "place": "dark studio with split lighting setup, one side lit, one side in deep shadow",
+          "action": "three-quarter turn toward camera, chin slightly lowered, direct eye contact, hands not visible",
+          "emotion": "intense, composed, authority, quiet power"
+        },
+        "chatgpt_image_2": {
+          "prompt": "Editorial portrait of a fictional character with ambiguous gender presentation, sharp angular facial features, and textured dark clothing with no visible branding. Three-quarter turn toward camera, chin slightly lowered, direct eye contact. Dark studio with split lighting, one side of the face lit with a hard key light, the opposite side falling into deep shadow. Rembrandt lighting triangle on the shadow side. Magazine editorial photography. Skin texture visible. Intense, composed expression. Quiet authority. No softening filters.\n",
+          "style_preset": "editorial",
+          "background": "cinematic",
+          "ar": "4:5",
+          "quality": "hd"
+        },
+        "engine_overrides": {
+          "midjourney": {
+            "prompt": "Editorial portrait fictional character angular features dark textured clothing, dark studio split lighting hard key light deep shadow, three-quarter turn direct eye contact, Rembrandt lighting, magazine photography --ar 4:5 --style raw --v 6\n",
+            "flags": "--ar 4:5 --style raw --v 6"
+          },
+          "dalle3": {
+            "prompt": "A magazine editorial portrait of a fictional character with sharp angular features and textured dark clothing. Three-quarter turn, chin slightly lowered, direct eye contact. Dark studio with split lighting. Hard key light on one side, deep shadow on the other. Rembrandt triangle on shadow side. Intense, composed expression. No logos, text, or branding visible.\n"
+          }
+        },
+        "negatives": [
+          "logos",
+          "text",
+          "watermark",
+          "soft beauty filters",
+          "identifiable real person",
+          "hands visible",
+          "distracting background",
+          "bright colors"
+        ],
+        "variants": [
+          {
+            "id": "v1",
+            "label": "High Key White",
+            "change": "White seamless background. Bright overcast studio light. Same character, same expression. Starkly different mood.",
+            "background": "clean"
+          },
+          {
+            "id": "v2",
+            "label": "Environmental",
+            "change": "Character placed in an industrial corridor. Ambient light from far end. Walking toward camera. Motion blur on feet.",
+            "background": "environment"
+          },
+          {
+            "id": "v3",
+            "label": "Profile Study",
+            "change": "Pure profile shot. Full side on. Single harsh side light. Shadow-to-face. No eye contact. Sculptural."
+          },
+          {
+            "id": "v4",
+            "label": "Warm Editorial",
+            "change": "Warm amber light source from window. Golden hour interior. Same dark clothing. Warm-cool contrast on face.",
+            "background": "environment"
+          }
+        ],
+        "license": "MIT",
+        "created": "2026-05-30",
+        "updated": "2026-05-30"
+      },
+      "output": {
+        "aspect_ratio": "4:5",
+        "format": "Prompt template"
+      },
+      "source": {
+        "url": "https://github.com/Wence412/Visual-Prompts-Hub-VPH-/blob/51415307c99761fecf0dc66f7492bbac7b2ae122/editorial_character_dark.yaml",
+        "revision": "51415307c99761fecf0dc66f7492bbac7b2ae122",
+        "file": "editorial_character_dark.yaml",
+        "sha256": "5570b7491cd735ea0aa762e3092f2ed294bdc0d13e2297941f80add153267541"
+      },
+      "compatibility_note": "Historical engine labels and settings are preserved for reference, not verified current API parameters. Review before use.",
+      "evidence": {
+        "tested": false,
+        "sample_assets": []
+      }
+    },
+    {
+      "id": "VPH-FACADE-BRUTALIST-DUSK",
+      "title": "Brutalist Concrete Facade — Dusk — Architectural",
+      "collection": "Visual Prompts Hub",
+      "category": "architecture",
+      "operation": "generate",
+      "prompt": "Board-formed concrete facade with deep vertical reveals and recessed windows with dark interior glass. Wide shot looking up at three-quarter angle, facade filling the left two-thirds of frame, open sky on the right. Urban streetscape at dusk. Warm amber sky at horizon fading to deep blue at zenith. Wet pavement below reflecting the facade and sky. Architectural photography. Sharp concrete texture visible in the reveals. Long exposure quality. Moody, monumental. No people. No vehicles.",
+      "apae": {
+        "appearance": "board-formed concrete facade, deep vertical reveals, recessed windows with dark interior glass, raw material honesty",
+        "place": "urban streetscape at dusk, warm amber sky fading to deep blue zenith, wet pavement reflecting facade",
+        "action": "wide shot looking up at three-quarter angle, facade filling left two-thirds of frame, open sky right",
+        "emotion": "monumental, quiet power, permanence, raw beauty"
+      },
+      "tags": [
+        "architecture",
+        "brutalist",
+        "concrete",
+        "dusk",
+        "editorial",
+        "urban"
+      ],
+      "variants": [
+        {
+          "id": "v1",
+          "label": "Night — Interior Light",
+          "change": "Night shot. Interior lights glowing through windows. Contrast between lit interior and dark exterior. Long exposure.",
+          "background": "environment"
+        },
+        {
+          "id": "v2",
+          "label": "Detail — Texture Macro",
+          "change": "Extreme close-up on the board-formed concrete surface. Shadows in the reveals. Macro texture quality."
+        },
+        {
+          "id": "v3",
+          "label": "Overcast Day",
+          "change": "Overcast flat gray sky. Diffused light revealing full concrete texture without harsh shadows. Documentary quality.",
+          "background": "environment"
+        },
+        {
+          "id": "v4",
+          "label": "Interior Courtyard",
+          "change": "Interior courtyard view looking up. Concrete walls four sides. Single point of sky above. Geometric composition.",
+          "background": "environment"
+        }
+      ],
+      "engine_overrides": {
+        "midjourney": {
+          "prompt": "Brutalist concrete facade board-formed vertical reveals, urban dusk amber sky wet pavement, three-quarter upward angle, architectural photography monumental quiet power --ar 3:2 --style raw --v 6 --q 2\n",
+          "flags": "--ar 3:2 --style raw --v 6 --q 2"
+        },
+        "dalle3": {
+          "prompt": "A brutalist concrete building facade with board-formed texture and deep vertical reveals. Photographed at dusk from a three-quarter upward angle. Warm amber sky transitions to deep blue. Wet pavement reflects the building. Architectural photography. Sharp concrete detail. Monumental and quiet. No people, vehicles, or signs visible.\n"
+        }
+      },
+      "negatives": [
+        "people",
+        "vehicles",
+        "signage",
+        "logos",
+        "text",
+        "watermark",
+        "blurry",
+        "overexposed sky"
+      ],
+      "original_record": {
+        "title": "Brutalist Concrete Facade — Dusk — Architectural",
+        "version": "1.0.0",
+        "category": "architecture",
+        "engine_primary": "chatgpt_image_2",
+        "tags": [
+          "architecture",
+          "brutalist",
+          "concrete",
+          "dusk",
+          "editorial",
+          "urban"
+        ],
+        "authors": [
+          {
+            "name": "WenceStudio by SmartDesign",
+            "github": "Wence412"
+          }
+        ],
+        "apae": {
+          "appearance": "board-formed concrete facade, deep vertical reveals, recessed windows with dark interior glass, raw material honesty",
+          "place": "urban streetscape at dusk, warm amber sky fading to deep blue zenith, wet pavement reflecting facade",
+          "action": "wide shot looking up at three-quarter angle, facade filling left two-thirds of frame, open sky right",
+          "emotion": "monumental, quiet power, permanence, raw beauty"
+        },
+        "chatgpt_image_2": {
+          "prompt": "Board-formed concrete facade with deep vertical reveals and recessed windows with dark interior glass. Wide shot looking up at three-quarter angle, facade filling the left two-thirds of frame, open sky on the right. Urban streetscape at dusk. Warm amber sky at horizon fading to deep blue at zenith. Wet pavement below reflecting the facade and sky. Architectural photography. Sharp concrete texture visible in the reveals. Long exposure quality. Moody, monumental. No people. No vehicles.\n",
+          "style_preset": "editorial",
+          "background": "environment",
+          "ar": "3:2",
+          "quality": "hd"
+        },
+        "engine_overrides": {
+          "midjourney": {
+            "prompt": "Brutalist concrete facade board-formed vertical reveals, urban dusk amber sky wet pavement, three-quarter upward angle, architectural photography monumental quiet power --ar 3:2 --style raw --v 6 --q 2\n",
+            "flags": "--ar 3:2 --style raw --v 6 --q 2"
+          },
+          "dalle3": {
+            "prompt": "A brutalist concrete building facade with board-formed texture and deep vertical reveals. Photographed at dusk from a three-quarter upward angle. Warm amber sky transitions to deep blue. Wet pavement reflects the building. Architectural photography. Sharp concrete detail. Monumental and quiet. No people, vehicles, or signs visible.\n"
+          }
+        },
+        "negatives": [
+          "people",
+          "vehicles",
+          "signage",
+          "logos",
+          "text",
+          "watermark",
+          "blurry",
+          "overexposed sky"
+        ],
+        "variants": [
+          {
+            "id": "v1",
+            "label": "Night — Interior Light",
+            "change": "Night shot. Interior lights glowing through windows. Contrast between lit interior and dark exterior. Long exposure.",
+            "background": "environment"
+          },
+          {
+            "id": "v2",
+            "label": "Detail — Texture Macro",
+            "change": "Extreme close-up on the board-formed concrete surface. Shadows in the reveals. Macro texture quality."
+          },
+          {
+            "id": "v3",
+            "label": "Overcast Day",
+            "change": "Overcast flat gray sky. Diffused light revealing full concrete texture without harsh shadows. Documentary quality.",
+            "background": "environment"
+          },
+          {
+            "id": "v4",
+            "label": "Interior Courtyard",
+            "change": "Interior courtyard view looking up. Concrete walls four sides. Single point of sky above. Geometric composition.",
+            "background": "environment"
+          }
+        ],
+        "license": "MIT",
+        "created": "2026-05-30",
+        "updated": "2026-05-30"
+      },
+      "output": {
+        "aspect_ratio": "3:2",
+        "format": "Prompt template"
+      },
+      "source": {
+        "url": "https://github.com/Wence412/Visual-Prompts-Hub-VPH-/blob/51415307c99761fecf0dc66f7492bbac7b2ae122/facade_brutalist_dusk.yaml",
+        "revision": "51415307c99761fecf0dc66f7492bbac7b2ae122",
+        "file": "facade_brutalist_dusk.yaml",
+        "sha256": "f94bef44b58c38dd42a65a50fb0dadf2eaae90f00978f6448ccf0c7ac2aecb5c"
+      },
+      "compatibility_note": "Historical engine labels and settings are preserved for reference, not verified current API parameters. Review before use.",
+      "evidence": {
+        "tested": false,
+        "sample_assets": []
+      }
+    },
+    {
+      "id": "VPH-HERO-SHOT-TECH-PRODUCT",
+      "title": "Premium Tech Device — Dark Editorial — Brand Hero",
+      "collection": "Visual Prompts Hub",
+      "category": "branding",
+      "operation": "generate",
+      "prompt": "Slim matte black wireless earbuds in their open charging case, soft-touch finish, no visible branding. One earbud resting beside the case on a dark obsidian surface. Case angled open at 45 degrees. Composition following rule of thirds. Single beam spotlight from upper right cutting through deep shadow background. Premium tech product photography. Sharp focus on both the case hinge and the earbud driver. Deep blacks. Minimal reflection. Cinematic mood. No clutter.",
+      "apae": {
+        "appearance": "slim matte black wireless earbuds in their charging case, soft-touch finish, no visible branding",
+        "place": "dark obsidian surface, deep shadow background, single beam spotlight from upper right",
+        "action": "case open at 45 degrees, one earbud resting beside it, angled composition, rule of thirds",
+        "emotion": "precision, quiet confidence, premium audio, focused"
+      },
+      "tags": [
+        "branding",
+        "tech",
+        "hero",
+        "editorial",
+        "dark",
+        "premium"
+      ],
+      "variants": [
+        {
+          "id": "v1",
+          "label": "White Clean Launch",
+          "change": "White seamless backdrop. Soft overhead diffusion. Clinical, Apple-style clean product shot.",
+          "background": "clean"
+        },
+        {
+          "id": "v2",
+          "label": "Lifestyle Usage",
+          "change": "Earbuds worn by an ear (no face). Close crop. Natural indoor window light. Casual context.",
+          "background": "environment"
+        },
+        {
+          "id": "v3",
+          "label": "Gradient Announcement",
+          "change": "Navy-to-black gradient. Earbuds centered, case closed beside. Hero announcement framing.",
+          "background": "gradient"
+        },
+        {
+          "id": "v4",
+          "label": "Flat Lay Social",
+          "change": "Overhead flat lay on textured dark fabric. Both earbuds in case. Minimal props: cable, box.",
+          "background": "practical_with_props"
+        }
+      ],
+      "engine_overrides": {
+        "midjourney": {
+          "prompt": "Matte black wireless earbuds open case obsidian surface, single spotlight upper right, one earbud beside, rule of thirds, premium tech product photography, cinematic deep shadow --ar 16:9 --style raw --v 6 --q 2\n",
+          "flags": "--ar 16:9 --style raw --v 6 --q 2"
+        },
+        "dalle3": {
+          "prompt": "Premium matte black wireless earbuds in an open charging case on a dark obsidian surface. One earbud rests beside the case. Case is open at 45 degrees. Single beam spotlight from upper right. Deep shadows. Cinematic product photography. Sharp detail on hinge and driver. No logos, text, or branding visible.\n"
+        }
+      },
+      "negatives": [
+        "logos",
+        "text",
+        "brand names",
+        "watermark",
+        "bright colors",
+        "cable visible",
+        "blurry",
+        "overexposed highlights",
+        "messy composition"
+      ],
+      "original_record": {
+        "title": "Premium Tech Device — Dark Editorial — Brand Hero",
+        "version": "1.0.0",
+        "category": "branding",
+        "engine_primary": "chatgpt_image_2",
+        "tags": [
+          "branding",
+          "tech",
+          "hero",
+          "editorial",
+          "dark",
+          "premium"
+        ],
+        "authors": [
+          {
+            "name": "WenceStudio by SmartDesign",
+            "github": "Wence412"
+          }
+        ],
+        "apae": {
+          "appearance": "slim matte black wireless earbuds in their charging case, soft-touch finish, no visible branding",
+          "place": "dark obsidian surface, deep shadow background, single beam spotlight from upper right",
+          "action": "case open at 45 degrees, one earbud resting beside it, angled composition, rule of thirds",
+          "emotion": "precision, quiet confidence, premium audio, focused"
+        },
+        "chatgpt_image_2": {
+          "prompt": "Slim matte black wireless earbuds in their open charging case, soft-touch finish, no visible branding. One earbud resting beside the case on a dark obsidian surface. Case angled open at 45 degrees. Composition following rule of thirds. Single beam spotlight from upper right cutting through deep shadow background. Premium tech product photography. Sharp focus on both the case hinge and the earbud driver. Deep blacks. Minimal reflection. Cinematic mood. No clutter.\n",
+          "style_preset": "product_photo",
+          "background": "cinematic",
+          "ar": "16:9",
+          "quality": "hd"
+        },
+        "engine_overrides": {
+          "midjourney": {
+            "prompt": "Matte black wireless earbuds open case obsidian surface, single spotlight upper right, one earbud beside, rule of thirds, premium tech product photography, cinematic deep shadow --ar 16:9 --style raw --v 6 --q 2\n",
+            "flags": "--ar 16:9 --style raw --v 6 --q 2"
+          },
+          "dalle3": {
+            "prompt": "Premium matte black wireless earbuds in an open charging case on a dark obsidian surface. One earbud rests beside the case. Case is open at 45 degrees. Single beam spotlight from upper right. Deep shadows. Cinematic product photography. Sharp detail on hinge and driver. No logos, text, or branding visible.\n"
+          }
+        },
+        "negatives": [
+          "logos",
+          "text",
+          "brand names",
+          "watermark",
+          "bright colors",
+          "cable visible",
+          "blurry",
+          "overexposed highlights",
+          "messy composition"
+        ],
+        "variants": [
+          {
+            "id": "v1",
+            "label": "White Clean Launch",
+            "change": "White seamless backdrop. Soft overhead diffusion. Clinical, Apple-style clean product shot.",
+            "background": "clean"
+          },
+          {
+            "id": "v2",
+            "label": "Lifestyle Usage",
+            "change": "Earbuds worn by an ear (no face). Close crop. Natural indoor window light. Casual context.",
+            "background": "environment"
+          },
+          {
+            "id": "v3",
+            "label": "Gradient Announcement",
+            "change": "Navy-to-black gradient. Earbuds centered, case closed beside. Hero announcement framing.",
+            "background": "gradient"
+          },
+          {
+            "id": "v4",
+            "label": "Flat Lay Social",
+            "change": "Overhead flat lay on textured dark fabric. Both earbuds in case. Minimal props: cable, box.",
+            "background": "practical_with_props"
+          }
+        ],
+        "license": "MIT",
+        "created": "2026-05-30",
+        "updated": "2026-05-30"
+      },
+      "output": {
+        "aspect_ratio": "16:9",
+        "format": "Prompt template"
+      },
+      "source": {
+        "url": "https://github.com/Wence412/Visual-Prompts-Hub-VPH-/blob/51415307c99761fecf0dc66f7492bbac7b2ae122/hero_shot_tech_product.yaml",
+        "revision": "51415307c99761fecf0dc66f7492bbac7b2ae122",
+        "file": "hero_shot_tech_product.yaml",
+        "sha256": "53323e0d35853176f03c1f5f6fd03530cb67cd30eb9042dbd4c192e11599bf84"
+      },
+      "compatibility_note": "Historical engine labels and settings are preserved for reference, not verified current API parameters. Review before use.",
+      "evidence": {
+        "tested": false,
+        "sample_assets": []
+      }
+    },
+    {
+      "id": "VPH-JACKET-EDITORIAL-CONTRAST",
+      "title": "Structured Leather Jacket — Industrial Backdrop — Editorial",
+      "collection": "Visual Prompts Hub",
+      "category": "fashion",
+      "operation": "generate",
+      "prompt": "Structured black leather moto jacket with wide lapels, minimal hardware, clean seaming, and raw hem. Worn on a tailored mannequin form angled 45 degrees, collar up, sleeves pushed to mid-forearm. Industrial concrete corridor setting with ambient backlighting through a far window creating a silhouette edge, single side spotlight from left for detail definition. High-contrast editorial fashion photography. Deep blacks, sharp leather texture. Moody and directional. No distracting background elements.",
+      "apae": {
+        "appearance": "structured black leather moto jacket, wide lapels, minimal hardware, clean seaming, raw hem",
+        "place": "industrial concrete corridor, ambient backlighting through far window, single side spotlight",
+        "action": "worn on a mannequin form, angled 45 degrees, collar up, sleeves pushed mid-forearm",
+        "emotion": "raw, authoritative, editorial, directional"
+      },
+      "tags": [
+        "fashion",
+        "leather",
+        "editorial",
+        "contrast",
+        "industrial"
+      ],
+      "variants": [
+        {
+          "id": "v1",
+          "label": "White Studio Clean",
+          "change": "Move to white seamless studio. Soft box lighting. Clean, commercial fashion feel. Jacket detail focus.",
+          "background": "clean"
+        },
+        {
+          "id": "v2",
+          "label": "Outdoor Urban",
+          "change": "Place jacket on a figure against a rain-wet urban street. Night setting. Streetlight bokeh background.",
+          "background": "environment"
+        },
+        {
+          "id": "v3",
+          "label": "Flat Lay",
+          "change": "Jacket laid flat on a brushed concrete surface. Overhead shot. Accessories arranged neatly alongside.",
+          "background": "practical"
+        },
+        {
+          "id": "v4",
+          "label": "Warm Season",
+          "change": "Same jacket in warm amber sunset light. Outdoor rooftop. Relaxed collar. Sleeves unrolled.",
+          "background": "environment"
+        }
+      ],
+      "engine_overrides": {
+        "midjourney": {
+          "prompt": "Structured black leather moto jacket mannequin 45 degree angle, industrial concrete corridor backlight side spotlight, editorial fashion photography high contrast, moody directional --ar 4:5 --style raw --v 6 --q 2\n",
+          "flags": "--ar 4:5 --style raw --v 6 --q 2"
+        },
+        "dalle3": {
+          "prompt": "A structured black leather moto jacket on a tailored mannequin, angled 45 degrees with collar up and sleeves pushed mid-forearm. Set inside an industrial concrete corridor with ambient backlighting through a far window and a single spotlight from the left. High-contrast editorial fashion photography. Sharp leather texture. Deep dramatic shadows. No text, logos, or people visible.\n"
+        }
+      },
+      "negatives": [
+        "logos",
+        "text",
+        "watermark",
+        "faces",
+        "hands visible",
+        "bright colors",
+        "blurry",
+        "wrinkled background"
+      ],
+      "original_record": {
+        "title": "Structured Leather Jacket — Industrial Backdrop — Editorial",
+        "version": "1.0.0",
+        "category": "fashion",
+        "engine_primary": "chatgpt_image_2",
+        "tags": [
+          "fashion",
+          "leather",
+          "editorial",
+          "contrast",
+          "industrial"
+        ],
+        "authors": [
+          {
+            "name": "WenceStudio by SmartDesign",
+            "github": "Wence412"
+          }
+        ],
+        "apae": {
+          "appearance": "structured black leather moto jacket, wide lapels, minimal hardware, clean seaming, raw hem",
+          "place": "industrial concrete corridor, ambient backlighting through far window, single side spotlight",
+          "action": "worn on a mannequin form, angled 45 degrees, collar up, sleeves pushed mid-forearm",
+          "emotion": "raw, authoritative, editorial, directional"
+        },
+        "chatgpt_image_2": {
+          "prompt": "Structured black leather moto jacket with wide lapels, minimal hardware, clean seaming, and raw hem. Worn on a tailored mannequin form angled 45 degrees, collar up, sleeves pushed to mid-forearm. Industrial concrete corridor setting with ambient backlighting through a far window creating a silhouette edge, single side spotlight from left for detail definition. High-contrast editorial fashion photography. Deep blacks, sharp leather texture. Moody and directional. No distracting background elements.\n",
+          "style_preset": "editorial",
+          "background": "cinematic",
+          "ar": "4:5",
+          "quality": "hd"
+        },
+        "engine_overrides": {
+          "midjourney": {
+            "prompt": "Structured black leather moto jacket mannequin 45 degree angle, industrial concrete corridor backlight side spotlight, editorial fashion photography high contrast, moody directional --ar 4:5 --style raw --v 6 --q 2\n",
+            "flags": "--ar 4:5 --style raw --v 6 --q 2"
+          },
+          "dalle3": {
+            "prompt": "A structured black leather moto jacket on a tailored mannequin, angled 45 degrees with collar up and sleeves pushed mid-forearm. Set inside an industrial concrete corridor with ambient backlighting through a far window and a single spotlight from the left. High-contrast editorial fashion photography. Sharp leather texture. Deep dramatic shadows. No text, logos, or people visible.\n"
+          }
+        },
+        "negatives": [
+          "logos",
+          "text",
+          "watermark",
+          "faces",
+          "hands visible",
+          "bright colors",
+          "blurry",
+          "wrinkled background"
+        ],
+        "variants": [
+          {
+            "id": "v1",
+            "label": "White Studio Clean",
+            "change": "Move to white seamless studio. Soft box lighting. Clean, commercial fashion feel. Jacket detail focus.",
+            "background": "clean"
+          },
+          {
+            "id": "v2",
+            "label": "Outdoor Urban",
+            "change": "Place jacket on a figure against a rain-wet urban street. Night setting. Streetlight bokeh background.",
+            "background": "environment"
+          },
+          {
+            "id": "v3",
+            "label": "Flat Lay",
+            "change": "Jacket laid flat on a brushed concrete surface. Overhead shot. Accessories arranged neatly alongside.",
+            "background": "practical"
+          },
+          {
+            "id": "v4",
+            "label": "Warm Season",
+            "change": "Same jacket in warm amber sunset light. Outdoor rooftop. Relaxed collar. Sleeves unrolled.",
+            "background": "environment"
+          }
+        ],
+        "license": "MIT",
+        "created": "2026-05-30",
+        "updated": "2026-05-30"
+      },
+      "output": {
+        "aspect_ratio": "4:5",
+        "format": "Prompt template"
+      },
+      "source": {
+        "url": "https://github.com/Wence412/Visual-Prompts-Hub-VPH-/blob/51415307c99761fecf0dc66f7492bbac7b2ae122/jacket_editorial_contrast.yaml",
+        "revision": "51415307c99761fecf0dc66f7492bbac7b2ae122",
+        "file": "jacket_editorial_contrast.yaml",
+        "sha256": "2f83589f0e8a67ada68c3ae1cdc5b354350633e75dedffc2fa77907e62bc4a90"
+      },
+      "compatibility_note": "Historical engine labels and settings are preserved for reference, not verified current API parameters. Review before use.",
+      "evidence": {
+        "tested": false,
+        "sample_assets": []
+      }
+    },
+    {
+      "id": "VPH-JEWELRY-GOLD-EDITORIAL",
+      "title": "18K Gold Ring — Marble Plinth — Sculptural",
+      "collection": "Visual Prompts Hub",
+      "category": "products",
+      "operation": "generate",
+      "prompt": "18K gold signet ring with hand-hammered surface texture, wide band, matte interior, and polished exterior edges. Standing upright on its band, centered on a white Carrara marble plinth, slight 15-degree tilt toward camera. White seamless paper backdrop. Soft diffused overhead lighting with a single rim light on the right edge. Jewelry product photography. Macro clarity on surface texture. Clean, architectural composition. No reflections obscuring the hammered surface.",
+      "apae": {
+        "appearance": "18K gold signet ring, hand-hammered surface texture, wide band, matte interior, polished exterior edges",
+        "place": "white Carrara marble plinth, studio environment, seamless white paper backdrop",
+        "action": "ring standing upright on its band, centered on the plinth, slight 15-degree tilt toward camera",
+        "emotion": "architectural, heirloom, confident, timeless"
+      },
+      "tags": [
+        "jewelry",
+        "gold",
+        "editorial",
+        "luxury",
+        "sculptural"
+      ],
+      "variants": [
+        {
+          "id": "v1",
+          "label": "Dark Contrast",
+          "change": "Replace marble plinth with black slate. Dark studio backdrop. Single spotlight from above right. Dramatic shadow.",
+          "background": "cinematic"
+        },
+        {
+          "id": "v2",
+          "label": "Multiple Rings",
+          "change": "Group of three rings at different angles. Varied distance from camera. Shallow depth of field, front ring in sharp focus.",
+          "background": "practical"
+        },
+        {
+          "id": "v3",
+          "label": "Lifestyle — Flat Lay",
+          "change": "Ring laid flat on aged linen fabric alongside dried botanicals and a wax seal. Overhead flat lay. Natural light.",
+          "background": "practical_with_props"
+        }
+      ],
+      "engine_overrides": {
+        "midjourney": {
+          "prompt": "18K gold signet ring hammered texture wide band, marble plinth white studio, standing upright 15-degree tilt, jewelry product photography, soft overhead rim light, macro detail --ar 1:1 --style raw --v 6\n",
+          "flags": "--ar 1:1 --style raw --v 6"
+        },
+        "dalle3": {
+          "prompt": "A gold signet ring with a hand-hammered surface texture stands upright on a white Carrara marble plinth. The ring is centered with a slight forward tilt. White seamless backdrop. Soft diffused overhead lighting with a rim light on the right. Close-up jewelry photography showing full surface detail. No text or logos.\n"
+        }
+      },
+      "negatives": [
+        "logos",
+        "text",
+        "watermark",
+        "hands",
+        "fingers",
+        "blurry",
+        "overexposed highlights"
+      ],
+      "original_record": {
+        "title": "18K Gold Ring — Marble Plinth — Sculptural",
+        "version": "1.0.0",
+        "category": "products",
+        "engine_primary": "chatgpt_image_2",
+        "tags": [
+          "jewelry",
+          "gold",
+          "editorial",
+          "luxury",
+          "sculptural"
+        ],
+        "authors": [
+          {
+            "name": "WenceStudio by SmartDesign",
+            "github": "Wence412"
+          }
+        ],
+        "apae": {
+          "appearance": "18K gold signet ring, hand-hammered surface texture, wide band, matte interior, polished exterior edges",
+          "place": "white Carrara marble plinth, studio environment, seamless white paper backdrop",
+          "action": "ring standing upright on its band, centered on the plinth, slight 15-degree tilt toward camera",
+          "emotion": "architectural, heirloom, confident, timeless"
+        },
+        "chatgpt_image_2": {
+          "prompt": "18K gold signet ring with hand-hammered surface texture, wide band, matte interior, and polished exterior edges. Standing upright on its band, centered on a white Carrara marble plinth, slight 15-degree tilt toward camera. White seamless paper backdrop. Soft diffused overhead lighting with a single rim light on the right edge. Jewelry product photography. Macro clarity on surface texture. Clean, architectural composition. No reflections obscuring the hammered surface.\n",
+          "style_preset": "product_photo",
+          "background": "practical",
+          "ar": "1:1",
+          "quality": "hd"
+        },
+        "engine_overrides": {
+          "midjourney": {
+            "prompt": "18K gold signet ring hammered texture wide band, marble plinth white studio, standing upright 15-degree tilt, jewelry product photography, soft overhead rim light, macro detail --ar 1:1 --style raw --v 6\n",
+            "flags": "--ar 1:1 --style raw --v 6"
+          },
+          "dalle3": {
+            "prompt": "A gold signet ring with a hand-hammered surface texture stands upright on a white Carrara marble plinth. The ring is centered with a slight forward tilt. White seamless backdrop. Soft diffused overhead lighting with a rim light on the right. Close-up jewelry photography showing full surface detail. No text or logos.\n"
+          }
+        },
+        "negatives": [
+          "logos",
+          "text",
+          "watermark",
+          "hands",
+          "fingers",
+          "blurry",
+          "overexposed highlights"
+        ],
+        "variants": [
+          {
+            "id": "v1",
+            "label": "Dark Contrast",
+            "change": "Replace marble plinth with black slate. Dark studio backdrop. Single spotlight from above right. Dramatic shadow.",
+            "background": "cinematic"
+          },
+          {
+            "id": "v2",
+            "label": "Multiple Rings",
+            "change": "Group of three rings at different angles. Varied distance from camera. Shallow depth of field, front ring in sharp focus.",
+            "background": "practical"
+          },
+          {
+            "id": "v3",
+            "label": "Lifestyle — Flat Lay",
+            "change": "Ring laid flat on aged linen fabric alongside dried botanicals and a wax seal. Overhead flat lay. Natural light.",
+            "background": "practical_with_props"
+          }
+        ],
+        "license": "MIT",
+        "created": "2026-05-30",
+        "updated": "2026-05-30"
+      },
+      "output": {
+        "aspect_ratio": "1:1",
+        "format": "Prompt template"
+      },
+      "source": {
+        "url": "https://github.com/Wence412/Visual-Prompts-Hub-VPH-/blob/51415307c99761fecf0dc66f7492bbac7b2ae122/jewelry_gold_editorial.yaml",
+        "revision": "51415307c99761fecf0dc66f7492bbac7b2ae122",
+        "file": "jewelry_gold_editorial.yaml",
+        "sha256": "c8ba1d6da6b965b1cb67635bce89e5ac4d8d9d56d9caab0c61abfb992692ad76"
+      },
+      "compatibility_note": "Historical engine labels and settings are preserved for reference, not verified current API parameters. Review before use.",
+      "evidence": {
+        "tested": false,
+        "sample_assets": []
+      }
+    },
+    {
+      "id": "VPH-SHOE-LUXURY-MINIMAL",
+      "title": "Chelsea Boot — Gradient Studio — Luxury Minimal",
+      "collection": "Visual Prompts Hub",
+      "category": "fashion",
+      "operation": "generate",
+      "prompt": "Hand-stitched black leather Chelsea boot with elasticated side panels, leather sole, and burnished toe cap. Standing upright on a low dark plinth, angled 30 degrees. Smooth studio gradient from deep charcoal to black beneath the boot. Single overhead key light illuminating the toe cap and hand-stitching in sharp detail. Subtle soft shadow cast on the gradient sweep. Luxury footwear product photography. Rich leather texture visible. Understated. Precise. No distractions.",
+      "apae": {
+        "appearance": "hand-stitched black leather Chelsea boot, elasticated side panels, leather sole, burnished toe cap",
+        "place": "smooth gradient studio, deep charcoal to black sweep, single overhead key light",
+        "action": "boot standing upright on a low dark plinth, angled 30 degrees, subtle shadow cast on sweep",
+        "emotion": "understated, classic, premium, craft"
+      },
+      "tags": [
+        "fashion",
+        "footwear",
+        "boot",
+        "luxury",
+        "minimal",
+        "gradient"
+      ],
+      "variants": [
+        {
+          "id": "v1",
+          "label": "Pair Shot",
+          "change": "Show a pair of boots side by side, slight angular spread. Symmetric composition. Same lighting."
+        },
+        {
+          "id": "v2",
+          "label": "Lifestyle Street",
+          "change": "Boot worn on foot against rain-slicked cobblestone. Overhead rain. Urban evening. Warm streetlight.",
+          "background": "environment"
+        },
+        {
+          "id": "v3",
+          "label": "Detail Macro",
+          "change": "Extreme close-up on the elasticated panel and hand-stitching. Macro lens feel. Depth of field. Texture focus."
+        },
+        {
+          "id": "v4",
+          "label": "White Clean",
+          "change": "White seamless background. Soft diffused box lighting. Clean commercial catalog feel.",
+          "background": "clean"
+        }
+      ],
+      "engine_overrides": {
+        "midjourney": {
+          "prompt": "Black leather Chelsea boot plinth dark gradient studio, overhead spotlight burnished toe, luxury footwear product photography, hand-stitching visible, understated premium --ar 4:5 --style raw --v 6\n",
+          "flags": "--ar 4:5 --style raw --v 6"
+        }
+      },
+      "negatives": [
+        "logos",
+        "text",
+        "watermark",
+        "shoelaces visible on wrong shoe type",
+        "dirty sole",
+        "blurry",
+        "distracting background"
+      ],
+      "original_record": {
+        "title": "Chelsea Boot — Gradient Studio — Luxury Minimal",
+        "version": "1.0.0",
+        "category": "fashion",
+        "engine_primary": "chatgpt_image_2",
+        "tags": [
+          "fashion",
+          "footwear",
+          "boot",
+          "luxury",
+          "minimal",
+          "gradient"
+        ],
+        "authors": [
+          {
+            "name": "WenceStudio by SmartDesign",
+            "github": "Wence412"
+          }
+        ],
+        "apae": {
+          "appearance": "hand-stitched black leather Chelsea boot, elasticated side panels, leather sole, burnished toe cap",
+          "place": "smooth gradient studio, deep charcoal to black sweep, single overhead key light",
+          "action": "boot standing upright on a low dark plinth, angled 30 degrees, subtle shadow cast on sweep",
+          "emotion": "understated, classic, premium, craft"
+        },
+        "chatgpt_image_2": {
+          "prompt": "Hand-stitched black leather Chelsea boot with elasticated side panels, leather sole, and burnished toe cap. Standing upright on a low dark plinth, angled 30 degrees. Smooth studio gradient from deep charcoal to black beneath the boot. Single overhead key light illuminating the toe cap and hand-stitching in sharp detail. Subtle soft shadow cast on the gradient sweep. Luxury footwear product photography. Rich leather texture visible. Understated. Precise. No distractions.\n",
+          "style_preset": "product_photo",
+          "background": "gradient",
+          "ar": "4:5",
+          "quality": "hd"
+        },
+        "engine_overrides": {
+          "midjourney": {
+            "prompt": "Black leather Chelsea boot plinth dark gradient studio, overhead spotlight burnished toe, luxury footwear product photography, hand-stitching visible, understated premium --ar 4:5 --style raw --v 6\n",
+            "flags": "--ar 4:5 --style raw --v 6"
+          }
+        },
+        "negatives": [
+          "logos",
+          "text",
+          "watermark",
+          "shoelaces visible on wrong shoe type",
+          "dirty sole",
+          "blurry",
+          "distracting background"
+        ],
+        "variants": [
+          {
+            "id": "v1",
+            "label": "Pair Shot",
+            "change": "Show a pair of boots side by side, slight angular spread. Symmetric composition. Same lighting."
+          },
+          {
+            "id": "v2",
+            "label": "Lifestyle Street",
+            "change": "Boot worn on foot against rain-slicked cobblestone. Overhead rain. Urban evening. Warm streetlight.",
+            "background": "environment"
+          },
+          {
+            "id": "v3",
+            "label": "Detail Macro",
+            "change": "Extreme close-up on the elasticated panel and hand-stitching. Macro lens feel. Depth of field. Texture focus."
+          },
+          {
+            "id": "v4",
+            "label": "White Clean",
+            "change": "White seamless background. Soft diffused box lighting. Clean commercial catalog feel.",
+            "background": "clean"
+          }
+        ],
+        "license": "MIT",
+        "created": "2026-05-30",
+        "updated": "2026-05-30"
+      },
+      "output": {
+        "aspect_ratio": "4:5",
+        "format": "Prompt template"
+      },
+      "source": {
+        "url": "https://github.com/Wence412/Visual-Prompts-Hub-VPH-/blob/51415307c99761fecf0dc66f7492bbac7b2ae122/shoe_luxury_minimal.yaml",
+        "revision": "51415307c99761fecf0dc66f7492bbac7b2ae122",
+        "file": "shoe_luxury_minimal.yaml",
+        "sha256": "0f342ef45e97f978344d53070327ec8db970d0a67ae5fdd9f81c4a2a4723de67"
+      },
+      "compatibility_note": "Historical engine labels and settings are preserved for reference, not verified current API parameters. Review before use.",
+      "evidence": {
+        "tested": false,
+        "sample_assets": []
+      }
+    },
+    {
+      "id": "VPH-TEXTURE-CHARCOAL-GOLD",
+      "title": "Charcoal and Gold Texture — Abstract Surface — Brand Identity",
+      "collection": "Visual Prompts Hub",
+      "category": "abstract",
+      "operation": "generate",
+      "prompt": "Layered charcoal paper texture with irregular gold leaf fragments embedded throughout the surface. Matte charcoal base with metallic gold accent. Flat lay close-up perspective. No visible edges or context, pure abstract texture filling the entire frame. Raking side light from the left revealing surface depth, texture relief, and the contrast between matte charcoal and reflective gold leaf. Abstract macro photography. Luxury brand identity feel. Deep shadow in texture valleys.",
+      "apae": {
+        "appearance": "layered charcoal paper texture with gold leaf fragments embedded, irregular abstract surface, matte base with metallic accent",
+        "place": "tight crop on the surface itself, no visible edges or context, pure texture",
+        "action": "flat lay perspective, raking side light from left revealing surface depth and texture relief",
+        "emotion": "luxury, editorial, brand identity, depth"
+      },
+      "tags": [
+        "abstract",
+        "texture",
+        "charcoal",
+        "gold",
+        "brand",
+        "identity",
+        "luxury"
+      ],
+      "variants": [
+        {
+          "id": "v1",
+          "label": "Black and Silver",
+          "change": "Replace gold leaf with silver leaf. Pure black base. High-contrast metallic cool tone version."
+        },
+        {
+          "id": "v2",
+          "label": "Deep Burgundy",
+          "change": "Replace charcoal with deep burgundy handmade paper. Gold leaf retained. Warm, rich palette."
+        },
+        {
+          "id": "v3",
+          "label": "Blueprint Texture",
+          "change": "Navy blueprint paper base with white ink line fragments and pale gold. Cool editorial academic tone."
+        },
+        {
+          "id": "v4",
+          "label": "Marble and Brass",
+          "change": "White Carrara marble surface with brass powder dusting in crevices. Overhead raking light. Architectural luxury."
+        }
+      ],
+      "engine_overrides": {
+        "midjourney": {
+          "prompt": "Charcoal paper texture gold leaf fragments embedded, flat lay raking sidelight macro, abstract luxury brand identity surface, matte base metallic accent --ar 1:1 --style raw --v 6\n",
+          "flags": "--ar 1:1 --style raw --v 6"
+        },
+        "dalle3": {
+          "prompt": "Abstract close-up of layered charcoal paper with embedded gold leaf fragments. Matte charcoal base. Reflective gold accents. Flat lay view with raking side light from left revealing surface texture and depth. No frame edges visible. Pure texture, full frame. Luxury brand identity aesthetic. Macro photography quality. No text or logos.\n"
+        }
+      },
+      "negatives": [
+        "logos",
+        "text",
+        "watermark",
+        "frame edges visible",
+        "overexposed gold",
+        "flat uniform surface",
+        "blurry"
+      ],
+      "original_record": {
+        "title": "Charcoal and Gold Texture — Abstract Surface — Brand Identity",
+        "version": "1.0.0",
+        "category": "abstract",
+        "engine_primary": "chatgpt_image_2",
+        "tags": [
+          "abstract",
+          "texture",
+          "charcoal",
+          "gold",
+          "brand",
+          "identity",
+          "luxury"
+        ],
+        "authors": [
+          {
+            "name": "WenceStudio by SmartDesign",
+            "github": "Wence412"
+          }
+        ],
+        "apae": {
+          "appearance": "layered charcoal paper texture with gold leaf fragments embedded, irregular abstract surface, matte base with metallic accent",
+          "place": "tight crop on the surface itself, no visible edges or context, pure texture",
+          "action": "flat lay perspective, raking side light from left revealing surface depth and texture relief",
+          "emotion": "luxury, editorial, brand identity, depth"
+        },
+        "chatgpt_image_2": {
+          "prompt": "Layered charcoal paper texture with irregular gold leaf fragments embedded throughout the surface. Matte charcoal base with metallic gold accent. Flat lay close-up perspective. No visible edges or context, pure abstract texture filling the entire frame. Raking side light from the left revealing surface depth, texture relief, and the contrast between matte charcoal and reflective gold leaf. Abstract macro photography. Luxury brand identity feel. Deep shadow in texture valleys.\n",
+          "style_preset": "editorial",
+          "background": "clean",
+          "ar": "1:1",
+          "quality": "hd"
+        },
+        "engine_overrides": {
+          "midjourney": {
+            "prompt": "Charcoal paper texture gold leaf fragments embedded, flat lay raking sidelight macro, abstract luxury brand identity surface, matte base metallic accent --ar 1:1 --style raw --v 6\n",
+            "flags": "--ar 1:1 --style raw --v 6"
+          },
+          "dalle3": {
+            "prompt": "Abstract close-up of layered charcoal paper with embedded gold leaf fragments. Matte charcoal base. Reflective gold accents. Flat lay view with raking side light from left revealing surface texture and depth. No frame edges visible. Pure texture, full frame. Luxury brand identity aesthetic. Macro photography quality. No text or logos.\n"
+          }
+        },
+        "negatives": [
+          "logos",
+          "text",
+          "watermark",
+          "frame edges visible",
+          "overexposed gold",
+          "flat uniform surface",
+          "blurry"
+        ],
+        "variants": [
+          {
+            "id": "v1",
+            "label": "Black and Silver",
+            "change": "Replace gold leaf with silver leaf. Pure black base. High-contrast metallic cool tone version."
+          },
+          {
+            "id": "v2",
+            "label": "Deep Burgundy",
+            "change": "Replace charcoal with deep burgundy handmade paper. Gold leaf retained. Warm, rich palette."
+          },
+          {
+            "id": "v3",
+            "label": "Blueprint Texture",
+            "change": "Navy blueprint paper base with white ink line fragments and pale gold. Cool editorial academic tone."
+          },
+          {
+            "id": "v4",
+            "label": "Marble and Brass",
+            "change": "White Carrara marble surface with brass powder dusting in crevices. Overhead raking light. Architectural luxury."
+          }
+        ],
+        "license": "MIT",
+        "created": "2026-05-30",
+        "updated": "2026-05-30"
+      },
+      "output": {
+        "aspect_ratio": "1:1",
+        "format": "Prompt template"
+      },
+      "source": {
+        "url": "https://github.com/Wence412/Visual-Prompts-Hub-VPH-/blob/51415307c99761fecf0dc66f7492bbac7b2ae122/texture_charcoal_gold.yaml",
+        "revision": "51415307c99761fecf0dc66f7492bbac7b2ae122",
+        "file": "texture_charcoal_gold.yaml",
+        "sha256": "9468fbf6f0b9fbd49cf0d3e2b234889b240768cfa592c1a40a5acf5f7db903d5"
+      },
+      "compatibility_note": "Historical engine labels and settings are preserved for reference, not verified current API parameters. Review before use.",
+      "evidence": {
+        "tested": false,
+        "sample_assets": []
+      }
+    },
+    {
+      "id": "VPH-WATCH-DARK-STUDIO-PREMIUM",
+      "title": "Titanium Smartwatch — Dark Concrete Studio — Premium",
+      "collection": "Visual Prompts Hub",
+      "category": "products",
+      "operation": "generate",
+      "prompt": "Titanium smartwatch with matte charcoal case, sapphire glass face, and brushed steel band with deployant clasp. Floating at a 30-degree angle with slight clockwise rotation, band curving naturally downward. Dark concrete studio setting with a single overhead spotlight casting a sharp pool of light, smoke-effect background haze creating depth. Premium product photography. Dramatic shadows. High-contrast lighting. Razor-sharp focus on the watch face. Editorial quality. No reflections on face. Deep black background fading into smoke.",
+      "apae": {
+        "appearance": "titanium smartwatch, matte charcoal case, sapphire glass face, brushed steel band with deployant clasp",
+        "place": "dark concrete studio with a single overhead spotlight, smoke-effect background haze",
+        "action": "floating at 30-degree angle, slight clockwise rotation, band curving naturally downward",
+        "emotion": "premium, precise, futuristic, confident"
+      },
+      "tags": [
+        "luxury",
+        "smartwatch",
+        "wearable",
+        "minimal",
+        "dark"
+      ],
+      "variants": [
+        {
+          "id": "v1",
+          "label": "White Studio",
+          "change": "Replace dark concrete studio with white seamless background. Soft diffused lighting. Clean, minimal.",
+          "background": "clean"
+        },
+        {
+          "id": "v2",
+          "label": "Lifestyle Desk",
+          "change": "Place watch on a dark walnut desk surface alongside a leather notebook and fountain pen. Natural window light from left.",
+          "background": "practical_with_props"
+        },
+        {
+          "id": "v3",
+          "label": "Gold Accent",
+          "change": "Change case to rose gold finish. Warm amber accent lighting. Cream gradient background.",
+          "background": "gradient"
+        },
+        {
+          "id": "v4",
+          "label": "Wrist Wear",
+          "change": "Show watch worn on a wrist emerging from a dark suit sleeve. Close-crop. No face visible. Focus on the watch.",
+          "background": "environment"
+        }
+      ],
+      "engine_overrides": {
+        "midjourney": {
+          "prompt": "Titanium smartwatch matte charcoal case sapphire glass floating at 30-degree angle, dark concrete studio overhead spotlight smoke haze, premium product photography, dramatic shadows high contrast, editorial quality --ar 1:1 --style raw --v 6 --q 2\n",
+          "flags": "--ar 1:1 --style raw --v 6 --q 2"
+        },
+        "dalle3": {
+          "prompt": "A premium titanium smartwatch with a matte charcoal case and sapphire glass face, floating at a 30-degree angle inside a dark concrete studio. A single overhead spotlight illuminates the watch face with dramatic precision. Deep shadows. Smoke-effect background. Product photography quality. Sharp focus. No text or logos visible.\n"
+        }
+      },
+      "negatives": [
+        "logos",
+        "text",
+        "watermark",
+        "fingerprints",
+        "reflections on glass",
+        "hands",
+        "people",
+        "blurry"
+      ],
+      "original_record": {
+        "title": "Titanium Smartwatch — Dark Concrete Studio — Premium",
+        "version": "1.0.0",
+        "category": "products",
+        "engine_primary": "chatgpt_image_2",
+        "tags": [
+          "luxury",
+          "smartwatch",
+          "wearable",
+          "minimal",
+          "dark"
+        ],
+        "authors": [
+          {
+            "name": "WenceStudio by SmartDesign",
+            "github": "Wence412"
+          }
+        ],
+        "apae": {
+          "appearance": "titanium smartwatch, matte charcoal case, sapphire glass face, brushed steel band with deployant clasp",
+          "place": "dark concrete studio with a single overhead spotlight, smoke-effect background haze",
+          "action": "floating at 30-degree angle, slight clockwise rotation, band curving naturally downward",
+          "emotion": "premium, precise, futuristic, confident"
+        },
+        "chatgpt_image_2": {
+          "prompt": "Titanium smartwatch with matte charcoal case, sapphire glass face, and brushed steel band with deployant clasp. Floating at a 30-degree angle with slight clockwise rotation, band curving naturally downward. Dark concrete studio setting with a single overhead spotlight casting a sharp pool of light, smoke-effect background haze creating depth. Premium product photography. Dramatic shadows. High-contrast lighting. Razor-sharp focus on the watch face. Editorial quality. No reflections on face. Deep black background fading into smoke.\n",
+          "style_preset": "product_photo",
+          "background": "cinematic",
+          "ar": "1:1",
+          "quality": "hd"
+        },
+        "engine_overrides": {
+          "midjourney": {
+            "prompt": "Titanium smartwatch matte charcoal case sapphire glass floating at 30-degree angle, dark concrete studio overhead spotlight smoke haze, premium product photography, dramatic shadows high contrast, editorial quality --ar 1:1 --style raw --v 6 --q 2\n",
+            "flags": "--ar 1:1 --style raw --v 6 --q 2"
+          },
+          "dalle3": {
+            "prompt": "A premium titanium smartwatch with a matte charcoal case and sapphire glass face, floating at a 30-degree angle inside a dark concrete studio. A single overhead spotlight illuminates the watch face with dramatic precision. Deep shadows. Smoke-effect background. Product photography quality. Sharp focus. No text or logos visible.\n"
+          }
+        },
+        "negatives": [
+          "logos",
+          "text",
+          "watermark",
+          "fingerprints",
+          "reflections on glass",
+          "hands",
+          "people",
+          "blurry"
+        ],
+        "variants": [
+          {
+            "id": "v1",
+            "label": "White Studio",
+            "change": "Replace dark concrete studio with white seamless background. Soft diffused lighting. Clean, minimal.",
+            "background": "clean"
+          },
+          {
+            "id": "v2",
+            "label": "Lifestyle Desk",
+            "change": "Place watch on a dark walnut desk surface alongside a leather notebook and fountain pen. Natural window light from left.",
+            "background": "practical_with_props"
+          },
+          {
+            "id": "v3",
+            "label": "Gold Accent",
+            "change": "Change case to rose gold finish. Warm amber accent lighting. Cream gradient background.",
+            "background": "gradient"
+          },
+          {
+            "id": "v4",
+            "label": "Wrist Wear",
+            "change": "Show watch worn on a wrist emerging from a dark suit sleeve. Close-crop. No face visible. Focus on the watch.",
+            "background": "environment"
+          }
+        ],
+        "license": "MIT",
+        "created": "2026-05-30",
+        "updated": "2026-05-30"
+      },
+      "output": {
+        "aspect_ratio": "1:1",
+        "format": "Prompt template"
+      },
+      "source": {
+        "url": "https://github.com/Wence412/Visual-Prompts-Hub-VPH-/blob/51415307c99761fecf0dc66f7492bbac7b2ae122/watch_dark_studio_premium.yaml",
+        "revision": "51415307c99761fecf0dc66f7492bbac7b2ae122",
+        "file": "watch_dark_studio_premium.yaml",
+        "sha256": "e345385ac8548f02dea8bfa9aa17195cd11a59e50e15347d65ad0c3c6d63160a"
+      },
+      "compatibility_note": "Historical engine labels and settings are preserved for reference, not verified current API parameters. Review before use.",
+      "evidence": {
+        "tested": false,
+        "sample_assets": []
+      }
+    }
+  ]
+}

@@ -75,6 +75,12 @@ Built for agencies, e-commerce, and service-based businesses scaling output.
 
 Use the [10-pattern playbook](docs/prompt-techniques-playbook.md) for example prompts, review checks, an editable production brief, and guidance on when to use another tool.
 
+## Visual Prompts Hub collection
+
+The [public browser](https://wence412.github.io/chatgpt-image-prompt-packs/) also includes eight imported VPH prompts. Select **Visual Prompts Hub** in the Collection filter. Expand a card to see APAE fields, variants, engine prompts, and a pinned source link. The combined browser contains 198 entries: 170 legacy templates, 20 capability cards, and eight VPH cards.
+
+See [integration and refresh instructions](docs/vph-integration.md). Historical engine settings are preserved as unverified metadata, not current API guarantees.
+
 ## ⚡ Quick Start (3 Steps)
 
 ### 1️⃣ Browse & Copy
