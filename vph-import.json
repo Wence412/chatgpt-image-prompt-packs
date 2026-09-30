@@ -8,7 +8,7 @@
   "prompts": [
     {
       "id": "VPH-EDITORIAL-CHARACTER-DARK",
-      "title": "Editorial Portrait — Dark Studio — Character Study",
+      "title": "Editorial Portrait. Dark Studio. Character Study",
       "collection": "Visual Prompts Hub",
       "category": "portraits",
       "operation": "generate",
@@ -169,7 +169,7 @@
     },
     {
       "id": "VPH-FACADE-BRUTALIST-DUSK",
-      "title": "Brutalist Concrete Facade — Dusk — Architectural",
+      "title": "Brutalist Concrete Facade. Dusk. Architectural",
       "collection": "Visual Prompts Hub",
       "category": "architecture",
       "operation": "generate",
@@ -330,7 +330,7 @@
     },
     {
       "id": "VPH-HERO-SHOT-TECH-PRODUCT",
-      "title": "Premium Tech Device — Dark Editorial — Brand Hero",
+      "title": "Premium Tech Device. Dark Editorial. Brand Hero",
       "collection": "Visual Prompts Hub",
       "category": "branding",
       "operation": "generate",
@@ -495,7 +495,7 @@
     },
     {
       "id": "VPH-JACKET-EDITORIAL-CONTRAST",
-      "title": "Structured Leather Jacket — Industrial Backdrop — Editorial",
+      "title": "Structured Leather Jacket. Industrial Backdrop. Editorial",
       "collection": "Visual Prompts Hub",
       "category": "fashion",
       "operation": "generate",
@@ -656,7 +656,7 @@
     },
     {
       "id": "VPH-JEWELRY-GOLD-EDITORIAL",
-      "title": "18K Gold Ring — Marble Plinth — Sculptural",
+      "title": "18K Gold Ring. Marble Plinth. Sculptural",
       "collection": "Visual Prompts Hub",
       "category": "products",
       "operation": "generate",
@@ -803,7 +803,7 @@
     },
     {
       "id": "VPH-SHOE-LUXURY-MINIMAL",
-      "title": "Chelsea Boot — Gradient Studio — Luxury Minimal",
+      "title": "Chelsea Boot. Gradient Studio. Luxury Minimal",
       "collection": "Visual Prompts Hub",
       "category": "fashion",
       "operation": "generate",
@@ -954,7 +954,7 @@
     },
     {
       "id": "VPH-TEXTURE-CHARCOAL-GOLD",
-      "title": "Charcoal and Gold Texture — Abstract Surface — Brand Identity",
+      "title": "Charcoal and Gold Texture. Abstract Surface. Brand Identity",
       "collection": "Visual Prompts Hub",
       "category": "abstract",
       "operation": "generate",
@@ -1109,7 +1109,7 @@
     },
     {
       "id": "VPH-WATCH-DARK-STUDIO-PREMIUM",
-      "title": "Titanium Smartwatch — Dark Concrete Studio — Premium",
+      "title": "Titanium Smartwatch. Dark Concrete Studio. Premium",
       "collection": "Visual Prompts Hub",
       "category": "products",
       "operation": "generate",
