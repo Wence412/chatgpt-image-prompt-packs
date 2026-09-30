@@ -71,6 +71,10 @@ Built for agencies, e-commerce, and service-based businesses scaling output.
 
 ---
 
+## Prompt Techniques Playbook
+
+Use the [10-pattern playbook](docs/prompt-techniques-playbook.md) for example prompts, review checks, an editable production brief, and guidance on when to use another tool.
+
 ## ⚡ Quick Start (3 Steps)
 
 ### 1️⃣ Browse & Copy
@@ -237,7 +241,8 @@ GitHub Pages is deployed through the repository's `deploy-pages.yml` workflow, w
 
 | Metric | Value |
 |--------|-------|
-| **Legacy Prompt Templates** | 170 |\n| **Capability Cards** | 20 |
+| **Legacy Prompt Templates** | 170 |
+| **Capability Cards** | 20 |
 | **Phase 1 (Foundation)** | 75 |
 | **Phase 2 (Production)** | 95 |
 | **Categories** | 18 |
