@@ -7,7 +7,7 @@
 
 This is a production-oriented prompt library for professionals, agencies, and creators who generate commercial-grade AI visuals at scale. **170 reusable prompt templates** are organized across 9 production categories, from product mockups to AI influencer systems to e-commerce optimization.
 
-The v1.2 capability packs add **14 prompt cards** for reference-led generation, precise editing, canvas extension, text-led layouts, transparent assets, visual explainers, and campaign systems. See [the capability-pack guide](docs/capability-packs.md).
+The v1.3 capability packs add **20 prompt cards** for reference-led generation, precise editing, canvas extension, text-led layouts, transparent assets, visual explainers, campaign systems, and GPT Image 2.5 workflows. See [the capability-pack guide](docs/capability-packs.md) and the [GPT Image 2.5 production guide](docs/gpt-image-2.5-production-guide.md).
 
 ---
 
@@ -229,7 +229,7 @@ cd site
 python3 -m http.server 8000
 ```
 
-For GitHub Pages, select the `/site` folder as the publishing source. The browser reads the current prompt data from this repository's public raw files.
+GitHub Pages is deployed through the repository's `deploy-pages.yml` workflow, which publishes the `/site` folder. The browser reads the current prompt data from this repository's public raw files.
 
 ---
 
@@ -237,7 +237,7 @@ For GitHub Pages, select the `/site` folder as the publishing source. The browse
 
 | Metric | Value |
 |--------|-------|
-| **Total Prompts** | 170 |
+| **Legacy Prompt Templates** | 170 |\n| **Capability Cards** | 20 |
 | **Phase 1 (Foundation)** | 75 |
 | **Phase 2 (Production)** | 95 |
 | **Categories** | 18 |
