@@ -6,17 +6,15 @@ Guidance for Claude Code (and other AI assistants) working in this repository.
 
 A content/data library, not an application — there is no build, no server, no
 package.json, and no test suite. It's **170 production-ready AI image prompts**
-for ChatGPT-Image 2.0, published by WenceStudio by SmartDesign, distributed as
+for GPT Image workflows, published by WenceStudio by SmartDesign, distributed as
 Markdown, JSON, and CSV. Changes here are edits to structured data and docs,
 not code changes.
 
 ## Repository layout (actual, flat — not the aspirational tree in README.md)
 
-All files live at the repo root; there are **no** `docs/`, `data/`, `import/`,
-`templates/`, or `examples/` subdirectories despite what `README.md`'s
-"Repository Structure" section shows. When editing README.md, either match
-reality (flat layout) or actually move the files — don't let the doc drift
-further.
+The prompt library itself is intentionally flat. Supporting automation,
+schemas, and capability guidance live in `scripts/`, `schema/`, and `docs/`.
+Keep README.md aligned with that structure.
 
 | File | Role |
 |---|---|
@@ -31,7 +29,11 @@ further.
 | `production-checklist.md` | QA checklist referenced before "shipping" a prompt. |
 | `before-after-workflow.md`, `ad-testing-matrix.md` | Example workflows referenced from README. |
 | `universal-*.md` (product-mockup, packaging, ad-creative, ai-influencer) | Reusable template prompts. |
-| `VALIDATION.md` | Snapshot report of prompt counts and "required files present" — currently references the aspirational `docs/`/`data/`/`import/` paths, so it's also out of date. |
+| `VALIDATION.md` | How to run the automated repository checks. |
+| `scripts/build_exports.py` | Rebuilds the CSV and import JSON from `prompts.json`. |
+| `scripts/validate.py` | Validates data, catalogs, categories, and local Markdown links. |
+| `schema/prompt-card-v2.schema.json` | Contract for new generation and editing prompt cards. |
+| `docs/model-capabilities.md` | Model-agnostic capability guidance for prompt authors. |
 | `CHANGELOG.md` | Version history (currently just `1.0.0`). |
 | `CONTRIBUTING.md`, `README.md`, `LICENSE` | Contribution guide, project pitch/usage docs, MIT license. |
 
@@ -66,21 +68,17 @@ Each prompt record (identical shape in `prompts.json`, the import JSON, and
 
 ## Making changes (per CONTRIBUTING.md)
 
-When adding or editing a prompt, update **all** of the following together —
-this repo has no build step to regenerate one file from another, so
-consistency is manual:
+When adding or editing a prompt, update the canonical data and category map,
+then regenerate the derivative files:
 
 1. `prompts.json` — add/edit the record under `prompts`, bump
    `metadata.total_prompts` / `phase_N_prompts` if counts change.
-2. `chatgpt-image-prompt-library.import.json` — mirror the same change (it's
-   a duplicate of `prompts.json`).
-3. `prompts.csv` — mirror the same record as a CSV row (watch quoting: the
-   `prompt` and `tags` fields contain commas and must be double-quoted).
-4. `categories.json` — add the new `id` under the correct phase/category, or
+2. `categories.json` — add the new `id` under the correct phase/category, or
    create a new category array.
-5. `combined-prompt-library.md` (and `phase-1-visual-prompt-pack.md` or
+3. `combined-prompt-library.md` (and `phase-1-visual-prompt-pack.md` or
    `phase-2-production-prompt-pack.md`) — add the human-readable Markdown
    entry in the matching category section.
+4. Run `python3 scripts/build_exports.py` and `python3 scripts/validate.py`.
 
 Quality bar before considering a prompt done (from `CONTRIBUTING.md`):
 - No real-person likenesses, copyrighted characters, or real logos.

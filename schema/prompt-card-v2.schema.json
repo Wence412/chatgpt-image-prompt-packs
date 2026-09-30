@@ -1,0 +1,54 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/Wence412/chatgpt-image-prompt-packs/schema/prompt-card-v2.schema.json",
+  "title": "Prompt Card v2",
+  "description": "A production prompt recipe for generation and editing workflows.",
+  "type": "object",
+  "required": ["id", "title", "operation", "prompt", "variables", "output", "acceptance_criteria", "rights_and_safety"],
+  "properties": {
+    "id": {"type": "string", "pattern": "^[A-Z]+-[0-9]{3}$"},
+    "title": {"type": "string", "minLength": 3},
+    "operation": {"enum": ["generate", "edit", "extend", "compose", "iterate"]},
+    "model_profile": {"enum": ["fast-generation", "precision-editing", "model-agnostic"]},
+    "prompt": {"type": "string", "minLength": 20},
+    "variables": {"type": "array", "items": {"type": "string"}, "uniqueItems": true},
+    "inputs": {
+      "type": "object",
+      "properties": {
+        "reference_roles": {"type": "array", "items": {"enum": ["subject", "product", "brand-style", "composition", "identity", "mask"]}},
+        "mask_optional": {"type": "boolean"}
+      },
+      "additionalProperties": false
+    },
+    "output": {
+      "type": "object",
+      "required": ["aspect_ratio", "format"],
+      "properties": {
+        "aspect_ratio": {"enum": ["1:1", "4:5", "16:9", "9:16", "custom"]},
+        "format": {"enum": ["png", "jpeg", "webp"]},
+        "background": {"enum": ["opaque", "transparent", "auto"]},
+        "quality": {"enum": ["auto", "low", "medium", "high", "xhigh", "max"]}
+      },
+      "additionalProperties": false
+    },
+    "acceptance_criteria": {"type": "array", "minItems": 1, "items": {"type": "string", "minLength": 5}},
+    "rights_and_safety": {
+      "type": "object",
+      "required": ["requires_consent_for_people", "no_unlicensed_logos"],
+      "properties": {
+        "requires_consent_for_people": {"type": "boolean"},
+        "no_unlicensed_logos": {"type": "boolean"}
+      },
+      "additionalProperties": false
+    },
+    "evidence": {
+      "type": "object",
+      "properties": {
+        "tested": {"type": "boolean"},
+        "sample_assets": {"type": "array", "items": {"type": "string"}}
+      },
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": false
+}

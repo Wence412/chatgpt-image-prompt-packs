@@ -1,7 +1,7 @@
 # 🎨 ChatGPT-Image Prompt Packs
 ### 170 Production-Ready AI Image Prompts for Marketing, Design & Commerce
 
-![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg) ![Prompts: 170](https://img.shields.io/badge/Prompts-170-blue.svg) ![Phase 1 & 2](https://img.shields.io/badge/Phase-1%20%26%202-brightgreen.svg) ![Platform: ChatGPT-Image 2.0](https://img.shields.io/badge/Platform-ChatGPT--Image%202.0-blueviolet.svg)
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg) ![Prompts: 170](https://img.shields.io/badge/Prompts-170-blue.svg) ![Phase 1 & 2](https://img.shields.io/badge/Phase-1%20%26%202-brightgreen.svg) ![Workflow: GPT Image](https://img.shields.io/badge/Workflow-GPT%20Image-blueviolet.svg)
 
 > **Stop Creating Random Images. Start Building Scalable Visual Systems.**
 
@@ -74,13 +74,13 @@ Built for agencies, e-commerce, and service-based businesses scaling output.
 ### 1️⃣ Browse & Copy
 ```bash
 # Option A: Read in markdown
-Open docs/combined-prompt-library.md
+Open combined-prompt-library.md
 
 # Option B: Download JSON
-data/prompts.json
+prompts.json
 
 # Option C: Use CSV
-data/prompts.csv
+prompts.csv
 ```
 
 ### 2️⃣ Replace Placeholders
@@ -95,7 +95,7 @@ Every prompt uses this pattern:
 
 ### 3️⃣ Generate & Log
 ```
-✓ Generate image in ChatGPT-Image 2.0
+✓ Generate or edit in your supported GPT Image workflow
 ✓ Rate quality
 ✓ Document winning prompt variations
 ✓ Build your visual system
@@ -111,31 +111,25 @@ chatgpt-image-prompt-packs/
 ├── LICENSE                            # MIT License
 ├── CONTRIBUTING.md                    # How to contribute
 ├── CHANGELOG.md                       # Version history
-│
-├── docs/                              # Markdown documentation
-│   ├── phase-1-visual-prompt-pack.md
-│   ├── phase-2-production-prompt-pack.md
-│   ├── combined-prompt-library.md     # 🔥 All 170 prompts
-│   ├── seed-framework.md              # Prompt structure guide
-│   └── production-checklist.md        # Quality assurance
-│
-├── data/                              # Import-ready files
-│   ├── prompts.json                   # Full prompt database
-│   ├── prompts.csv                    # Spreadsheet format
-│   └── categories.json                # Category mapping
-│
-├── import/                            # Pre-formatted imports
-│   └── chatgpt-image-prompt-library.import.json
-│
-├── templates/                         # Universal prompts
-│   ├── universal-product-mockup.md
-│   ├── universal-packaging.md
-│   ├── universal-ad-creative.md
-│   └── universal-ai-influencer.md
-│
-└── examples/                          # Workflows & best practices
-    ├── before-after-workflow.md       # Prompt evolution
-    └── ad-testing-matrix.md           # A/B testing framework
+├── prompts.json                        # Canonical structured source
+├── prompts.csv                         # Generated spreadsheet export
+├── chatgpt-image-prompt-library.import.json  # Generated import export
+├── categories.json                     # Category mapping
+├── combined-prompt-library.md          # Human-readable catalog
+├── phase-1-visual-prompt-pack.md       # Phase 1 catalog
+├── phase-2-production-prompt-pack.md   # Phase 2 catalog
+├── seed-framework.md                   # Prompt structure guide
+├── production-checklist.md             # Quality assurance
+├── universal-*.md                      # Reusable template prompts
+├── schema/
+│   └── prompt-card-v2.schema.json      # Modern prompt-card contract
+├── scripts/
+│   ├── build_exports.py                # Rebuild CSV and import exports
+│   └── validate.py                     # Repository checks
+├── docs/
+│   └── model-capabilities.md           # Model-agnostic workflow guidance
+└── .github/workflows/
+    └── validate.yml                    # Pull-request validation
 ```
 
 ---
@@ -153,7 +147,7 @@ Every production prompt follows this proven structure:
 
 **Result:** Consistent, repeatable, commercially-ready visuals.
 
-📖 [Read full S.E.E.D. guide](docs/seed-framework.md)
+📖 [Read full S.E.E.D. guide](seed-framework.md)
 
 ---
 
@@ -169,7 +163,7 @@ on natural stone with cinematic morning light, soft shadows, depth of field,
 brand colors, clean negative space, no text, commercial-ready"
 ```
 
-**Result:** 10x better output. [See full workflow](examples/before-after-workflow.md)
+**Result:** Better output through deliberate iteration. [See the full workflow](before-after-workflow.md)
 
 ### 📊 Ad Testing Matrix
 Optimize performance with systematic variation:
@@ -178,7 +172,7 @@ Optimize performance with systematic variation:
 - Track what wins
 - Scale the winners
 
-[View testing matrix](examples/ad-testing-matrix.md)
+[View testing matrix](ad-testing-matrix.md)
 
 ### ✅ Production Checklist
 Before delivering to clients:
@@ -195,31 +189,31 @@ Before delivering to clients:
 ✓ Commercially ready?
 ```
 
-[Full checklist](docs/production-checklist.md)
+[Full checklist](production-checklist.md)
 
 ---
 
 ## 🔧 How to Use (5 Ways)
 
 ### **1. Direct Copy-Paste**
-Open `docs/combined-prompt-library.md` → Copy prompt → Replace variables → Generate
+Open [`combined-prompt-library.md`](combined-prompt-library.md) → Copy prompt → Replace variables → Generate
 
 ### **2. JSON Import**
 ```bash
 # Import into Notion, Airtable, or custom database
-Use: data/prompts.json or import/chatgpt-image-prompt-library.import.json
+Use: [`prompts.json`](prompts.json) or [`chatgpt-image-prompt-library.import.json`](chatgpt-image-prompt-library.import.json)
 ```
 
 ### **3. CSV Spreadsheet**
 ```bash
 # Open in Excel, Google Sheets, or prompt manager
-Use: data/prompts.csv
+Use: [`prompts.csv`](prompts.csv)
 ```
 
 ### **4. CLI/Automation**
 ```bash
 # Parse JSON for scripting
-cat data/prompts.json | jq '.prompts[] | select(.phase=="Phase 2")'
+cat prompts.json | jq '.prompts[] | select(.phase=="Phase 2")'
 ```
 
 ### **5. Custom Tools**
@@ -280,9 +274,9 @@ All data is structured and documented—integrate into your workflow, plugin, or
 
 **Want to add your prompts to the library?**
 
-1. Add your prompt to `data/prompts.json`
+1. Add your prompt to `prompts.json`
 2. Include: phase, category, title, prompt text, best_for, framework, tags
-3. Ensure it's commercially safe and specific
+3. Update `categories.json`, then rebuild exports and run validation
 4. Submit a PR with documentation
 
 [Full guidelines](CONTRIBUTING.md)
@@ -301,11 +295,11 @@ You're free to use, modify, and distribute these prompts. Just give credit where
 
 | Resource | Purpose |
 |----------|---------|
-| [S.E.E.D. Framework](docs/seed-framework.md) | Learn prompt structure |
-| [Production Checklist](docs/production-checklist.md) | Quality assurance |
-| [Before & After Workflow](examples/before-after-workflow.md) | Prompt evolution |
-| [Ad Testing Matrix](examples/ad-testing-matrix.md) | A/B test framework |
-| [Universal Templates](templates/) | Copy-paste starting points |
+| [S.E.E.D. Framework](seed-framework.md) | Learn prompt structure |
+| [Production Checklist](production-checklist.md) | Quality assurance |
+| [Before & After Workflow](before-after-workflow.md) | Prompt evolution |
+| [Ad Testing Matrix](ad-testing-matrix.md) | A/B test framework |
+| [Universal Templates](universal-product-mockup.md) | Copy-paste starting points |
 
 ---
 
@@ -333,7 +327,7 @@ You're free to use, modify, and distribute these prompts. Just give credit where
 
 **Transform ChatGPT-Image from a toy into a professional production tool.**
 
-**[Browse All 170 Prompts](docs/combined-prompt-library.md)** → **[Get Started](docs/seed-framework.md)** → **[Import Data](data/)**
+**[Browse All 170 Prompts](combined-prompt-library.md)** → **[Get Started](seed-framework.md)** → **[Import Data](prompts.json)**
 
 ---
 

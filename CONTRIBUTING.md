@@ -20,8 +20,8 @@ We welcome contributions in these areas:
 ## 📋 Before You Start
 
 ✅ **Do:**
-- Follow the [S.E.E.D. Framework](docs/seed-framework.md)
-- Test your prompts in ChatGPT-Image 2.0
+- Follow the [S.E.E.D. Framework](seed-framework.md)
+- Test your prompts in a supported GPT Image workflow
 - Use the production checklist before submitting
 - Provide real-world use cases
 - Document winning variations
@@ -72,13 +72,13 @@ clean, polished, and ready for web/print without editing.
 
 ### Step 3: Test Your Prompt
 ```bash
-# Generate the image in ChatGPT-Image 2.0
+# Generate or edit the image in a supported GPT Image workflow
 # Rate the output quality
 # Note any variations or refinements
 # Document the winning version
 ```
 
-### Step 4: Add to `data/prompts.json`
+### Step 4: Add to `prompts.json`
 
 ```json
 {
@@ -98,7 +98,7 @@ clean, polished, and ready for web/print without editing.
 }
 ```
 
-### Step 5: Update `data/categories.json`
+### Step 5: Update `categories.json`
 
 If adding to a new category:
 
@@ -109,11 +109,18 @@ If adding to a new category:
 ]
 ```
 
-### Step 6: Create a Pull Request
+### Step 6: Rebuild exports and validate
+
+```bash
+python3 scripts/build_exports.py
+python3 scripts/validate.py
+```
+
+### Step 7: Create a Pull Request
 
 ```bash
 # Commit your changes
-git add data/prompts.json data/categories.json
+git add prompts.json categories.json prompts.csv chatgpt-image-prompt-library.import.json
 git commit -m "Add P1-XXX: Your Prompt Title"
 
 # Push to your fork
@@ -136,7 +143,7 @@ git push origin add/your-prompt-name
   "phase": "Phase 1 or Phase 2",        // Clearly labeled
   "category": "Existing Category",      // Must match categories.json
   "title": "Clear, Descriptive Title",  // 3-5 words
-  "prompt": "Full S.E.E.D. prompt...",  // 150-300 words
+  "prompt": "Full S.E.E.D. prompt...",  // Direct and specific, without filler
   "best_for": "Use case 1, Use case 2", // Why use this?
   "framework": "S.E.E.D. components",   // How it's structured
   "tags": ["tag1", "tag2"]              // Min 3, Max 8 tags
@@ -188,13 +195,13 @@ Use tags for discoverability:
 
 Before submitting, verify:
 
-- [ ] Prompt is production-ready (tested in ChatGPT-Image 2.0)
+- [ ] Prompt is production-ready (tested in a supported GPT Image workflow)
 - [ ] Follows S.E.E.D. framework structure
 - [ ] Uses clear placeholder variables: `[product]`, `[brand]`, `[audience]`, etc.
 - [ ] No copyrighted characters, real logos, or real-person likenesses
 - [ ] No random generated text or unvalidated elements
 - [ ] Clear and specific output requirements
-- [ ] 150-300 words in length
+- [ ] Prompt length fits the use case and includes only necessary direction
 - [ ] Best_for and tags are accurate
 - [ ] JSON is properly formatted (valid syntax)
 - [ ] Doesn't duplicate existing prompts without significant improvement
@@ -284,18 +291,18 @@ Contributors are recognized in:
 
 ## 📖 Additional Resources
 
-- [S.E.E.D. Framework](docs/seed-framework.md) – How to structure prompts
-- [Production Checklist](docs/production-checklist.md) – Quality standards
-- [Before & After Workflow](examples/before-after-workflow.md) – Prompt evolution
-- [Ad Testing Matrix](examples/ad-testing-matrix.md) – Testing methodology
-- [JSON Schema](data/prompts.json) – Data format reference
+- [S.E.E.D. Framework](seed-framework.md) – How to structure prompts
+- [Production Checklist](production-checklist.md) – Quality standards
+- [Before & After Workflow](before-after-workflow.md) – Prompt evolution
+- [Ad Testing Matrix](ad-testing-matrix.md) – Testing methodology
+- [Prompt schema](schema/prompt-card-v2.schema.json) – Data format reference
 
 ---
 
 ## ❓ FAQ
 
 **Q: Can I contribute prompts for other AI image tools?**
-A: Currently, this library is ChatGPT-Image 2.0 focused. We may expand to other tools in v2.0. Open a discussion!
+A: This library is optimized for GPT Image workflows. Open a discussion before adding another platform so capability and licensing guidance can remain clear.
 
 **Q: What if my prompt doesn't get accepted?**
 A: We'll provide constructive feedback. You can refine and resubmit. Rejection reasons include: untested, vague, duplicative, or off-brand.
@@ -362,6 +369,6 @@ Whether it's a single prompt, bug fix, or feature suggestion—your effort matte
 
 ---
 
-Made with 💜 **WenceStudio by SmartDesign** | **ChatGPT-Image 2.0 Prompt Packs**
+Made with 💜 **WenceStudio by SmartDesign** | **GPT Image Prompt Packs**
 
 </div>

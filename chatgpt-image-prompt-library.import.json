@@ -1,12 +1,12 @@
 {
   "metadata": {
     "name": "ChatGPT-Image Prompt Packs: Phase 1 and Phase 2",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "created": "2026-05-10",
     "total_prompts": 170,
     "phase_1_prompts": 75,
     "phase_2_prompts": 95,
-    "description": "A GitHub-ready prompt library for ChatGPT-Image 2.0 covering visual prompt creation, product mockups, production services, AI influencers, e-commerce, ad testing, and brand systems.",
+    "description": "A GitHub-ready prompt library for GPT Image workflows covering visual prompt creation, product mockups, production services, AI influencers, e-commerce, ad testing, and brand systems.",
     "license_note": "Update LICENSE before public commercial distribution if needed."
   },
   "prompts": [
