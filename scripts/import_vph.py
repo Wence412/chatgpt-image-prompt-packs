@@ -29,7 +29,7 @@ def build(source):
             raise ValueError(f"Empty prompt: {path.name}")
         cards.append({
             "id": "VPH-" + path.stem.upper().replace("_", "-"),
-            "title": data["title"], "collection": "Visual Prompts Hub",
+            "title": data["title"].replace(" — ", ". ").replace("—", ". "), "collection": "Visual Prompts Hub",
             "category": data.get("category", "Uncategorized"), "operation": "generate",
             "prompt": prompt, "apae": data["apae"],
             "tags": data.get("tags", []), "variants": data.get("variants", []),
@@ -65,6 +65,8 @@ def validate(data):
     if set(texts) & existing:
         raise ValueError("VPH prompt duplicates existing library")
     for card in cards:
+        if "—" in card["title"]:
+            raise ValueError("Displayed VPH titles must not contain em dashes")
         if not card["prompt"] or not card["source"]["url"] or not card["apae"]:
             raise ValueError("Incomplete VPH card")
 
