@@ -1,10 +1,12 @@
 const RAW_BASE = 'https://raw.githubusercontent.com/Wence412/chatgpt-image-prompt-packs/main';
-const state = { prompts: [], query: '', collection: '', operation: '', media: '', assets: [] };
+const PAGE_SIZE = 24;
+const state = { prompts: [], query: '', collection: '', operation: '', media: '', assets: [], visibleCount: PAGE_SIZE };
 const elements = {
   cards: document.querySelector('#cards'), empty: document.querySelector('#empty'),
   count: document.querySelector('#count'), summary: document.querySelector('#result-summary'),
   search: document.querySelector('#search'), collection: document.querySelector('#collection'),
-  operation: document.querySelector('#operation'), media: document.querySelector('#media'), toast: document.querySelector('#toast')
+  operation: document.querySelector('#operation'), media: document.querySelector('#media'), toast: document.querySelector('#toast'),
+  loadMore: document.querySelector('#load-more'), themeToggle: document.querySelector('#theme-toggle')
 };
 
 function normalizeLegacy(prompt) {
@@ -100,10 +102,13 @@ function attachMedia(article, prompt) {
 
 function render() {
   const results = filteredPrompts();
+  const visibleResults = results.slice(0, state.visibleCount);
   elements.cards.replaceChildren();
   elements.empty.hidden = results.length !== 0;
   elements.summary.textContent = `${results.length} of ${state.prompts.length} prompt cards`;
-  for (const prompt of results) {
+  elements.loadMore.hidden = visibleResults.length >= results.length;
+  elements.loadMore.textContent = `Show ${Math.min(PAGE_SIZE, results.length - visibleResults.length)} more prompts`;
+  for (const prompt of visibleResults) {
     const card = document.querySelector('#card-template').content.cloneNode(true);
     card.querySelector('.card-id').textContent = prompt.id;
     card.querySelector('.card-operation').textContent = prompt.operation;
@@ -112,17 +117,19 @@ function render() {
     card.querySelector('.card-prompt').textContent = prompt.prompt;
     card.querySelector('.card-output').textContent = `${prompt.output.aspect_ratio} · ${prompt.output.format}`;
     card.querySelector('.copy').addEventListener('click', () => copyPrompt(prompt));
-    if (prompt.acceptance_criteria) {
+    {
       const details = document.createElement('details');
       const summary = document.createElement('summary');
-      summary.textContent = 'View full brief and review checks';
+      summary.textContent = prompt.acceptance_criteria ? 'View full brief and review checks' : 'View full prompt';
       details.append(summary);
       const full = document.createElement('pre');
       full.textContent = prompt.prompt;
       details.append(full);
-      const status = document.createElement('p');
-      status.textContent = prompt.evidence?.tested ? 'Image evidence recorded. Review it before reuse.' : 'Untested recipe. Review the generated result before approval.';
-      details.append(status);
+      if (prompt.acceptance_criteria) {
+        const status = document.createElement('p');
+        status.textContent = prompt.evidence?.tested ? 'Image evidence recorded. Review it before reuse.' : 'Untested recipe. Review the generated result before approval.';
+        details.append(status);
+      }
       for (const [heading, items] of [['Review checks', prompt.acceptance_criteria], ['Production tips', prompt.tips || []]]) {
         if (!items.length) continue;
         const label = document.createElement('h3');
@@ -170,7 +177,7 @@ function render() {
 }
 
 function reset() {
-  state.query = ''; state.collection = ''; state.operation = ''; state.media = '';
+  state.query = ''; state.collection = ''; state.operation = ''; state.media = ''; state.visibleCount = PAGE_SIZE;
   elements.search.value = ''; elements.collection.value = ''; elements.operation.value = ''; elements.media.value = '';
   render();
 }
@@ -210,10 +217,24 @@ async function load() {
   }
 }
 
-elements.search.addEventListener('input', event => { state.query = event.target.value; render(); });
-elements.collection.addEventListener('change', event => { state.collection = event.target.value; render(); });
-elements.operation.addEventListener('change', event => { state.operation = event.target.value; render(); });
-elements.media.addEventListener('change', event => { state.media = event.target.value; render(); });
+function updateFilter(key, value) { state[key] = value; state.visibleCount = PAGE_SIZE; render(); }
+elements.search.addEventListener('input', event => updateFilter('query', event.target.value));
+elements.collection.addEventListener('change', event => updateFilter('collection', event.target.value));
+elements.operation.addEventListener('change', event => updateFilter('operation', event.target.value));
+elements.media.addEventListener('change', event => updateFilter('media', event.target.value));
 document.querySelector('#clear').addEventListener('click', reset);
 document.querySelector('#empty-clear').addEventListener('click', reset);
+elements.loadMore.addEventListener('click', () => { state.visibleCount += PAGE_SIZE; render(); });
+
+function setTheme(theme) {
+  document.body.dataset.theme = theme;
+  const isLight = theme === 'light';
+  elements.themeToggle.textContent = isLight ? 'Use dark theme' : 'Use light theme';
+  elements.themeToggle.setAttribute('aria-pressed', String(isLight));
+  localStorage.setItem('prompt-packs-theme', theme);
+}
+
+try { setTheme(localStorage.getItem('prompt-packs-theme') || 'dark'); } catch { setTheme('dark'); }
+elements.themeToggle.addEventListener('click', () => setTheme(document.body.dataset.theme === 'light' ? 'dark' : 'light'));
 load();
+
