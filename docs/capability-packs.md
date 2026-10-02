@@ -1,6 +1,6 @@
-# Capability packs v1.3
+# Capability packs v1.4
 
-The capability packs add 20 production prompt cards for workflows that need
+The capability packs add 30 production prompt cards for workflows that need
 more than a one-shot image generation request.
 
 | Pack | Cards | Use it when |
@@ -13,6 +13,7 @@ more than a one-shot image generation request.
 | Structured visual explainers | 2 | The output teaches a process or explains a product feature. |
 | Campaign systems | 2 | One creative direction must scale into several campaign assets. |
 | GPT Image 2.5 workflows | 6 | Model-specific generation and controlled editing recipes. |
+| Image Production Briefs | 10 | Complete editable briefs for specific production tasks, with review checks and tips. |
 
 Each card records operation, reference roles, output requirements, acceptance
 criteria, and rights checks. Treat the criteria as a review gate, not a claim
@@ -21,3 +22,5 @@ that a generated image is automatically approved.
 ## Learn the techniques
 
 See the [Prompt Techniques Playbook](prompt-techniques-playbook.md) and [GPT Image 2.5 production guide](gpt-image-2.5-production-guide.md). All cards currently remain untested until evidence is recorded.
+
+See the [Image Production Briefs](image-production-briefs.md) for all ten six-section templates.

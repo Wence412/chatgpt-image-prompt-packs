@@ -59,6 +59,32 @@ function render() {
     card.querySelector('.card-prompt').textContent = prompt.prompt;
     card.querySelector('.card-output').textContent = `${prompt.output.aspect_ratio} · ${prompt.output.format}`;
     card.querySelector('.copy').addEventListener('click', () => copyPrompt(prompt));
+    if (prompt.acceptance_criteria) {
+      const details = document.createElement('details');
+      const summary = document.createElement('summary');
+      summary.textContent = 'View full brief and review checks';
+      details.append(summary);
+      const full = document.createElement('pre');
+      full.textContent = prompt.prompt;
+      details.append(full);
+      const status = document.createElement('p');
+      status.textContent = prompt.evidence?.tested ? 'Image evidence recorded. Review it before reuse.' : 'Untested recipe. Review the generated result before approval.';
+      details.append(status);
+      for (const [heading, items] of [['Review checks', prompt.acceptance_criteria], ['Production tips', prompt.tips || []]]) {
+        if (!items.length) continue;
+        const label = document.createElement('h3');
+        label.textContent = heading;
+        details.append(label);
+        const list = document.createElement('ul');
+        for (const item of items) {
+          const li = document.createElement('li');
+          li.textContent = item;
+          list.append(li);
+        }
+        details.append(list);
+      }
+      card.querySelector('article').append(details);
+    }
     if (prompt.source) {
       const article = card.querySelector('article');
       const details = document.createElement('details');

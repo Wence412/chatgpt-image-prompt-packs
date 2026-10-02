@@ -75,9 +75,13 @@ Built for agencies, e-commerce, and service-based businesses scaling output.
 
 Use the [10-pattern playbook](docs/prompt-techniques-playbook.md) for example prompts, review checks, an editable production brief, and guidance on when to use another tool.
 
+## Image Production Briefs
+
+Ten new [editable production briefs](docs/image-production-briefs.md), `BRIEF-001` through `BRIEF-010`, retain the six-section objective, references, art direction, continuity, constraints, and finishing structure. Select **Image Production Briefs** in the browser to copy a template or expand its full brief, review checks, and production tips. These are engine-neutral, untested recipes.
+
 ## Visual Prompts Hub collection
 
-The [public browser](https://wence412.github.io/chatgpt-image-prompt-packs/) also includes eight imported VPH prompts. Select **Visual Prompts Hub** in the Collection filter. Expand a card to see APAE fields, variants, engine prompts, and a pinned source link. The combined browser contains 198 entries: 170 legacy templates, 20 capability cards, and eight VPH cards.
+The [public browser](https://wence412.github.io/chatgpt-image-prompt-packs/) also includes eight imported VPH prompts. Select **Visual Prompts Hub** in the Collection filter. Expand a card to see APAE fields, variants, engine prompts, and a pinned source link. The combined browser contains 208 entries: 170 legacy templates, 30 capability cards, and eight VPH cards.
 
 See [integration and refresh instructions](docs/vph-integration.md). Historical engine settings are preserved as unverified metadata, not current API guarantees.
 

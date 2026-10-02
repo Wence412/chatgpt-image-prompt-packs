@@ -1,9 +1,9 @@
 {
   "metadata": {
     "name": "GPT Image Capability Packs",
-    "version": "1.3.0",
+    "version": "1.4.0",
     "description": "Reference-led generation and editing prompt cards designed for iterative commercial workflows, including GPT Image 2.5 production patterns.",
-    "total_cards": 20
+    "total_cards": 30
   },
   "packs": [
     {
@@ -786,6 +786,662 @@
         "tested": false,
         "sample_assets": []
       }
+    },
+    {
+      "id": "BRIEF-001",
+      "pack": "Image Production Briefs",
+      "title": "Website hero with copy space",
+      "operation": "generate",
+      "model_profile": "model-agnostic",
+      "prompt": "Copy this brief, complete every bracket, and attach every reference image mentioned. If a required reference is missing or instructions conflict, identify the gap before producing the image.\n\n1. Objective\nImage type: website hero.\nPurpose and platform: [offer or service] on [landing page].\nCore visual idea: [single customer benefit expressed visually].\nTarget audience: [specific viewer and intended response].\n\n2. References\nReference 1: [filename or None]. Use: [exact role and details to preserve].\nReference 2: [filename or None]. Use: [separate role, such as composition or lighting only].\nPriority: [source to follow if references conflict]. Do not transfer unrelated faces, text or logos between references.\n\n3. Art Direction\nSubject or product: [hero subject, visible attributes and one supporting object].\nScene and background: [simple architectural or studio setting]. Keep competing objects out of the copy zone.\nComposition: Place the subject in [left or right third]; reserve [percentage and side] as low-detail negative space for later headline placement. Protect [mobile crop focal point].\nAction and expression: [quiet purposeful action or still pose].\nVisual style: [restrained editorial style].\nColor and lighting: [palette], [key-light direction], soft controlled shadows; no bright hotspot in the copy area.\nCamera direction: [wide or normal lens feel], level viewpoint, moderate depth; keep the subject recognizable in a smaller crop. Camera terms describe the visual result, not guaranteed physical capture metadata.\n\n4. Brand and Continuity Lock\nBrand elements to preserve: [palette, materials, mood and approved logo-safe area].\nSubject or product invariants: [visible traits, proportions, label details or scene elements that must remain consistent]. Do not claim an exact identity match based on prompting alone.\n\n5. Constraints\nMust include: [required elements and priority order].\nMust avoid: unrequested people, duplicate objects, malformed anatomy, watermarks, invented logos and [scene-specific exclusions]. Preserve approved details; flag a conflict rather than silently substituting them.\n\n6. Output and Finishing\nImage engine: [engine or unspecified].\nAspect ratio and resolution: [desired ratio and pixel dimensions; verify engine support; if unsupported, state an alternative]. Suggested composition: 16:9.\nText in image: No text. Headline and approved logo will be added later.\nFinishing requirements: [retouching level, natural surface detail, grain, sharpness and export format].\nLater edits I will make: [crop, headline, approved logo, color adjustment or None].\nReview before approval: Preserve space for headline across desktop and mobile crops.",
+      "variables": [
+        "offer or service",
+        "landing page",
+        "single customer benefit expressed visually",
+        "specific viewer and intended response",
+        "filename or None",
+        "exact role and details to preserve",
+        "separate role, such as composition or lighting only",
+        "source to follow if references conflict",
+        "hero subject, visible attributes and one supporting object",
+        "simple architectural or studio setting",
+        "left or right third",
+        "percentage and side",
+        "mobile crop focal point",
+        "quiet purposeful action or still pose",
+        "restrained editorial style",
+        "palette",
+        "key-light direction",
+        "wide or normal lens feel",
+        "palette, materials, mood and approved logo-safe area",
+        "visible traits, proportions, label details or scene elements that must remain consistent",
+        "required elements and priority order",
+        "scene-specific exclusions",
+        "engine or unspecified",
+        "desired ratio and pixel dimensions; verify engine support; if unsupported, state an alternative",
+        "retouching level, natural surface detail, grain, sharpness and export format",
+        "crop, headline, approved logo, color adjustment or None"
+      ],
+      "inputs": {
+        "reference_roles": [
+          "brand-style",
+          "composition"
+        ],
+        "mask_optional": false
+      },
+      "output": {
+        "aspect_ratio": "16:9",
+        "format": "png",
+        "background": "opaque",
+        "quality": "high"
+      },
+      "acceptance_criteria": [
+        "Preserve space for headline across desktop and mobile crops",
+        "References influence only their assigned roles",
+        "All requested invariants and exclusions have been visually inspected",
+        "Final crop, copy space and any supplied text are reviewed at delivery size"
+      ],
+      "rights_and_safety": {
+        "requires_consent_for_people": false,
+        "no_unlicensed_logos": true
+      },
+      "evidence": {
+        "tested": false,
+        "sample_assets": []
+      },
+      "tips": [
+        "Design the mobile composition separately if cropping removes the subject or copy zone.",
+        "Treat output fields as delivery targets. Verify supported controls in the selected engine."
+      ]
+    },
+    {
+      "id": "BRIEF-002",
+      "pack": "Image Production Briefs",
+      "title": "Editorial portrait with identity continuity",
+      "operation": "generate",
+      "model_profile": "model-agnostic",
+      "prompt": "Copy this brief, complete every bracket, and attach every reference image mentioned. If a required reference is missing or instructions conflict, identify the gap before producing the image.\n\n1. Objective\nImage type: editorial portrait.\nPurpose and platform: [profile, interview or publication].\nCore visual idea: [one personality trait expressed through pose and light].\nTarget audience: [specific viewer and intended response].\n\n2. References\nReference 1: [filename or None]. Use: [exact role and details to preserve].\nReference 2: [filename or None]. Use: [separate role, such as composition or lighting only].\nPriority: [source to follow if references conflict]. Do not transfer unrelated faces, text or logos between references.\n\n3. Art Direction\nSubject or product: [person from attached identity reference, visible features, grooming and wardrobe].\nScene and background: [uncluttered studio or location].\nComposition: [head-and-shoulders or seated framing], eyes near [position], breathing room above the head; reserve [copy zone].\nAction and expression: [pose, gaze direction and expression].\nVisual style: [editorial realism].\nColor and lighting: [key direction and softness], [fill strength], natural skin tones and coherent catchlights.\nCamera direction: [portrait lens feel], eye-level viewpoint, enough depth to keep both eyes readable. Camera terms describe the visual result, not guaranteed physical capture metadata.\n\n4. Brand and Continuity Lock\nBrand elements to preserve: [palette, materials, mood and approved logo-safe area].\nSubject or product invariants: [visible traits, proportions, label details or scene elements that must remain consistent]. Do not claim an exact identity match based on prompting alone.\n\n5. Constraints\nMust include: [required elements and priority order].\nMust avoid: unrequested people, duplicate objects, malformed anatomy, watermarks, invented logos and [scene-specific exclusions]. Preserve approved details; flag a conflict rather than silently substituting them.\n\n6. Output and Finishing\nImage engine: [engine or unspecified].\nAspect ratio and resolution: [desired ratio and pixel dimensions; verify engine support; if unsupported, state an alternative]. Suggested composition: 4:5.\nText in image: [exact approved words or No text].\nFinishing requirements: [retouching level, natural surface detail, grain, sharpness and export format].\nLater edits I will make: [crop, headline, approved logo, color adjustment or None].\nReview before approval: Inspect visible reference traits, hands, eyes and natural skin texture.",
+      "variables": [
+        "profile, interview or publication",
+        "one personality trait expressed through pose and light",
+        "specific viewer and intended response",
+        "filename or None",
+        "exact role and details to preserve",
+        "separate role, such as composition or lighting only",
+        "source to follow if references conflict",
+        "person from attached identity reference, visible features, grooming and wardrobe",
+        "uncluttered studio or location",
+        "head-and-shoulders or seated framing",
+        "position",
+        "copy zone",
+        "pose, gaze direction and expression",
+        "editorial realism",
+        "key direction and softness",
+        "fill strength",
+        "portrait lens feel",
+        "palette, materials, mood and approved logo-safe area",
+        "visible traits, proportions, label details or scene elements that must remain consistent",
+        "required elements and priority order",
+        "scene-specific exclusions",
+        "engine or unspecified",
+        "desired ratio and pixel dimensions; verify engine support; if unsupported, state an alternative",
+        "exact approved words or No text",
+        "retouching level, natural surface detail, grain, sharpness and export format",
+        "crop, headline, approved logo, color adjustment or None"
+      ],
+      "inputs": {
+        "reference_roles": [
+          "identity",
+          "brand-style"
+        ],
+        "mask_optional": false
+      },
+      "output": {
+        "aspect_ratio": "4:5",
+        "format": "png",
+        "background": "opaque",
+        "quality": "high"
+      },
+      "acceptance_criteria": [
+        "Inspect visible reference traits, hands, eyes and natural skin texture",
+        "References influence only their assigned roles",
+        "All requested invariants and exclusions have been visually inspected",
+        "Final crop, copy space and any supplied text are reviewed at delivery size"
+      ],
+      "rights_and_safety": {
+        "requires_consent_for_people": true,
+        "no_unlicensed_logos": true
+      },
+      "evidence": {
+        "tested": false,
+        "sample_assets": []
+      },
+      "tips": [
+        "Use the identity reference for appearance only. Lighting and wardrobe references must not introduce another face.",
+        "Treat output fields as delivery targets. Verify supported controls in the selected engine."
+      ]
+    },
+    {
+      "id": "BRIEF-003",
+      "pack": "Image Production Briefs",
+      "title": "Catalog product shot with geometry lock",
+      "operation": "generate",
+      "model_profile": "model-agnostic",
+      "prompt": "Copy this brief, complete every bracket, and attach every reference image mentioned. If a required reference is missing or instructions conflict, identify the gap before producing the image.\n\n1. Objective\nImage type: catalog product shot.\nPurpose and platform: [product listing or catalog].\nCore visual idea: [clear faithful view of the actual item].\nTarget audience: [specific viewer and intended response].\n\n2. References\nReference 1: [filename or None]. Use: [exact role and details to preserve].\nReference 2: [filename or None]. Use: [separate role, such as composition or lighting only].\nPriority: [source to follow if references conflict]. Do not transfer unrelated faces, text or logos between references.\n\n3. Art Direction\nSubject or product: [product from attached reference, dimensions or relative proportions, materials and label details].\nScene and background: [plain backdrop and surface]. Show only the supplied product and [approved accessory or None].\nComposition: [front or three-quarter view], centered within [margin]; full silhouette visible.\nAction and expression: [static upright or approved display orientation].\nVisual style: [clean commercial photography].\nColor and lighting: [neutral soft light], controlled reflections; contact shadow consistent with the supporting surface.\nCamera direction: [normal-to-telephoto lens feel], sufficient depth for all essential features, no exaggerated wide-angle perspective. Camera terms describe the visual result, not guaranteed physical capture metadata.\n\n4. Brand and Continuity Lock\nBrand elements to preserve: [palette, materials, mood and approved logo-safe area].\nSubject or product invariants: [visible traits, proportions, label details or scene elements that must remain consistent]. Do not claim an exact identity match based on prompting alone.\n\n5. Constraints\nMust include: [required elements and priority order].\nMust avoid: unrequested people, duplicate objects, malformed anatomy, watermarks, invented logos and [scene-specific exclusions]. Preserve approved details; flag a conflict rather than silently substituting them.\n\n6. Output and Finishing\nImage engine: [engine or unspecified].\nAspect ratio and resolution: [desired ratio and pixel dimensions; verify engine support; if unsupported, state an alternative]. Suggested composition: 1:1.\nText in image: [preserve supplied label wording; add no new text, or No text].\nFinishing requirements: [retouching level, natural surface detail, grain, sharpness and export format].\nLater edits I will make: [crop, headline, approved logo, color adjustment or None].\nReview before approval: Compare silhouette, part count, label placement and colors against the source.",
+      "variables": [
+        "product listing or catalog",
+        "clear faithful view of the actual item",
+        "specific viewer and intended response",
+        "filename or None",
+        "exact role and details to preserve",
+        "separate role, such as composition or lighting only",
+        "source to follow if references conflict",
+        "product from attached reference, dimensions or relative proportions, materials and label details",
+        "plain backdrop and surface",
+        "approved accessory or None",
+        "front or three-quarter view",
+        "margin",
+        "static upright or approved display orientation",
+        "clean commercial photography",
+        "neutral soft light",
+        "normal-to-telephoto lens feel",
+        "palette, materials, mood and approved logo-safe area",
+        "visible traits, proportions, label details or scene elements that must remain consistent",
+        "required elements and priority order",
+        "scene-specific exclusions",
+        "engine or unspecified",
+        "desired ratio and pixel dimensions; verify engine support; if unsupported, state an alternative",
+        "preserve supplied label wording; add no new text, or No text",
+        "retouching level, natural surface detail, grain, sharpness and export format",
+        "crop, headline, approved logo, color adjustment or None"
+      ],
+      "inputs": {
+        "reference_roles": [
+          "product"
+        ],
+        "mask_optional": false
+      },
+      "output": {
+        "aspect_ratio": "1:1",
+        "format": "png",
+        "background": "opaque",
+        "quality": "high"
+      },
+      "acceptance_criteria": [
+        "Compare silhouette, part count, label placement and colors against the source",
+        "References influence only their assigned roles",
+        "All requested invariants and exclusions have been visually inspected",
+        "Final crop, copy space and any supplied text are reviewed at delivery size"
+      ],
+      "rights_and_safety": {
+        "requires_consent_for_people": false,
+        "no_unlicensed_logos": true
+      },
+      "evidence": {
+        "tested": false,
+        "sample_assets": []
+      },
+      "tips": [
+        "Use real product photography when exact specifications must be demonstrated. Prompt constraints alone cannot certify accuracy.",
+        "Treat output fields as delivery targets. Verify supported controls in the selected engine."
+      ]
+    },
+    {
+      "id": "BRIEF-004",
+      "pack": "Image Production Briefs",
+      "title": "Lifestyle product scene with scale control",
+      "operation": "compose",
+      "model_profile": "model-agnostic",
+      "prompt": "Copy this brief, complete every bracket, and attach every reference image mentioned. If a required reference is missing or instructions conflict, identify the gap before producing the image.\n\n1. Objective\nImage type: lifestyle product image.\nPurpose and platform: [campaign or product story].\nCore visual idea: [realistic use moment and customer benefit].\nTarget audience: [specific viewer and intended response].\n\n2. References\nReference 1: [filename or None]. Use: [exact role and details to preserve].\nReference 2: [filename or None]. Use: [separate role, such as composition or lighting only].\nPriority: [source to follow if references conflict]. Do not transfer unrelated faces, text or logos between references.\n\n3. Art Direction\nSubject or product: [reference product] with [person or hands, appearance and styling].\nScene and background: [credible environment, supporting surface and no more than two useful props].\nComposition: [product placement and interaction], clear focal priority, [copy zone]; preserve a believable size relative to [known object].\nAction and expression: [specific interaction with plausible grip, contact and body mechanics].\nVisual style: [natural lifestyle editorial].\nColor and lighting: [motivated window or practical key], shared shadow direction and matched color temperature.\nCamera direction: [normal lens feel], [viewpoint], enough focus to show product use clearly. Camera terms describe the visual result, not guaranteed physical capture metadata.\n\n4. Brand and Continuity Lock\nBrand elements to preserve: [palette, materials, mood and approved logo-safe area].\nSubject or product invariants: [visible traits, proportions, label details or scene elements that must remain consistent]. Do not claim an exact identity match based on prompting alone.\n\n5. Constraints\nMust include: [required elements and priority order].\nMust avoid: unrequested people, duplicate objects, malformed anatomy, watermarks, invented logos and [scene-specific exclusions]. Preserve approved details; flag a conflict rather than silently substituting them.\n\n6. Output and Finishing\nImage engine: [engine or unspecified].\nAspect ratio and resolution: [desired ratio and pixel dimensions; verify engine support; if unsupported, state an alternative]. Suggested composition: 4:5.\nText in image: [exact approved wording or No text].\nFinishing requirements: [retouching level, natural surface detail, grain, sharpness and export format].\nLater edits I will make: [crop, headline, approved logo, color adjustment or None].\nReview before approval: Check grip, product scale, contact points and lighting consistency.",
+      "variables": [
+        "campaign or product story",
+        "realistic use moment and customer benefit",
+        "specific viewer and intended response",
+        "filename or None",
+        "exact role and details to preserve",
+        "separate role, such as composition or lighting only",
+        "source to follow if references conflict",
+        "reference product",
+        "person or hands, appearance and styling",
+        "credible environment, supporting surface and no more than two useful props",
+        "product placement and interaction",
+        "copy zone",
+        "known object",
+        "specific interaction with plausible grip, contact and body mechanics",
+        "natural lifestyle editorial",
+        "motivated window or practical key",
+        "normal lens feel",
+        "viewpoint",
+        "palette, materials, mood and approved logo-safe area",
+        "visible traits, proportions, label details or scene elements that must remain consistent",
+        "required elements and priority order",
+        "scene-specific exclusions",
+        "engine or unspecified",
+        "desired ratio and pixel dimensions; verify engine support; if unsupported, state an alternative",
+        "exact approved wording or No text",
+        "retouching level, natural surface detail, grain, sharpness and export format",
+        "crop, headline, approved logo, color adjustment or None"
+      ],
+      "inputs": {
+        "reference_roles": [
+          "product",
+          "composition",
+          "brand-style"
+        ],
+        "mask_optional": false
+      },
+      "output": {
+        "aspect_ratio": "4:5",
+        "format": "png",
+        "background": "opaque",
+        "quality": "high"
+      },
+      "acceptance_criteria": [
+        "Check grip, product scale, contact points and lighting consistency",
+        "References influence only their assigned roles",
+        "All requested invariants and exclusions have been visually inspected",
+        "Final crop, copy space and any supplied text are reviewed at delivery size"
+      ],
+      "rights_and_safety": {
+        "requires_consent_for_people": true,
+        "no_unlicensed_logos": true
+      },
+      "evidence": {
+        "tested": false,
+        "sample_assets": []
+      },
+      "tips": [
+        "Specify one familiar scale anchor. Reject floating contact points or hands that obscure the product feature.",
+        "Treat output fields as delivery targets. Verify supported controls in the selected engine."
+      ]
+    },
+    {
+      "id": "BRIEF-005",
+      "pack": "Image Production Briefs",
+      "title": "Material macro with surface fidelity",
+      "operation": "generate",
+      "model_profile": "model-agnostic",
+      "prompt": "Copy this brief, complete every bracket, and attach every reference image mentioned. If a required reference is missing or instructions conflict, identify the gap before producing the image.\n\n1. Objective\nImage type: material detail macro.\nPurpose and platform: [product detail page or craft story].\nCore visual idea: [one authentic material feature].\nTarget audience: [specific viewer and intended response].\n\n2. References\nReference 1: [filename or None]. Use: [exact role and details to preserve].\nReference 2: [filename or None]. Use: [separate role, such as composition or lighting only].\nPriority: [source to follow if references conflict]. Do not transfer unrelated faces, text or logos between references.\n\n3. Art Direction\nSubject or product: [specific seam, clasp, texture or surface from the reference].\nScene and background: [neutral support and minimal background].\nComposition: One detail at [frame position]; preserve adjacent edges that explain its scale; avoid invented cutaways.\nAction and expression: [static detail view].\nVisual style: [tactile commercial macro photography].\nColor and lighting: [raking light direction], restrained specular highlights; retain texture in bright and dark areas.\nCamera direction: [macro lens feel], focus plane on [critical detail], shallow but useful depth of field. Camera terms describe the visual result, not guaranteed physical capture metadata.\n\n4. Brand and Continuity Lock\nBrand elements to preserve: [palette, materials, mood and approved logo-safe area].\nSubject or product invariants: [visible traits, proportions, label details or scene elements that must remain consistent]. Do not claim an exact identity match based on prompting alone.\n\n5. Constraints\nMust include: [required elements and priority order].\nMust avoid: unrequested people, duplicate objects, malformed anatomy, watermarks, invented logos and [scene-specific exclusions]. Preserve approved details; flag a conflict rather than silently substituting them.\n\n6. Output and Finishing\nImage engine: [engine or unspecified].\nAspect ratio and resolution: [desired ratio and pixel dimensions; verify engine support; if unsupported, state an alternative]. Suggested composition: 1:1.\nText in image: No text.\nFinishing requirements: [retouching level, natural surface detail, grain, sharpness and export format].\nLater edits I will make: [crop, headline, approved logo, color adjustment or None].\nReview before approval: Inspect material grain, edges and physical construction against the reference.",
+      "variables": [
+        "product detail page or craft story",
+        "one authentic material feature",
+        "specific viewer and intended response",
+        "filename or None",
+        "exact role and details to preserve",
+        "separate role, such as composition or lighting only",
+        "source to follow if references conflict",
+        "specific seam, clasp, texture or surface from the reference",
+        "neutral support and minimal background",
+        "frame position",
+        "static detail view",
+        "tactile commercial macro photography",
+        "raking light direction",
+        "macro lens feel",
+        "critical detail",
+        "palette, materials, mood and approved logo-safe area",
+        "visible traits, proportions, label details or scene elements that must remain consistent",
+        "required elements and priority order",
+        "scene-specific exclusions",
+        "engine or unspecified",
+        "desired ratio and pixel dimensions; verify engine support; if unsupported, state an alternative",
+        "retouching level, natural surface detail, grain, sharpness and export format",
+        "crop, headline, approved logo, color adjustment or None"
+      ],
+      "inputs": {
+        "reference_roles": [
+          "product"
+        ],
+        "mask_optional": false
+      },
+      "output": {
+        "aspect_ratio": "1:1",
+        "format": "png",
+        "background": "opaque",
+        "quality": "high"
+      },
+      "acceptance_criteria": [
+        "Inspect material grain, edges and physical construction against the reference",
+        "References influence only their assigned roles",
+        "All requested invariants and exclusions have been visually inspected",
+        "Final crop, copy space and any supplied text are reviewed at delivery size"
+      ],
+      "rights_and_safety": {
+        "requires_consent_for_people": false,
+        "no_unlicensed_logos": true
+      },
+      "evidence": {
+        "tested": false,
+        "sample_assets": []
+      },
+      "tips": [
+        "Choose the focus plane before requesting blur. Texture should not become invented engraving or exaggerated wear.",
+        "Treat output fields as delivery targets. Verify supported controls in the selected engine."
+      ]
+    },
+    {
+      "id": "BRIEF-006",
+      "pack": "Image Production Briefs",
+      "title": "Newsletter cover with visual metaphor",
+      "operation": "generate",
+      "model_profile": "model-agnostic",
+      "prompt": "Copy this brief, complete every bracket, and attach every reference image mentioned. If a required reference is missing or instructions conflict, identify the gap before producing the image.\n\n1. Objective\nImage type: editorial newsletter cover.\nPurpose and platform: [issue title and publication].\nCore visual idea: [one metaphor for the issue argument].\nTarget audience: [specific viewer and intended response].\n\n2. References\nReference 1: [filename or None]. Use: [exact role and details to preserve].\nReference 2: [filename or None]. Use: [separate role, such as composition or lighting only].\nPriority: [source to follow if references conflict]. Do not transfer unrelated faces, text or logos between references.\n\n3. Art Direction\nSubject or product: [single metaphor object or scene, such as a doorway, bridge or workbench].\nScene and background: [simple setting supporting the metaphor].\nComposition: [frame-within-frame or directional composition]; reserve [side and percentage] for headline; one clear focal point.\nAction and expression: [stillness or one meaningful action].\nVisual style: [cinematic editorial restraint].\nColor and lighting: [brand palette], [one key-light source], readable subject separation and controlled contrast.\nCamera direction: [wide or normal lens feel], [low or eye-level viewpoint], purposeful depth. Camera terms describe the visual result, not guaranteed physical capture metadata.\n\n4. Brand and Continuity Lock\nBrand elements to preserve: [palette, materials, mood and approved logo-safe area].\nSubject or product invariants: [visible traits, proportions, label details or scene elements that must remain consistent]. Do not claim an exact identity match based on prompting alone.\n\n5. Constraints\nMust include: [required elements and priority order].\nMust avoid: unrequested people, duplicate objects, malformed anatomy, watermarks, invented logos and [scene-specific exclusions]. Preserve approved details; flag a conflict rather than silently substituting them.\n\n6. Output and Finishing\nImage engine: [engine or unspecified].\nAspect ratio and resolution: [desired ratio and pixel dimensions; verify engine support; if unsupported, state an alternative]. Suggested composition: 16:9.\nText in image: No text. Add the headline and publication mark later.\nFinishing requirements: [retouching level, natural surface detail, grain, sharpness and export format].\nLater edits I will make: [crop, headline, approved logo, color adjustment or None].\nReview before approval: Confirm the metaphor reads at thumbnail size without creating a false factual claim.",
+      "variables": [
+        "issue title and publication",
+        "one metaphor for the issue argument",
+        "specific viewer and intended response",
+        "filename or None",
+        "exact role and details to preserve",
+        "separate role, such as composition or lighting only",
+        "source to follow if references conflict",
+        "single metaphor object or scene, such as a doorway, bridge or workbench",
+        "simple setting supporting the metaphor",
+        "frame-within-frame or directional composition",
+        "side and percentage",
+        "stillness or one meaningful action",
+        "cinematic editorial restraint",
+        "brand palette",
+        "one key-light source",
+        "wide or normal lens feel",
+        "low or eye-level viewpoint",
+        "palette, materials, mood and approved logo-safe area",
+        "visible traits, proportions, label details or scene elements that must remain consistent",
+        "required elements and priority order",
+        "scene-specific exclusions",
+        "engine or unspecified",
+        "desired ratio and pixel dimensions; verify engine support; if unsupported, state an alternative",
+        "retouching level, natural surface detail, grain, sharpness and export format",
+        "crop, headline, approved logo, color adjustment or None"
+      ],
+      "inputs": {
+        "reference_roles": [
+          "brand-style",
+          "composition"
+        ],
+        "mask_optional": false
+      },
+      "output": {
+        "aspect_ratio": "16:9",
+        "format": "png",
+        "background": "opaque",
+        "quality": "high"
+      },
+      "acceptance_criteria": [
+        "Confirm the metaphor reads at thumbnail size without creating a false factual claim",
+        "References influence only their assigned roles",
+        "All requested invariants and exclusions have been visually inspected",
+        "Final crop, copy space and any supplied text are reviewed at delivery size"
+      ],
+      "rights_and_safety": {
+        "requires_consent_for_people": false,
+        "no_unlicensed_logos": true
+      },
+      "evidence": {
+        "tested": false,
+        "sample_assets": []
+      },
+      "tips": [
+        "Use symbolism for commentary. Avoid presenting synthetic scenes as documentary evidence of a real event.",
+        "Treat output fields as delivery targets. Verify supported controls in the selected engine."
+      ]
+    },
+    {
+      "id": "BRIEF-007",
+      "pack": "Image Production Briefs",
+      "title": "Social quote background with readable hierarchy",
+      "operation": "generate",
+      "model_profile": "model-agnostic",
+      "prompt": "Copy this brief, complete every bracket, and attach every reference image mentioned. If a required reference is missing or instructions conflict, identify the gap before producing the image.\n\n1. Objective\nImage type: background for social quote card.\nPurpose and platform: [social channel and topic].\nCore visual idea: [one emotion supporting the supplied quote].\nTarget audience: [specific viewer and intended response].\n\n2. References\nReference 1: [filename or None]. Use: [exact role and details to preserve].\nReference 2: [filename or None]. Use: [separate role, such as composition or lighting only].\nPriority: [source to follow if references conflict]. Do not transfer unrelated faces, text or logos between references.\n\n3. Art Direction\nSubject or product: [minimal object, abstract form or restrained scene].\nScene and background: [simple low-detail background].\nComposition: Reserve [percentage and position] for the quote, [credit zone] for attribution, and [margin] around both; no busy edges behind text.\nAction and expression: [still composition].\nVisual style: [premium minimal editorial].\nColor and lighting: [limited palette], soft light and even luminance in the text zone.\nCamera direction: [flat graphic or normal lens feel], avoid excessive perspective. Camera terms describe the visual result, not guaranteed physical capture metadata.\n\n4. Brand and Continuity Lock\nBrand elements to preserve: [palette, materials, mood and approved logo-safe area].\nSubject or product invariants: [visible traits, proportions, label details or scene elements that must remain consistent]. Do not claim an exact identity match based on prompting alone.\n\n5. Constraints\nMust include: [required elements and priority order].\nMust avoid: unrequested people, duplicate objects, malformed anatomy, watermarks, invented logos and [scene-specific exclusions]. Preserve approved details; flag a conflict rather than silently substituting them.\n\n6. Output and Finishing\nImage engine: [engine or unspecified].\nAspect ratio and resolution: [desired ratio and pixel dimensions; verify engine support; if unsupported, state an alternative]. Suggested composition: 4:5.\nText in image: No text. I will add [exact quote] and [approved attribution] in a layout editor.\nFinishing requirements: [retouching level, natural surface detail, grain, sharpness and export format].\nLater edits I will make: [crop, headline, approved logo, color adjustment or None].\nReview before approval: Check copy-zone contrast and final quote attribution in the finished layout.",
+      "variables": [
+        "social channel and topic",
+        "one emotion supporting the supplied quote",
+        "specific viewer and intended response",
+        "filename or None",
+        "exact role and details to preserve",
+        "separate role, such as composition or lighting only",
+        "source to follow if references conflict",
+        "minimal object, abstract form or restrained scene",
+        "simple low-detail background",
+        "percentage and position",
+        "credit zone",
+        "margin",
+        "still composition",
+        "premium minimal editorial",
+        "limited palette",
+        "flat graphic or normal lens feel",
+        "palette, materials, mood and approved logo-safe area",
+        "visible traits, proportions, label details or scene elements that must remain consistent",
+        "required elements and priority order",
+        "scene-specific exclusions",
+        "engine or unspecified",
+        "desired ratio and pixel dimensions; verify engine support; if unsupported, state an alternative",
+        "exact quote",
+        "approved attribution",
+        "retouching level, natural surface detail, grain, sharpness and export format",
+        "crop, headline, approved logo, color adjustment or None"
+      ],
+      "inputs": {
+        "reference_roles": [
+          "brand-style"
+        ],
+        "mask_optional": false
+      },
+      "output": {
+        "aspect_ratio": "4:5",
+        "format": "png",
+        "background": "opaque",
+        "quality": "high"
+      },
+      "acceptance_criteria": [
+        "Check copy-zone contrast and final quote attribution in the finished layout",
+        "References influence only their assigned roles",
+        "All requested invariants and exclusions have been visually inspected",
+        "Final crop, copy space and any supplied text are reviewed at delivery size"
+      ],
+      "rights_and_safety": {
+        "requires_consent_for_people": false,
+        "no_unlicensed_logos": true
+      },
+      "evidence": {
+        "tested": false,
+        "sample_assets": []
+      },
+      "tips": [
+        "Use a layout editor for reliable typography. Test the final composition at phone size after placing the actual quote.",
+        "Treat output fields as delivery targets. Verify supported controls in the selected engine."
+      ]
+    },
+    {
+      "id": "BRIEF-008",
+      "pack": "Image Production Briefs",
+      "title": "Video thumbnail with one focal story",
+      "operation": "generate",
+      "model_profile": "model-agnostic",
+      "prompt": "Copy this brief, complete every bracket, and attach every reference image mentioned. If a required reference is missing or instructions conflict, identify the gap before producing the image.\n\n1. Objective\nImage type: video thumbnail image.\nPurpose and platform: [video title, audience and channel].\nCore visual idea: [one truthful tension or question from the video].\nTarget audience: [specific viewer and intended response].\n\n2. References\nReference 1: [filename or None]. Use: [exact role and details to preserve].\nReference 2: [filename or None]. Use: [separate role, such as composition or lighting only].\nPriority: [source to follow if references conflict]. Do not transfer unrelated faces, text or logos between references.\n\n3. Art Direction\nSubject or product: [one face, object or tool tied to the video content].\nScene and background: [simple context, no distracting props].\nComposition: [dominant subject position], strong separation, reserve [short headline zone]; keep essential content clear of [platform overlay zone].\nAction and expression: [one readable expression or action, no exaggerated misleading reaction].\nVisual style: [bold but credible editorial].\nColor and lighting: [controlled high contrast and limited palette], highlights support the focal subject.\nCamera direction: [close or medium framing], clear silhouette, minimal depth clutter. Camera terms describe the visual result, not guaranteed physical capture metadata.\n\n4. Brand and Continuity Lock\nBrand elements to preserve: [palette, materials, mood and approved logo-safe area].\nSubject or product invariants: [visible traits, proportions, label details or scene elements that must remain consistent]. Do not claim an exact identity match based on prompting alone.\n\n5. Constraints\nMust include: [required elements and priority order].\nMust avoid: unrequested people, duplicate objects, malformed anatomy, watermarks, invented logos and [scene-specific exclusions]. Preserve approved details; flag a conflict rather than silently substituting them.\n\n6. Output and Finishing\nImage engine: [engine or unspecified].\nAspect ratio and resolution: [desired ratio and pixel dimensions; verify engine support; if unsupported, state an alternative]. Suggested composition: 16:9.\nText in image: No text. Add [short approved headline] later.\nFinishing requirements: [retouching level, natural surface detail, grain, sharpness and export format].\nLater edits I will make: [crop, headline, approved logo, color adjustment or None].\nReview before approval: Check the story remains readable when reduced to a small preview.",
+      "variables": [
+        "video title, audience and channel",
+        "one truthful tension or question from the video",
+        "specific viewer and intended response",
+        "filename or None",
+        "exact role and details to preserve",
+        "separate role, such as composition or lighting only",
+        "source to follow if references conflict",
+        "one face, object or tool tied to the video content",
+        "simple context, no distracting props",
+        "dominant subject position",
+        "short headline zone",
+        "platform overlay zone",
+        "one readable expression or action, no exaggerated misleading reaction",
+        "bold but credible editorial",
+        "controlled high contrast and limited palette",
+        "close or medium framing",
+        "palette, materials, mood and approved logo-safe area",
+        "visible traits, proportions, label details or scene elements that must remain consistent",
+        "required elements and priority order",
+        "scene-specific exclusions",
+        "engine or unspecified",
+        "desired ratio and pixel dimensions; verify engine support; if unsupported, state an alternative",
+        "short approved headline",
+        "retouching level, natural surface detail, grain, sharpness and export format",
+        "crop, headline, approved logo, color adjustment or None"
+      ],
+      "inputs": {
+        "reference_roles": [
+          "subject",
+          "brand-style"
+        ],
+        "mask_optional": false
+      },
+      "output": {
+        "aspect_ratio": "16:9",
+        "format": "png",
+        "background": "opaque",
+        "quality": "high"
+      },
+      "acceptance_criteria": [
+        "Check the story remains readable when reduced to a small preview",
+        "References influence only their assigned roles",
+        "All requested invariants and exclusions have been visually inspected",
+        "Final crop, copy space and any supplied text are reviewed at delivery size"
+      ],
+      "rights_and_safety": {
+        "requires_consent_for_people": true,
+        "no_unlicensed_logos": true
+      },
+      "evidence": {
+        "tested": false,
+        "sample_assets": []
+      },
+      "tips": [
+        "Test the preview with the final title. Avoid false before-and-after results or content the video does not show.",
+        "Treat output fields as delivery targets. Verify supported controls in the selected engine."
+      ]
+    },
+    {
+      "id": "BRIEF-009",
+      "pack": "Image Production Briefs",
+      "title": "Training scenario illustration from approved process",
+      "operation": "generate",
+      "model_profile": "model-agnostic",
+      "prompt": "Copy this brief, complete every bracket, and attach every reference image mentioned. If a required reference is missing or instructions conflict, identify the gap before producing the image.\n\n1. Objective\nImage type: training scenario illustration.\nPurpose and platform: [learning objective and module].\nCore visual idea: [one approved action learners must recognize].\nTarget audience: [specific viewer and intended response].\n\n2. References\nReference 1: [filename or None]. Use: [exact role and details to preserve].\nReference 2: [filename or None]. Use: [separate role, such as composition or lighting only].\nPriority: [source to follow if references conflict]. Do not transfer unrelated faces, text or logos between references.\n\n3. Art Direction\nSubject or product: [role, approved equipment, PPE and visible objects from the supplied procedure].\nScene and background: [work area and approved layout]. Do not invent controls, labels or hazards.\nComposition: [single scenario and viewing angle], unobstructed view of [critical action]; reserve [callout zone].\nAction and expression: [one procedure step copied from the approved source, not inferred].\nVisual style: [clear instructional illustration with simplified background].\nColor and lighting: [neutral palette with specified emphasis color], even lighting and clear object separation.\nCamera direction: [straightforward viewpoint], sufficient depth to show relevant interactions. Camera terms describe the visual result, not guaranteed physical capture metadata.\n\n4. Brand and Continuity Lock\nBrand elements to preserve: [palette, materials, mood and approved logo-safe area].\nSubject or product invariants: [visible traits, proportions, label details or scene elements that must remain consistent]. Do not claim an exact identity match based on prompting alone.\n\n5. Constraints\nMust include: [required elements and priority order].\nMust avoid: unrequested people, duplicate objects, malformed anatomy, watermarks, invented logos and [scene-specific exclusions]. Preserve approved details; flag a conflict rather than silently substituting them.\n\n6. Output and Finishing\nImage engine: [engine or unspecified].\nAspect ratio and resolution: [desired ratio and pixel dimensions; verify engine support; if unsupported, state an alternative]. Suggested composition: 16:9.\nText in image: No text. Add reviewed labels and step numbers in the training layout.\nFinishing requirements: [retouching level, natural surface detail, grain, sharpness and export format].\nLater edits I will make: [crop, headline, approved logo, color adjustment or None].\nReview before approval: A subject-matter expert must verify equipment, PPE, action and sequence against the approved procedure.",
+      "variables": [
+        "learning objective and module",
+        "one approved action learners must recognize",
+        "specific viewer and intended response",
+        "filename or None",
+        "exact role and details to preserve",
+        "separate role, such as composition or lighting only",
+        "source to follow if references conflict",
+        "role, approved equipment, PPE and visible objects from the supplied procedure",
+        "work area and approved layout",
+        "single scenario and viewing angle",
+        "critical action",
+        "callout zone",
+        "one procedure step copied from the approved source, not inferred",
+        "clear instructional illustration with simplified background",
+        "neutral palette with specified emphasis color",
+        "straightforward viewpoint",
+        "palette, materials, mood and approved logo-safe area",
+        "visible traits, proportions, label details or scene elements that must remain consistent",
+        "required elements and priority order",
+        "scene-specific exclusions",
+        "engine or unspecified",
+        "desired ratio and pixel dimensions; verify engine support; if unsupported, state an alternative",
+        "retouching level, natural surface detail, grain, sharpness and export format",
+        "crop, headline, approved logo, color adjustment or None"
+      ],
+      "inputs": {
+        "reference_roles": [
+          "subject",
+          "composition"
+        ],
+        "mask_optional": false
+      },
+      "output": {
+        "aspect_ratio": "16:9",
+        "format": "png",
+        "background": "opaque",
+        "quality": "high"
+      },
+      "acceptance_criteria": [
+        "A subject-matter expert must verify equipment, PPE, action and sequence against the approved procedure",
+        "References influence only their assigned roles",
+        "All requested invariants and exclusions have been visually inspected",
+        "Final crop, copy space and any supplied text are reviewed at delivery size"
+      ],
+      "rights_and_safety": {
+        "requires_consent_for_people": true,
+        "no_unlicensed_logos": true
+      },
+      "evidence": {
+        "tested": false,
+        "sample_assets": []
+      },
+      "tips": [
+        "Use this for supporting illustrations. Create exact technical diagrams and safety instructions with controlled source assets and expert review.",
+        "Treat output fields as delivery targets. Verify supported controls in the selected engine."
+      ]
+    },
+    {
+      "id": "BRIEF-010",
+      "pack": "Image Production Briefs",
+      "title": "Single-change edit with protected details",
+      "operation": "edit",
+      "model_profile": "model-agnostic",
+      "prompt": "Copy this brief, complete every bracket, and attach every reference image mentioned. If a required reference is missing or instructions conflict, identify the gap before producing the image.\n\n1. Objective\nImage type: controlled edit of an approved image.\nPurpose and platform: [asset and requested correction].\nCore visual idea: [one improvement while preserving the approved composition].\nTarget audience: [specific viewer and intended response].\n\n2. References\nReference 1: [filename or None]. Use: [exact role and details to preserve].\nReference 2: [filename or None]. Use: [separate role, such as composition or lighting only].\nPriority: [source to follow if references conflict]. Do not transfer unrelated faces, text or logos between references.\n\n3. Art Direction\nSubject or product: [subject or product in the attached base image].\nScene and background: Keep the existing scene; change only [named region or element].\nComposition: Keep original framing, subject position, scale and copy space. Apply [change] only inside [region].\nAction and expression: Preserve the original pose and expression unless they are the named change.\nVisual style: Match the existing style.\nColor and lighting: Match the existing key direction, shadow softness and reflections; preserve color outside the edit region.\nCamera direction: Preserve existing viewpoint, perspective and depth of field. Camera terms describe the visual result, not guaranteed physical capture metadata.\n\n4. Brand and Continuity Lock\nBrand elements to preserve: [palette, materials, mood and approved logo-safe area].\nSubject or product invariants: [visible traits, proportions, label details or scene elements that must remain consistent]. Do not claim an exact identity match based on prompting alone.\n\n5. Constraints\nMust include: [required elements and priority order].\nMust avoid: unrequested people, duplicate objects, malformed anatomy, watermarks, invented logos and [scene-specific exclusions]. Preserve approved details; flag a conflict rather than silently substituting them.\n\n6. Output and Finishing\nImage engine: [engine or unspecified].\nAspect ratio and resolution: [desired ratio and pixel dimensions; verify engine support; if unsupported, state an alternative]. Suggested composition: match the base image.\nText in image: [preserve existing text exactly, or No text].\nFinishing requirements: [retouching level, natural surface detail, grain, sharpness and export format].\nLater edits I will make: [crop, headline, approved logo, color adjustment or None].\nReview before approval: Compare before and after at full size for unintended changes outside the requested region.",
+      "variables": [
+        "asset and requested correction",
+        "one improvement while preserving the approved composition",
+        "specific viewer and intended response",
+        "filename or None",
+        "exact role and details to preserve",
+        "separate role, such as composition or lighting only",
+        "source to follow if references conflict",
+        "subject or product in the attached base image",
+        "named region or element",
+        "change",
+        "region",
+        "palette, materials, mood and approved logo-safe area",
+        "visible traits, proportions, label details or scene elements that must remain consistent",
+        "required elements and priority order",
+        "scene-specific exclusions",
+        "engine or unspecified",
+        "desired ratio and pixel dimensions; verify engine support; if unsupported, state an alternative",
+        "preserve existing text exactly, or No text",
+        "retouching level, natural surface detail, grain, sharpness and export format",
+        "crop, headline, approved logo, color adjustment or None"
+      ],
+      "inputs": {
+        "reference_roles": [
+          "subject",
+          "product",
+          "mask"
+        ],
+        "mask_optional": true
+      },
+      "output": {
+        "aspect_ratio": "custom",
+        "format": "png",
+        "background": "opaque",
+        "quality": "high"
+      },
+      "acceptance_criteria": [
+        "Compare before and after at full size for unintended changes outside the requested region",
+        "References influence only their assigned roles",
+        "All requested invariants and exclusions have been visually inspected",
+        "Final crop, copy space and any supplied text are reviewed at delivery size"
+      ],
+      "rights_and_safety": {
+        "requires_consent_for_people": true,
+        "no_unlicensed_logos": true
+      },
+      "evidence": {
+        "tested": false,
+        "sample_assets": []
+      },
+      "tips": [
+        "Change one variable per iteration. If a mask is supported, use it as an additional control and still inspect the entire result.",
+        "Treat output fields as delivery targets. Verify supported controls in the selected engine."
+      ]
     }
   ]
 }
