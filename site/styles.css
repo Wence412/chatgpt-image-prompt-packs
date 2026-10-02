@@ -41,7 +41,7 @@ body[data-theme='light']::before { opacity: .08; background-image: radial-gradie
 .hero-links { display: flex; flex-wrap: wrap; align-items: center; gap: .7rem 1rem; }
 .hero-link-item { display: flex; align-items: center; min-width: 0; }
 .hero-link-item + .hero-link-item::before { width: 1px; height: 1rem; margin-right: 1rem; background: var(--line); content: ''; flex: 0 0 1px; }
-.hero-links a { border-bottom: 1px solid var(--gold); color: var(--gold-soft); font-size: .8rem; font-weight: 700; letter-spacing: .08em; line-height: 1.5; padding-bottom: .25rem; text-decoration: none; text-transform: uppercase; text-underline-offset: 4px; transition: border-color .2s ease, color .2s ease; }
+.hero-links a { display: inline-flex; min-height: 2.75rem; align-items: center; border-bottom: 1px solid var(--gold); color: var(--gold-soft); font-size: .8rem; font-weight: 700; letter-spacing: .08em; line-height: 1.5; padding: .5rem 0; text-decoration: none; text-transform: uppercase; text-underline-offset: 4px; transition: border-color .2s ease, color .2s ease; }
 .hero-links a:hover { border-color: var(--focus); color: var(--focus); }
 .hero-links a:focus-visible { outline: 2px solid var(--focus); outline-offset: 4px; }
 .lede { max-width: 58ch; margin: 1.35rem 0 0; color: var(--muted); font-size: 1rem; line-height: 1.65; }
