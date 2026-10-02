@@ -27,7 +27,7 @@ h1 em { color: var(--gold-soft); font-style: italic; }
 .release-note span, .release-note small { display: block; color: var(--muted); font-size: .75rem; line-height: 1.4; }
 .release-note strong { display: block; margin: .25rem 0; color: var(--gold-soft); font-family: var(--serif); font-size: 2.3rem; font-weight: 400; }
 main { padding: 2rem 0 5rem; }
-.controls { display: grid; grid-template-columns: minmax(14rem, 2fr) minmax(10rem, 1fr) minmax(9rem, 1fr) auto; gap: .85rem; align-items: end; }
+.controls { display: grid; grid-template-columns: minmax(14rem, 2fr) minmax(10rem, 1fr) minmax(8rem, 1fr) minmax(10rem, 1fr) auto; gap: .85rem; align-items: end; }
 label { display: grid; gap: .5rem; }
 input, select, button { min-height: 2.8rem; border: 1px solid var(--line); border-radius: 0; font: inherit; }
 input, select { width: 100%; background: var(--surface); color: var(--paper); padding: .6rem .75rem; }
@@ -61,3 +61,16 @@ details pre { white-space: pre-wrap; overflow-wrap: anywhere; font-size: .75rem;
 details button { display: block; margin: .5rem 0; }
 a { color: var(--gold-soft); }
 @media (max-width: 720px) { .site-header { padding-top: 2rem; } .hero, .controls { grid-template-columns: 1fr; } .hero { gap: 2rem; } .release-note { max-width: 18rem; } .library-head { display: grid; margin-top: 2.5rem; } .cards { grid-template-columns: 1fr; } }
+
+.card-visual { margin: 0 0 1.25rem; }
+.card-visual img { display: block; width: 100%; height: 15rem; object-fit: contain; background: var(--surface); border: 1px solid var(--line); }
+.card-visual figcaption { margin-top: .65rem; color: var(--muted); font-size: .73rem; line-height: 1.5; }
+.card-visual figcaption p { margin: .25rem 0; overflow-wrap: anywhere; }
+.card-visual figcaption p:first-child { color: var(--gold-soft); font-weight: 700; }
+.card-resource { margin-top: 1.25rem; padding-top: 1rem; border-top: 1px solid var(--line); }
+.card-resource h3 { font-size: .95rem; margin: 0 0 .5rem; color: var(--gold-soft); }
+.card-resource p { font-size: .8rem; line-height: 1.5; color: var(--muted); }
+.resource-button { display: inline-block; padding: .6rem .8rem; border: 1px solid var(--gold); text-decoration: none; font-size: .8rem; }
+.resource-download { display: inline-block; margin: .5rem .65rem; font-size: .8rem; }
+.resource-button:hover { background: var(--gold); color: var(--ink); }
+@media (max-width: 1000px) and (min-width: 721px) { .controls { grid-template-columns: repeat(2, minmax(0, 1fr)); } }

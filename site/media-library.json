@@ -1,0 +1,247 @@
+{
+  "version": "1.0.0",
+  "assets": [
+    {
+      "id": "IMG-skincare",
+      "kind": "image",
+      "title": "Serene Skincare Essentials",
+      "prompt_ids": [
+        "P1-024",
+        "BRIEF-004"
+      ],
+      "path": "assets/images/skincare.webp",
+      "preview_path": "assets/images/skincare-preview.webp",
+      "alt": "Amber skincare bottles on a wood tray with plants and a headline.",
+      "width": 733,
+      "height": 1100,
+      "engine": "Not recorded",
+      "original_prompt": "Not recorded",
+      "relationship": "Related visual reference. Not a verified output from the linked template.",
+      "review_status": "Visually inspected. Prompt and engine provenance unverified.",
+      "review_note": "Lifestyle product arrangement and space for campaign copy. Check all product text and claims separately.",
+      "source": {
+        "file_name": "Serene Skincare Essentials.png",
+        "modified_time": "2025-06-21T12:18:06.000Z",
+        "sha256": "175ff6348de72db152afadc191641f89e0380447f8acc9d2b226b72ad3282747"
+      },
+      "credit": "WenceStudio source collection",
+      "tested": false,
+      "asset_hashes": {
+        "path": "e68f90b7fbfc9d43da5190c8f53cdefb7f03ffe42aa7db81869087f1164d7c88",
+        "preview_path": "11b787a06e928329669302bb596c088b4c6b4149b2f3d7f5b08a0b6435102b9f"
+      }
+    },
+    {
+      "id": "IMG-packaging",
+      "kind": "image",
+      "title": "Luxury Packaging Presentation",
+      "prompt_ids": [
+        "P1-021",
+        "BRIEF-003"
+      ],
+      "path": "assets/images/packaging.webp",
+      "preview_path": "assets/images/packaging-preview.webp",
+      "alt": "Dark and cream presentation boxes arranged on a dark background.",
+      "width": 733,
+      "height": 1100,
+      "engine": "Not recorded",
+      "original_prompt": "Not recorded",
+      "relationship": "Related visual reference. Not a verified output from the linked template.",
+      "review_status": "Visually inspected. Prompt and engine provenance unverified.",
+      "review_note": "Packaging composition and material direction. These are concept visuals, not verified product specifications.",
+      "source": {
+        "file_name": "Luxury Packaging Presentation.png",
+        "modified_time": "2025-06-20T23:59:36.000Z",
+        "sha256": "f6b7fa994de6522faeba2e1bcc875830723096fee3fe7c7d1262adf682f4ba42"
+      },
+      "credit": "WenceStudio source collection",
+      "tested": false,
+      "asset_hashes": {
+        "path": "b1f2fa969a8a14b3acb283619cc722a98cd01e2e8d3aef64aebd031a47f074a1",
+        "preview_path": "6415c77239380dc9ae429ba626c617b1a66c0d6b57ae9c1432cc590ee7e91211"
+      }
+    },
+    {
+      "id": "IMG-watch",
+      "kind": "image",
+      "title": "watch",
+      "prompt_ids": [
+        "BRIEF-005"
+      ],
+      "path": "assets/images/watch.webp",
+      "preview_path": "assets/images/watch-preview.webp",
+      "alt": "Dark watch face with a burgundy strap and controlled highlights.",
+      "width": 733,
+      "height": 1100,
+      "engine": "Not recorded",
+      "original_prompt": "Not recorded",
+      "relationship": "Related visual reference. Not a verified output from the linked template.",
+      "review_status": "Visually inspected. Prompt and engine provenance unverified.",
+      "review_note": "Macro framing and specular light control. Inspect the dial, lettering and geometry before commercial reuse.",
+      "source": {
+        "file_name": "watch.png",
+        "modified_time": "2025-05-25T05:00:40.000Z",
+        "sha256": "91fd58ea2ccc8711e6847ec10865881cfe945612e3c19551863b05976844d69d"
+      },
+      "credit": "WenceStudio source collection",
+      "tested": false,
+      "asset_hashes": {
+        "path": "31772b6fb03b6a3b5ff7aa824d3d9c9f3cee1df52da1056540a64c98c4915f9c",
+        "preview_path": "16abb480c3bcd39ae8c1061f8cd9b413caa77ce9f4760187b83e8bcb4162f10e"
+      }
+    },
+    {
+      "id": "IMG-golden-thread",
+      "kind": "image",
+      "title": "Golden Thread",
+      "prompt_ids": [
+        "BRIEF-006",
+        "BRIEF-007"
+      ],
+      "path": "assets/images/golden-thread.webp",
+      "preview_path": "assets/images/golden-thread-preview.webp",
+      "alt": "A curved gold thread crossing a softly lit dark surface.",
+      "width": 733,
+      "height": 1100,
+      "engine": "Not recorded",
+      "original_prompt": "Not recorded",
+      "relationship": "Related visual reference. Not a verified output from the linked template.",
+      "review_status": "Visually inspected. Prompt and engine provenance unverified.",
+      "review_note": "A restrained editorial metaphor and a possible copy background. Test the actual headline against the final crop.",
+      "source": {
+        "file_name": "Golden Thread.png",
+        "modified_time": "2025-06-19T18:04:52.000Z",
+        "sha256": "4bd62f6fd508b2d60c5d1fce1fd31fd88f805f8058ff8917178e7ee0e9ce97fa"
+      },
+      "credit": "WenceStudio source collection",
+      "tested": false,
+      "asset_hashes": {
+        "path": "cee8a219b17cbf59e67e82cb8a5f1265e4d48cd0af2d2020dfdda713ba9bc2e0",
+        "preview_path": "b98609f5b3e59f494d9cd7b49a62a84bd4888ad7b46fc6dca8be0ad91a290691"
+      }
+    },
+    {
+      "id": "IMG-architecture",
+      "kind": "image",
+      "title": "Minimalist Architectural Elegance",
+      "prompt_ids": [
+        "BRIEF-001"
+      ],
+      "path": "assets/images/architecture.webp",
+      "preview_path": "assets/images/architecture-preview.webp",
+      "alt": "Minimal interior with a stair rail, sunlit wall and serif headline.",
+      "width": 733,
+      "height": 1100,
+      "engine": "Not recorded",
+      "original_prompt": "Not recorded",
+      "relationship": "Related visual reference. Not a verified output from the linked template.",
+      "review_status": "Visually inspected. Prompt and engine provenance unverified.",
+      "review_note": "Architectural composition and light. Existing text makes this a layout reference, not a clean text-free hero.",
+      "source": {
+        "file_name": "Minimalist Architectural Elegance.png",
+        "modified_time": "2025-06-19T18:19:20.000Z",
+        "sha256": "a18f14d5be1ae0185d3ec4923022aedb78a6e18b77a121c683461f2024fc677f"
+      },
+      "credit": "WenceStudio source collection",
+      "tested": false,
+      "asset_hashes": {
+        "path": "632b98ada261ae17f713f13544961dc5f162c30686c8fee197d01f101ee44341",
+        "preview_path": "aa31ebb2ac431d8122d9f70c56024834f8f2121eda416a14e0abc19f5299d7ee"
+      }
+    },
+    {
+      "id": "IMG-moodboard",
+      "kind": "image",
+      "title": "3D WenceStudio Mood Board",
+      "prompt_ids": [
+        "P1-032",
+        "P2-087"
+      ],
+      "path": "assets/images/moodboard.webp",
+      "preview_path": "assets/images/moodboard-preview.webp",
+      "alt": "WenceStudio mood board with black, gold and cream swatches and typography panels.",
+      "width": 1024,
+      "height": 1024,
+      "engine": "Not recorded",
+      "original_prompt": "Not recorded",
+      "relationship": "Related visual reference. Not a verified output from the linked template.",
+      "review_status": "Visually inspected. Prompt and engine provenance unverified.",
+      "review_note": "Visual-system reference. Swatches and lettering belong to this historical asset; use the current approved brand palette for new work.",
+      "source": {
+        "file_name": "3D WenceStudio Mood Board.png",
+        "modified_time": "2025-05-27T02:40:16.000Z",
+        "sha256": "4b7a438f82554669828593ca43fea3d5e32e2854ce8af3b61de3d61a81c4ba7e"
+      },
+      "credit": "WenceStudio source collection",
+      "tested": false,
+      "asset_hashes": {
+        "path": "947c3bf0962fcd410980d81aa4b4a25b73570e1206c9c412aa7cf6f9399c17aa",
+        "preview_path": "313ad778644421faecc1ad13e8140fe9816cc10a7ff37a26a42c8c2fdd718aa1"
+      }
+    },
+    {
+      "id": "IMG-signature-fold",
+      "kind": "image",
+      "title": "The Signature Fold v2",
+      "prompt_ids": [
+        "P2-011"
+      ],
+      "path": "assets/images/signature-fold.webp",
+      "preview_path": "assets/images/signature-fold-preview.webp",
+      "alt": "A sculptural red and gold folded form on a light background.",
+      "width": 733,
+      "height": 1100,
+      "engine": "Not recorded",
+      "original_prompt": "Not recorded",
+      "relationship": "Related visual reference. Not a verified output from the linked template.",
+      "review_status": "Visually inspected. Prompt and engine provenance unverified.",
+      "review_note": "Abstract material and shape direction for editorial artwork. Review edges and reflections at full size.",
+      "source": {
+        "file_name": "The Signature Fold v2.png",
+        "modified_time": "2025-05-26T06:11:20.000Z",
+        "sha256": "91fb88e09689e742c33b4d1e808103abe522d67799f6a61ec7c701e52d826b41"
+      },
+      "credit": "WenceStudio source collection",
+      "tested": false,
+      "asset_hashes": {
+        "path": "f79c297619ab5c03cd14c281150f2b316423b484d7de5a85af1f93a9ab737b64",
+        "preview_path": "c88994eb9401cb7aeb81c0026b39aea0bf5c169354ac89018755f711d12230d0"
+      }
+    },
+    {
+      "id": "PDF-production-companion",
+      "kind": "pdf",
+      "title": "Visual Production Companion",
+      "prompt_ids": [
+        "BRIEF-001",
+        "BRIEF-002",
+        "BRIEF-003",
+        "BRIEF-004",
+        "BRIEF-005",
+        "BRIEF-006",
+        "BRIEF-007",
+        "BRIEF-008",
+        "BRIEF-009",
+        "BRIEF-010",
+        "CAMP-001",
+        "REF-001",
+        "EDIT-002"
+      ],
+      "path": "assets/pdfs/visual-production-companion.pdf",
+      "engine": "Engine-neutral guidance",
+      "review_status": "Public editorial adaptation. Recipes are not image-tested.",
+      "relationship": "A supporting production guide for the linked templates.",
+      "description": "Five pages on reference roles, composition, material fidelity, controlled edits and human review.",
+      "credit": "WenceStudio by SmartDesign",
+      "source": {
+        "file_names": [
+          "WenceStudio-Campaign Image-Anatomy Professional.pdf",
+          "Prompt to Pixel Issue 25 Blueprint Package.pdf"
+        ]
+      },
+      "asset_hashes": {
+        "path": "78f035b344294d2e8c5e10d0848395c82d748b97d6988030f9294e5c1b98668f"
+      }
+    }
+  ]
+}

@@ -14,7 +14,7 @@
       <div class="hero">
         <div>
           <h1>Prompt packs<br><em>for real visual work.</em></h1>
-          <nav aria-label="Learning resources"><a href="https://github.com/Wence412/chatgpt-image-prompt-packs/blob/main/docs/prompt-techniques-playbook.md">Prompt Techniques Playbook</a> · <a href="https://github.com/Wence412/chatgpt-image-prompt-packs/blob/main/docs/image-production-briefs.md">Image Production Briefs</a></nav>
+          <nav aria-label="Learning resources"><a href="https://github.com/Wence412/chatgpt-image-prompt-packs/blob/main/docs/prompt-techniques-playbook.md">Prompt Techniques Playbook</a> · <a href="https://github.com/Wence412/chatgpt-image-prompt-packs/blob/main/docs/image-production-briefs.md">Image Production Briefs</a> · <a href="assets/pdfs/visual-production-companion.pdf">Visual Production Companion PDF</a></nav>
           <p class="lede">Search production-oriented generation and editing prompts. Each capability card includes inputs, output requirements, and a human review gate.</p>
         </div>
         <aside class="release-note" aria-label="Library status">
@@ -39,12 +39,16 @@
           <span>Operation</span>
           <select id="operation"><option value="">All operations</option></select>
         </label>
+        <label>
+          <span>Resources</span>
+          <select id="media"><option value="">All cards</option><option value="image">With image previews</option><option value="pdf">With PDF guides</option></select>
+        </label>
         <button id="clear" type="button">Clear filters</button>
       </section>
 
       <section class="library-head" aria-live="polite">
         <p id="result-summary">Loading library...</p>
-        <p class="review-note">Copy a prompt, replace bracketed variables, then review its acceptance criteria before publishing.</p>
+        <p class="review-note">Copy a prompt, replace bracketed variables, then review its acceptance criteria. Images labeled related references do not certify a template or engine.</p>
       </section>
 
       <section id="cards" class="cards" aria-label="Prompt results"></section>

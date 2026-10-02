@@ -17,3 +17,6 @@ jobs:
       - run: python3 scripts/validate.py
       - run: python3 -m pip install PyYAML==6.0.3
       - run: python3 scripts/import_vph.py --check
+
+      - name: Validate visual resources
+        run: python scripts/validate_media.py

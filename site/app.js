@@ -1,10 +1,10 @@
 const RAW_BASE = 'https://raw.githubusercontent.com/Wence412/chatgpt-image-prompt-packs/main';
-const state = { prompts: [], query: '', collection: '', operation: '' };
+const state = { prompts: [], query: '', collection: '', operation: '', media: '', assets: [] };
 const elements = {
   cards: document.querySelector('#cards'), empty: document.querySelector('#empty'),
   count: document.querySelector('#count'), summary: document.querySelector('#result-summary'),
   search: document.querySelector('#search'), collection: document.querySelector('#collection'),
-  operation: document.querySelector('#operation'), toast: document.querySelector('#toast')
+  operation: document.querySelector('#operation'), media: document.querySelector('#media'), toast: document.querySelector('#toast')
 };
 
 function normalizeLegacy(prompt) {
@@ -25,8 +25,10 @@ function populateFilters() {
 function filteredPrompts() {
   const query = state.query.toLowerCase().trim();
   return state.prompts.filter(prompt => {
-    const haystack = [prompt.id, prompt.title, prompt.collection, prompt.category, prompt.operation, prompt.prompt, ...(prompt.tags || []), JSON.stringify(prompt.apae || {}), JSON.stringify(prompt.variants || [])].join(' ').toLowerCase();
-    return (!query || haystack.includes(query)) && (!state.collection || prompt.collection === state.collection) && (!state.operation || prompt.operation === state.operation);
+    const attachments = state.assets.filter(asset => asset.prompt_ids.includes(prompt.id));
+    const hasMedia = !state.media || attachments.some(asset => asset.kind === state.media);
+    const haystack = [attachments.map(a => [a.title, a.description, a.review_note].join(' ')).join(' '), prompt.id, prompt.title, prompt.collection, prompt.category, prompt.operation, prompt.prompt, ...(prompt.tags || []), JSON.stringify(prompt.apae || {}), JSON.stringify(prompt.variants || [])].join(' ').toLowerCase();
+    return hasMedia && (!query || haystack.includes(query)) && (!state.collection || prompt.collection === state.collection) && (!state.operation || prompt.operation === state.operation);
   });
 }
 
@@ -42,6 +44,57 @@ async function copyPrompt(prompt) {
     toast(`${prompt.id} copied`);
   } catch {
     toast('Copy is unavailable. Select the prompt text manually.');
+  }
+}
+
+function assetUrl(path) {
+  // Only repository-hosted assets are allowed here, never private Drive download URLs.
+  return /^assets\/(images\/[a-z0-9-]+(?:-preview)?\.webp|pdfs\/[a-z0-9-]+\.pdf)$/.test(path)
+    ? new URL(path, document.baseURI).href : null;
+}
+
+function attachMedia(article, prompt) {
+  for (const asset of state.assets.filter(item => item.prompt_ids.includes(prompt.id))) {
+    const url = assetUrl(asset.path);
+    if (!url) continue;
+    if (asset.kind === 'image') {
+      const figure = document.createElement('figure');
+      figure.className = 'card-visual';
+      const link = document.createElement('a');
+      link.href = url; link.target = '_blank'; link.rel = 'noopener';
+      link.setAttribute('aria-label', `Open full image: ${asset.title}`);
+      const img = document.createElement('img');
+      img.src = assetUrl(asset.preview_path) || url;
+      img.alt = asset.alt; img.width = asset.width; img.height = asset.height;
+      img.loading = 'lazy'; img.decoding = 'async';
+      img.addEventListener('error', () => {
+        link.hidden = true;
+        const note = document.createElement('p');
+        note.textContent = 'Image preview unavailable.';
+        figure.prepend(note);
+      }, { once: true });
+      link.append(img); figure.append(link);
+      const caption = document.createElement('figcaption');
+      for (const text of [asset.title, `Linked template: ${prompt.id}`, `Original prompt: ${asset.original_prompt}`, `Engine: ${asset.engine}`, `Review: ${asset.review_status}`, asset.relationship]) {
+        const line = document.createElement('p'); line.textContent = text; caption.append(line);
+      }
+      const details = document.createElement('details');
+      const summary = document.createElement('summary'); summary.textContent = 'Reference notes and credit';
+      details.append(summary);
+      const note = document.createElement('p'); note.textContent = `${asset.review_note} Credit: ${asset.credit}.`;
+      details.append(note); caption.append(details); figure.append(caption);
+      article.prepend(figure);
+    } else if (asset.kind === 'pdf') {
+      const resource = document.createElement('aside'); resource.className = 'card-resource';
+      const title = document.createElement('h3'); title.textContent = asset.title; resource.append(title);
+      const note = document.createElement('p'); note.textContent = `${asset.description} Review: ${asset.review_status}`; resource.append(note);
+      const view = document.createElement('a'); view.className = 'resource-button';
+      view.href = url; view.target = '_blank'; view.rel = 'noopener'; view.textContent = 'View PDF';
+      view.setAttribute('aria-label', `View PDF: ${asset.title}`); resource.append(view);
+      const download = document.createElement('a'); download.className = 'resource-download';
+      download.href = url; download.download = asset.path.split('/').pop(); download.textContent = 'Download PDF';
+      resource.append(download); article.append(resource);
+    }
   }
 }
 
@@ -111,13 +164,14 @@ function render() {
       details.append(link);
       article.append(details);
     }
+    attachMedia(card.querySelector('article'), prompt);
     elements.cards.append(card);
   }
 }
 
 function reset() {
-  state.query = ''; state.collection = ''; state.operation = '';
-  elements.search.value = ''; elements.collection.value = ''; elements.operation.value = '';
+  state.query = ''; state.collection = ''; state.operation = ''; state.media = '';
+  elements.search.value = ''; elements.collection.value = ''; elements.operation.value = ''; elements.media.value = '';
   render();
 }
 
@@ -138,6 +192,15 @@ async function load() {
     } catch {
       vphUnavailable = true;
     }
+    try {
+      const response = await fetch('media-library.json');
+      if (!response.ok) throw new Error('Media data unavailable');
+      const media = await response.json();
+      if (!Array.isArray(media.assets)) throw new Error('Invalid media data');
+      state.assets = media.assets.filter(asset => Array.isArray(asset.prompt_ids) && ['image', 'pdf'].includes(asset.kind) && assetUrl(asset.path));
+    } catch {
+      toast('Visual resources unavailable. Prompt collections remain usable.');
+    }
     elements.count.textContent = `${state.prompts.length} cards`;
     populateFilters(); render();
     if (vphUnavailable) toast('VPH collection unavailable. Other collections remain usable.');
@@ -150,6 +213,7 @@ async function load() {
 elements.search.addEventListener('input', event => { state.query = event.target.value; render(); });
 elements.collection.addEventListener('change', event => { state.collection = event.target.value; render(); });
 elements.operation.addEventListener('change', event => { state.operation = event.target.value; render(); });
+elements.media.addEventListener('change', event => { state.media = event.target.value; render(); });
 document.querySelector('#clear').addEventListener('click', reset);
 document.querySelector('#empty-clear').addEventListener('click', reset);
 load();
