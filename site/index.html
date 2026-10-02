@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="A searchable library of production-oriented GPT Image prompt cards.">
     <title>Prompt Packs. WenceStudio</title>
-    <link rel="stylesheet" href="styles.css?v=20261002-free-pdfs">
+    <link rel="stylesheet" href="styles.css?v=20261002-ui-refresh">
   </head>
   <body>
     <a class="skip-link" href="#library">Skip to prompt library</a>
@@ -21,6 +21,7 @@
           <span>Library status</span>
           <strong id="count">Loading</strong>
           <small>Prompt templates and capability cards</small>
+          <button class="theme-toggle" id="theme-toggle" type="button" aria-pressed="false">Use light theme</button>
         </aside>
       </div>
     </header>
@@ -30,7 +31,9 @@
         <p class="eyebrow">Free learning resources</p>
         <h2 id="free-pdfs-heading">Take the guides with you.</h2>
         <p>Explore the illustrated guides, then use the related prompt cards below. Review generated results before approving them.</p>
-        <div class="free-pdf-grid">
+        <details class="guide-details">
+          <summary>Browse three free PDF guides</summary>
+          <div class="free-pdf-grid">
           <article class="free-pdf-card">
             <h3>Image-Editing Prompts That Make Photos Look Intentional</h3>
             <p>An 11-page illustrated guide containing nine editing prompts for backgrounds, portraits, products, screens, food, interiors and restoration.</p>
@@ -49,7 +52,8 @@
             <a class="resource-button" href="assets/pdfs/presence-by-design.pdf" target="_blank" rel="noopener" aria-label="View PDF: Presence by Design">View PDF</a>
             <a class="resource-download" href="assets/pdfs/presence-by-design.pdf" download>Download PDF</a>
           </article>
-        </div>
+          </div>
+        </details>
       </section>
 
       <section class="controls" aria-label="Filter prompt library">
@@ -78,6 +82,7 @@
       </section>
 
       <section id="cards" class="cards" aria-label="Prompt results"></section>
+      <div class="more-results"><button id="load-more" type="button" hidden>Show more prompts</button></div>
       <section id="empty" class="empty" hidden>
         <p>No prompts match those filters.</p>
         <button type="button" id="empty-clear">Show all prompts</button>
@@ -94,6 +99,7 @@
       </article>
     </template>
     <p class="toast" id="toast" role="status" aria-live="polite"></p>
-    <script src="app.js?v=20261002-free-pdfs"></script>
+    <script src="app.js?v=20261002-ui-refresh"></script>
   </body>
 </html>
+
