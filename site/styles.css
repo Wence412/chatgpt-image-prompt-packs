@@ -34,6 +34,8 @@ body[data-theme='light']::before { opacity: .08; background-image: radial-gradie
 .site-header, main { position: relative; width: min(1180px, calc(100% - 2rem)); margin: auto; }
 .site-header { padding: clamp(2rem, 4vw, 3.5rem) 0 2.75rem; border-bottom: 1px solid var(--line); }
 .eyebrow, .card-meta, label span { margin: 0; color: var(--gold-soft); font-size: .7rem; font-weight: 700; letter-spacing: .14em; text-transform: uppercase; }
+.brand-lockup { display: flex; align-items: center; gap: .75rem; margin-bottom: 1.5rem; }
+.brand-logo { display: block; width: 3rem; height: 3rem; border-radius: 50%; object-fit: cover; flex: 0 0 auto; }
 .site-header > .eyebrow { margin-bottom: 1.5rem; }
 .hero { display: grid; grid-template-columns: minmax(0, 1fr) minmax(11.5rem, 12rem); gap: clamp(2rem, 3vw, 3rem); align-items: start; }
 .hero-title { max-width: 100%; margin: 0 0 clamp(2rem, 3vw, 2.75rem); padding-bottom: .14em; font-family: var(--serif); font-size: clamp(3rem, 7vw, 6.5rem); font-weight: 400; letter-spacing: -.065em; line-height: 1.05; text-wrap: balance; }
