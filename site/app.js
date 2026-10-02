@@ -131,7 +131,7 @@ function render() {
         details.append(status);
       }
       for (const [heading, items] of [['Review checks', prompt.acceptance_criteria], ['Production tips', prompt.tips || []]]) {
-        if (!items.length) continue;
+        if (!items?.length) continue;
         const label = document.createElement('h3');
         label.textContent = heading;
         details.append(label);
@@ -237,4 +237,3 @@ function setTheme(theme) {
 try { setTheme(localStorage.getItem('prompt-packs-theme') || 'dark'); } catch { setTheme('dark'); }
 elements.themeToggle.addEventListener('click', () => setTheme(document.body.dataset.theme === 'light' ? 'dark' : 'light'));
 load();
-
