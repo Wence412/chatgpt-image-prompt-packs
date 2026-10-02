@@ -29,3 +29,13 @@ The private source PDFs are not republished. Internal vault sections, unsupporte
 5. Run `python scripts/validate_media.py` along with the existing repository checks. Inspect desktop and mobile rendering, image failure behavior, and PDF links.
 
 The browser loads the manifest relative to its deployed Pages URL. Files do not require Drive sign-in. Only local `assets/images/*.webp` and `assets/pdfs/*.pdf` paths are supported; authenticated download links are excluded. If the optional manifest fails, prompt browsing remains available.
+
+## Free PDF collection
+
+Three user-supplied free PDFs are published unchanged and available in the site's Free PDF guides section and on relevant prompt cards:
+
+- [Image-Editing Prompts That Make Photos Look Intentional](../site/assets/pdfs/image-editing-prompts.pdf): 11 pages, nine actual prompt pages. The source title says ten; site descriptions use the inspected count.
+- [Presence by Design: Universal Prompt](../site/assets/pdfs/presence-by-design-universal-prompt.pdf): six-page prompt framework.
+- [Presence by Design](../site/assets/pdfs/presence-by-design.pdf): six-page visual guide.
+
+The user identified these files as free PDFs for the website. Content and layouts were inspected; engine versions and generation provenance are not documented. Illustrations do not certify linked templates. Source and published SHA-256 checksums match.

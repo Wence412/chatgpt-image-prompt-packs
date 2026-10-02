@@ -242,6 +242,73 @@
       "asset_hashes": {
         "path": "78f035b344294d2e8c5e10d0848395c82d748b97d6988030f9294e5c1b98668f"
       }
+    },
+    {
+      "id": "PDF-image-editing",
+      "kind": "pdf",
+      "title": "Image-Editing Prompts That Make Photos Look Intentional",
+      "prompt_ids": [
+        "EDIT-001",
+        "EDIT-002",
+        "BRIEF-010"
+      ],
+      "path": "assets/pdfs/image-editing-prompts.pdf",
+      "engine": "Not recorded in supplied PDF",
+      "review_status": "Content and layout reviewed. Illustrations are not verified outputs of linked templates.",
+      "relationship": "Free supporting guide for the linked templates.",
+      "description": "An 11-page illustrated guide containing nine editing prompts for backgrounds, portraits, products, screens, food, interiors and restoration.",
+      "credit": "WenceStudio by SmartDesign",
+      "source": {
+        "file_name": "Image-Editing Prompts That Make Photos Look Intentional.pdf",
+        "sha256": "347bb214d75906bfedf2daa6b7484b1081cc5f66926f88dcbabec48a6c4bbfa5"
+      },
+      "asset_hashes": {
+        "path": "347bb214d75906bfedf2daa6b7484b1081cc5f66926f88dcbabec48a6c4bbfa5"
+      }
+    },
+    {
+      "id": "PDF-presence-framework",
+      "kind": "pdf",
+      "title": "Presence by Design: Universal Prompt",
+      "prompt_ids": [
+        "BRIEF-002",
+        "BRIEF-005"
+      ],
+      "path": "assets/pdfs/presence-by-design-universal-prompt.pdf",
+      "engine": "Not recorded in supplied PDF",
+      "review_status": "Content and layout reviewed. Illustrations are not verified outputs of linked templates.",
+      "relationship": "Free supporting guide for the linked templates.",
+      "description": "A six-page framework for directing subject, setting, light and finish, then reviewing the result.",
+      "credit": "WenceStudio by SmartDesign",
+      "source": {
+        "file_name": "PRESENCE BY DESIGN  UNIVERSAL PROMPT.pdf",
+        "sha256": "e4e2cae239482545520596b1b1a5e45919620e716a90c5ceab0bdd2fcdafa397"
+      },
+      "asset_hashes": {
+        "path": "e4e2cae239482545520596b1b1a5e45919620e716a90c5ceab0bdd2fcdafa397"
+      }
+    },
+    {
+      "id": "PDF-presence-visual",
+      "kind": "pdf",
+      "title": "Presence by Design",
+      "prompt_ids": [
+        "BRIEF-002",
+        "CAMP-002"
+      ],
+      "path": "assets/pdfs/presence-by-design.pdf",
+      "engine": "Not recorded in supplied PDF",
+      "review_status": "Content and layout reviewed. Illustrations are not verified outputs of linked templates.",
+      "relationship": "Free supporting guide for the linked templates.",
+      "description": "A six-page visual guide to portrait art direction, material contrast and review decisions.",
+      "credit": "WenceStudio by SmartDesign",
+      "source": {
+        "file_name": "Presence by Design.pdf",
+        "sha256": "49bfefac0544c6f88a4cb052ab9e6ee11d12372245a9e7d4fce7468d4dde7d7a"
+      },
+      "asset_hashes": {
+        "path": "49bfefac0544c6f88a4cb052ab9e6ee11d12372245a9e7d4fce7468d4dde7d7a"
+      }
     }
   ]
 }
