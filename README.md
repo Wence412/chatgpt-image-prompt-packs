@@ -1,13 +1,13 @@
 # 🎨 ChatGPT-Image Prompt Packs
-### 170 Production-Ready AI Image Prompts for Marketing, Design & Commerce
+### 208 Production-Oriented AI Image Prompt Cards for Marketing, Design & Commerce
 
-![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg) ![Prompts: 170](https://img.shields.io/badge/Prompts-170-blue.svg) ![Phase 1 & 2](https://img.shields.io/badge/Phase-1%20%26%202-brightgreen.svg) ![Workflow: GPT Image](https://img.shields.io/badge/Workflow-GPT%20Image-blueviolet.svg)
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg) ![Prompt cards: 208](https://img.shields.io/badge/Prompt%20cards-208-blue.svg) ![Phase 1 & 2](https://img.shields.io/badge/Phase-1%20%26%202-brightgreen.svg) ![Workflow: GPT Image](https://img.shields.io/badge/Workflow-GPT%20Image-blueviolet.svg)
 
 > **Stop Creating Random Images. Start Building Scalable Visual Systems.**
 
-This is a production-oriented prompt library for professionals, agencies, and creators who generate commercial-grade AI visuals at scale. **170 reusable prompt templates** are organized across 9 production categories, from product mockups to AI influencer systems to e-commerce optimization.
+This is a production-oriented prompt library for professionals, agencies, and creators who generate commercial-grade AI visuals at scale. **208 prompt cards** are available in the browser: 170 reusable legacy templates, 30 capability cards, and eight Visual Prompts Hub cards.
 
-The v1.3 capability packs add **20 prompt cards** for reference-led generation, precise editing, canvas extension, text-led layouts, transparent assets, visual explainers, campaign systems, and GPT Image 2.5 workflows. See [the capability-pack guide](docs/capability-packs.md) and the [GPT Image 2.5 production guide](docs/gpt-image-2.5-production-guide.md).
+The v1.3 capability packs add **30 prompt cards** for reference-led generation, precise editing, canvas extension, text-led layouts, transparent assets, visual explainers, campaign systems, and GPT Image 2.5 workflows. See [the capability-pack guide](docs/capability-packs.md) and the [GPT Image 2.5 production guide](docs/gpt-image-2.5-production-guide.md).
 
 ---
 
@@ -258,7 +258,7 @@ GitHub Pages is deployed through the repository's `deploy-pages.yml` workflow, w
 | Metric | Value |
 |--------|-------|
 | **Legacy Prompt Templates** | 170 |
-| **Capability Cards** | 20 |
+| **Capability Cards** | 30 |
 | **Phase 1 (Foundation)** | 75 |
 | **Phase 2 (Production)** | 95 |
 | **Categories** | 18 |
@@ -360,12 +360,12 @@ You're free to use, modify, and distribute these prompts. Just give credit where
 
 **Transform ChatGPT-Image from a toy into a professional production tool.**
 
-**[Browse All 170 Prompts](combined-prompt-library.md)** → **[Get Started](seed-framework.md)** → **[Import Data](prompts.json)**
+**[Browse 208 Prompt Cards](https://wence412.github.io/chatgpt-image-prompt-packs/)** → **[Get Started](seed-framework.md)** → **[Import Data](prompts.json)**
 
 ---
 
 Made with 🎨 **WenceStudio by SmartDesign**
 
-*170 prompts. Infinite possibilities.*
+*208 prompt cards. Built for real visual work.*
 
 </div>
